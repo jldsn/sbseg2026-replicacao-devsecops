@@ -1,0 +1,119 @@
+
+========================================================================
+CARACTERIZACAO INICIAL DO PIPELINE
+========================================================================
+Achados brutos do pipeline:
+  Trivy Container (CVEs individuais): 1575
+  Semgrep:                            77
+  Trivy FS (SCA):                     0
+  Checkov:                            63
+  OWASP ZAP Baseline:                 19
+  OWASP ZAP Active (tipos):           14
+  Brute Force:                        2
+  TOTAL BRUTO:                        1750
+
+========================================================================
+VOLUME APOS GRANULARIDADE MISTA
+========================================================================
+  Semgrep:                            77
+  Trivy FS (SCA):                     0
+  Checkov:                            63
+  OWASP ZAP Baseline:                 19
+  OWASP ZAP Active:                   14
+  Brute Force:                        2
+  Trivy Container individual (APP CWE match): 48
+  Trivy Container agregado EOSL:      1
+  Trivy Container agregado fixable:   1
+  Trivy Container agregado outras CVEs: 1
+  TOTAL p/ SIMULACAO:                 226
+
+========================================================================
+DISTRIBUICAO CVSS - TRIVY CONTAINER (TODAS AS CVES BRUTAS)
+========================================================================
+  9.0-10.0 Critical  n=  272  ( 17.3%)
+  7.0-8.9 High       n=  566  ( 35.9%)
+  4.0-6.9 Medium     n=  683  ( 43.4%)
+  0.1-3.9 Low        n=   42  (  2.7%)
+  Sem CVSS           n=   12  (  0.8%)
+  Media CVSS: 6.98
+
+========================================================================
+TOP CWEs - TRIVY CONTAINER
+========================================================================
+  CWE-125      343
+  CWE-787      148
+  CWE-190      114
+  CWE-476       92
+  CWE-20        65
+  CWE-416       63
+  CWE-908       41
+  CWE-119       37
+  CWE-120       32
+  CWE-400       29
+  (* = CWE coincide com vuln APP da matriz DVWA)
+
+========================================================================
+COBERTURA DVWA
+========================================================================
+Vulnerabilidade                    CWE        cam    #dir  #ind status
+----------------------------------------------------------------------------------------
+SQL Injection                      CWE-89     APP      15     8 direta
+Cross-Site Scripting (XSS)         CWE-79     APP       7    15 direta
+Command Injection                  CWE-78     APP      11     2 direta
+CSRF                               CWE-352    APP       0     1 apenas indireta
+Weak Session IDs                   CWE-330    APP       0     2 apenas indireta
+Brute Force                        CWE-307    APP       1     0 direta
+Open HTTP Redirect                 CWE-601    APP       0     8 apenas indireta
+JavaScript Attacks                 CWE-749    APP       4     0 direta
+Content Security Policy Bypass     CWE-693    APP       6     0 direta
+Default Credentials                CWE-798    APP       1     0 direta
+Exposed MySQL                      CWE-284    APP      11    12 direta
+Outdated OS                        CWE-1104   INFRA     1     0 direta
+Outdated Packages                  CWE-1104   INFRA     1     0 direta
+
+  Total no escopo: 13
+  Detectadas (direta):           10
+  Detectadas (apenas indireta):  3
+  Nao detectadas:                0
+
+========================================================================
+VOLUME DE FINDINGS POR CLASSE (granularidade mista)
+========================================================================
+  direta        58  ( 25.7%)
+  indireta      48  ( 21.2%)
+  n_a          120  ( 53.1%)
+  TOTAL        226
+
+========================================================================
+SIMULACAO DE POLITICAS
+========================================================================
+
+Pol     Total   Bloq      %   B-dir   B-ind   B-n/a
+-------------------------------------------------------
+P1        226      5   2.2%       2       2       1
+P2        226     80  35.4%      29      24      27
+P3        226     56  24.8%      29       0      27
+
+--- Bloqueios por estagio ---
+Pol     Commit    Build   Deploy
+P1           0        5        0
+P2          51       27        2
+P3          51        3        2
+
+--- Cobertura bloqueante por politica ---
+  P1: 3/13
+  P2: 11/13
+  P3: 8/13
+
+Dados salvos em /home/josep/projetos-sbseg/sbseg2026-deteccao-direta-indireta/output/numeros_secao6.json
+[OK] secao 'bruto' identica ao esperado
+[OK] secao 'simulacao' identica ao esperado
+Reivindicacao 1 (Tabela 3) reproduzida: 226 achados no conjunto de avaliacao
+[OK] secao 'cobertura' identica ao esperado
+[OK] secao 'volume_classe' identica ao esperado
+Reivindicacao 2 (Tabela 4) reproduzida: 10 diretas, 3 apenas indiretas, 0 nao detectadas
+[OK] secao 'politicas' identica ao esperado
+[OK] secao 'politicas_por_estagio' identica ao esperado
+[OK] secao 'cobertura_bloqueante' identica ao esperado
+Reivindicacao 3 (Tabela 5) reproduzida: P1=5, P2=80, P3=56 bloqueios
+Todas as reivindicacoes reproduzidas com sucesso.
