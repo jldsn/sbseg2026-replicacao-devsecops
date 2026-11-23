@@ -1,0 +1,23 @@
+﻿comparacao,aplicacao,coluna,registros,iguais,diferentes,pacotes_diferentes
+referencia_vs_coleta2_conteineres_novos,dvwa,s1,1575,1575,0,
+referencia_vs_coleta2_conteineres_novos,dvwa,s2,1575,1575,0,
+referencia_vs_coleta2_conteineres_novos,dvwa,s3,1575,1575,0,
+referencia_vs_coleta2_conteineres_novos,dvwa,inicializacao,1575,1575,0,
+referencia_vs_coleta2_conteineres_novos,dvwa,carregado_registrado,1575,1575,0,
+referencia_vs_coleta2_conteineres_novos,dvwa,carregado,1575,1575,0,
+referencia_vs_coleta2_conteineres_novos,juice-shop,s1,448,448,0,
+referencia_vs_coleta2_conteineres_novos,juice-shop,s2,448,448,0,
+referencia_vs_coleta2_conteineres_novos,juice-shop,s3,448,448,0,
+referencia_vs_coleta2_conteineres_novos,juice-shop,inicializacao,448,448,0,
+referencia_vs_coleta2_conteineres_novos,juice-shop,carregado_registrado,448,448,0,
+referencia_vs_coleta2_conteineres_novos,juice-shop,carregado,448,448,0,
+referencia_vs_coleta2_conteineres_novos,teastore,s1,3858,3823,35,com.fasterxml.jackson.core:jackson-core|com.fasterxml.jackson.core:jackson-databind|com.google.code.gson:gson|com.google.guava:guava|com.squareup.okhttp3:okhttp|com.squareup.okio:okio|commons-configuration:commons-configuration|commons-lang:commons-lang|org.apache.httpcomponents:httpclient|org.apache.thrift:libthrift
+referencia_vs_coleta2_conteineres_novos,teastore,s2,3858,3822,36,com.fasterxml.jackson.core:jackson-core|com.fasterxml.jackson.core:jackson-databind|com.google.code.gson:gson|com.google.guava:guava|com.squareup.okhttp3:okhttp|com.squareup.okio:okio|commons-configuration:commons-configuration|commons-lang:commons-lang|org.apache.httpcomponents:httpclient|org.apache.thrift:libthrift|org.hsqldb:hsqldb
+referencia_vs_coleta2_conteineres_novos,teastore,s3,3858,3822,36,com.fasterxml.jackson.core:jackson-core|com.fasterxml.jackson.core:jackson-databind|com.google.code.gson:gson|com.google.guava:guava|com.squareup.okhttp3:okhttp|com.squareup.okio:okio|commons-configuration:commons-configuration|commons-lang:commons-lang|org.apache.httpcomponents:httpclient|org.apache.thrift:libthrift|org.hsqldb:hsqldb
+referencia_vs_coleta2_conteineres_novos,teastore,inicializacao,3858,3858,0,
+referencia_vs_coleta2_conteineres_novos,teastore,carregado_registrado,3858,3858,0,
+referencia_vs_coleta2_conteineres_novos,teastore,carregado,3858,3858,0,
+versao_anterior_indiretos_de_imagem,dvwa,carregado,48,48,0,
+versao_anterior_indiretos_de_imagem,juice-shop,carregado,33,33,0,
+versao_anterior_indiretos_de_imagem,teastore,carregado,185,185,0,
+versao_anterior_fora_do_escopo,todas,,2,,,"unidades indiretas do Trivy FS, que a P4 atual não avalia"

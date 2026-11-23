@@ -1,0 +1,21 @@
+{
+  "configuracao": "Juice Shop 19.0.0, release oficial node24_darwin (módulos nativos arm64), Node 24.22.1 arm64, loopback 127.0.0.1:18080, SQLite da release",
+  "base": "http://127.0.0.1:18080",
+  "versao": {
+    "version": "19.0.0"
+  },
+  "casos": {
+    "js-exposed-metrics": {
+      "status": "confirmada",
+      "rota": "/metrics",
+      "metodo": "GET",
+      "autenticacao": "nenhuma",
+      "http": 200,
+      "formato_prometheus": true,
+      "series_expostas": 42,
+      "desafio_oficial": "exposedMetricsChallenge",
+      "resolvido_antes": false,
+      "resolvido_depois": true
+    }
+  }
+}

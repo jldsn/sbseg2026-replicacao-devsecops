@@ -1,0 +1,229 @@
+{
+ "juice-r": {
+  "executaveis": {},
+  "sonames": {
+   "libssl3": [
+    "libcrypto.so.3",
+    "libssl.so.3"
+   ],
+   "libgomp1": [
+    "libgomp.so.1.0.0"
+   ]
+  },
+  "gatilhos": [
+   "!=",
+   "!==",
+   "!desc",
+   "!m.__esModule",
+   "\"default\"",
+   "\"default\",",
+   "\"get\"",
+   "\"use",
+   "&",
+   "&&",
+   "'./lib/startup/validateDependenciesBasic'",
+   "'./server'",
+   "*",
+   "*/",
+   ".catch",
+   ".then",
+   "/*",
+   "//#",
+   "/juice-shop/build/app.js",
+   "/nodejs/bin/node",
+   "2014-2025",
+   ":",
+   "=",
+   "===",
+   "=>",
+   "?",
+   "Bjoern",
+   "Copyright",
+   "Juice",
+   "Kimminich",
+   "MIT",
+   "OWASP",
+   "Object.create",
+   "Object.defineProperty",
+   "Object.getOwnPropertyDescriptor",
+   "Object.prototype.hasOwnProperty.call",
+   "Promise.resolve",
+   "SPDX-License-Identifier:",
+   "Shop",
+   "__createBinding",
+   "__importStar",
+   "__setModuleDefault",
+   "app",
+   "async",
+   "await",
+   "c",
+   "const",
+   "contributors.",
+   "default:",
+   "desc",
+   "desc.configurable",
+   "desc.writable",
+   "enumerable:",
+   "err",
+   "for",
+   "function",
+   "get:",
+   "if",
+   "in",
+   "k",
+   "k,",
+   "k2",
+   "k2,",
+   "m,",
+   "m[k]",
+   "mod",
+   "mod,",
+   "mod.__esModule",
+   "null",
+   "o,",
+   "o[\"default\"]",
+   "o[k2]",
+   "require",
+   "result",
+   "result,",
+   "return",
+   "server",
+   "server.start",
+   "sourceMappingURL=app.js.map",
+   "strict\"",
+   "the",
+   "this",
+   "this.__createBinding",
+   "this.__importStar",
+   "this.__setModuleDefault",
+   "throw",
+   "true,",
+   "undefined",
+   "v",
+   "validateDependencies",
+   "value:",
+   "var",
+   "{",
+   "{}",
+   "||",
+   "}"
+  ],
+  "interpretes_inicializacao": [],
+  "pacotes_interpretes": [],
+  "sonames_citadas": {},
+  "requires_npm": {
+   "diff": [
+    {
+     "arquivo": "/juice-shop/build/rsn/rsnUtil.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/ts-node-dev/node_modules/ts-node/dist/repl.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/rsn/rsnUtil.ts",
+     "arquivo_carregado": 0
+    }
+   ],
+   "picomatch": [
+    {
+     "arquivo": "/juice-shop/node_modules/anymatch/index.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/grunt/node_modules/micromatch/index.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/liftup/node_modules/micromatch/index.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/readdirp/index.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/tinyglobby/dist/index.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/tinyglobby/dist/index.mjs",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/tinyglobby/node_modules/fdir/dist/index.cjs",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/tinyglobby/node_modules/fdir/dist/index.mjs",
+     "arquivo_carregado": 0
+    }
+   ],
+   "tar-fs": [
+    {
+     "arquivo": "/juice-shop/node_modules/libxmljs2/node_modules/prebuild-install/download.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/prebuild-install/download.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/sqlite3/node_modules/prebuild-install/download.js",
+     "arquivo_carregado": 0
+    }
+   ],
+   "ip-address": [
+    {
+     "arquivo": "/juice-shop/node_modules/socks/build/client/socksclient.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/socks/build/common/helpers.js",
+     "arquivo_carregado": 0
+    }
+   ],
+   "tar": [
+    {
+     "arquivo": "/juice-shop/node_modules/node-gyp/lib/install.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/node-pre-gyp/lib/install.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/node-pre-gyp/lib/package.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/node-pre-gyp/lib/testpackage.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/sqlite3/deps/extract.js",
+     "arquivo_carregado": 0
+    },
+    {
+     "arquivo": "/juice-shop/node_modules/sqlite3/node_modules/node-gyp/lib/install.js",
+     "arquivo_carregado": 0
+    }
+   ],
+   "lodash.set": [
+    {
+     "arquivo": "/juice-shop/node_modules/grunt-replace-json/tasks/replace_json.js",
+     "arquivo_carregado": 0
+    }
+   ]
+  },
+  "npm_nao_carregados": [
+   "diff",
+   "ip-address",
+   "lodash.set",
+   "picomatch",
+   "tar",
+   "tar-fs"
+  ]
+ }
+}

@@ -1,0 +1,9 @@
+﻿aplicacao,politica,base_bloqueios,bloqueios_adicionais_no_deploy,decisoes_simuladas,cobertura_bloqueante,vulnerabilidades_matriz,novos_ids_bloqueados,referencia_p2_bloqueios,referencia_p2_cobertura,fonte_validacoes
+teastore,P3,139,0,139,4,14,,262,7,nao_aplicavel
+teastore,P4-A,139,1,140,5,14,ts-db-reset-unauth,262,7,evidencias_informadas
+teastore,P4-B,139,1,140,5,14,ts-db-reset-unauth,262,7,evidencias_informadas
+teastore,P4-B-alt,139,0,139,4,14,,262,7,evidencias_informadas
+juice-shop,P3,9,0,9,3,14,,28,7,nao_aplicavel
+juice-shop,P4-A,9,1,10,4,14,js-exposed-metrics,28,7,evidencias_informadas
+juice-shop,P4-B,9,0,9,3,14,,28,7,evidencias_informadas
+juice-shop,P4-B-alt,9,1,10,4,14,js-exposed-metrics,28,7,evidencias_informadas

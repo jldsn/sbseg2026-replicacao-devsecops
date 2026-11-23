@@ -1,4 +1,5 @@
-﻿politica,base_bloqueios,bloqueios_adicionais_no_deploy,decisoes_simuladas,cobertura_bloqueante,vulnerabilidades_matriz,novos_ids_bloqueados,fonte_validacoes
-P3,56,0,56,8,13,,nao_aplicavel
-P4-A,56,2,58,10,13,dvwa-csrf|dvwa-weak-session-ids,evidencias_informadas
-P4-B,56,0,56,8,13,,evidencias_informadas
+﻿politica,base_bloqueios,bloqueios_adicionais_no_deploy,decisoes_simuladas,cobertura_bloqueante,vulnerabilidades_matriz,novos_ids_bloqueados,referencia_p2_bloqueios,referencia_p2_cobertura,fonte_validacoes
+P3,56,0,56,8,13,,80,11,nao_aplicavel
+P4-A,56,2,58,10,13,dvwa-csrf|dvwa-weak-session-ids,80,11,evidencias_informadas
+P4-B,56,1,57,9,13,dvwa-csrf,80,11,evidencias_informadas
+P4-B-alt,56,1,57,9,13,dvwa-weak-session-ids,80,11,evidencias_informadas

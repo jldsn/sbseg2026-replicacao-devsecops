@@ -1,0 +1,14 @@
+{
+  "app": "teastore",
+  "healthcheck": "http://webui:8080/tools.descartes.teastore.webui/",
+  "autenticado": false,
+  "rede": "docker_bridge_portas_em_127.0.0.1",
+  "zap": {
+    "version": "2.17.0"
+  },
+  "escaneamento_ativo": "nao_executado",
+  "spider_max_min": 2,
+  "urls_passivas": 29,
+  "alertas_passivos": 532,
+  "sha256_passivo": "b8d3052c18e8e5dc320df9946794e17c027e43945c4459a755d6f8209670f9bd"
+}

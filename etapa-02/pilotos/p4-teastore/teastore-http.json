@@ -1,0 +1,22 @@
+{
+ "configuracao": "TeaStore 1.4.2 (imagens descartesresearch/teastore-*:1.4.2 fixadas por digest em ambientes/teastore/docker-compose.yaml), Docker 29 via colima (aarch64), webui publicado só em 127.0.0.1:18081",
+ "base": "http://webui:8080/tools.descartes.teastore.webui",
+ "casos": {
+  "ts-db-reset-unauth": {
+   "status": "confirmada",
+   "rota": "/dataBaseAction",
+   "metodo": "POST (formulário público de /database; o servlet trata GET e POST igual)",
+   "autenticacao": "nenhuma (requisição sem cabeçalho Cookie)",
+   "origem_da_requisicao": "spider do OWASP ZAP 2.17.0 na coleta passiva do Deploy Gate (mensagem ZAP id 172); nenhuma requisição foi montada manualmente nem continha payload de ataque",
+   "corpo": "categories=5&products=100&users=100&orders=5&confirm=Confirm (valores padrão preenchidos pelo spider)",
+   "http": 302,
+   "location": "/tools.descartes.teastore.webui/status",
+   "ramo_executado": "sucesso: redirect para /status só ocorre após chamar persistence/generatedb (DataBaseActionServlet.java, ramo confirm != null)",
+   "log_webui": [
+    "2026-11-22T19:16:41.799583088Z [http-nio-8080-exec-6] INFO tools.descartes.teastore.webui.servlet.DataBaseActionServlet - DB is re-generating.",
+    "2026-11-22T19:16:42.618876300Z [http-nio-8080-exec-6] WARN tools.descartes.teastore.webui.servlet.DataBaseActionServlet - A recommender service responded with 404 when retraining."
+   ],
+   "zap_emitiu_alerta_para_o_caso": false
+  }
+ }
+}

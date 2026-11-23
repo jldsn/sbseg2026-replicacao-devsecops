@@ -1,0 +1,73 @@
+# Verificação da extensão (sensibilidade de todas as notas proxy e P4 ampliada)
+# Python: Python 3.12.13
+# Data: 2026-11-22T16:03Z
+
+Grupos de notas proxy: {'semgrep_error': 51, 'semgrep_warning': 26, 'checkov': 63, 'zap_baseline_medium': 5, 'zap_baseline_low': 7, 'teste_credenciais': 2}
+base_mais_menos_2: redução P3 vs P2 de 17% a 89% (p5 30%, mediana 31%, p95 89%); 62% das amostras entre 25% e 35%
+amplo_1_a_10: redução P3 vs P2 de 13% a 89% (p5 16%, mediana 30%, p95 89%); 24% das amostras entre 25% e 35%
+
+[
+  {
+    "politica": "P3",
+    "base_bloqueios": 56,
+    "bloqueios_adicionais_no_deploy": 0,
+    "decisoes_simuladas": 56,
+    "cobertura_bloqueante": 8,
+    "vulnerabilidades_matriz": 13,
+    "novos_ids_bloqueados": "",
+    "referencia_p2_bloqueios": 80,
+    "referencia_p2_cobertura": 11,
+    "fonte_validacoes": "nao_aplicavel"
+  },
+  {
+    "politica": "P4-A",
+    "base_bloqueios": 56,
+    "bloqueios_adicionais_no_deploy": 2,
+    "decisoes_simuladas": 58,
+    "cobertura_bloqueante": 10,
+    "vulnerabilidades_matriz": 13,
+    "novos_ids_bloqueados": "dvwa-csrf|dvwa-weak-session-ids",
+    "referencia_p2_bloqueios": 80,
+    "referencia_p2_cobertura": 11,
+    "fonte_validacoes": "evidencias_informadas"
+  },
+  {
+    "politica": "P4-B",
+    "base_bloqueios": 56,
+    "bloqueios_adicionais_no_deploy": 1,
+    "decisoes_simuladas": 57,
+    "cobertura_bloqueante": 9,
+    "vulnerabilidades_matriz": 13,
+    "novos_ids_bloqueados": "dvwa-csrf",
+    "referencia_p2_bloqueios": 80,
+    "referencia_p2_cobertura": 11,
+    "fonte_validacoes": "evidencias_informadas"
+  },
+  {
+    "politica": "P4-B-alt",
+    "base_bloqueios": 56,
+    "bloqueios_adicionais_no_deploy": 1,
+    "decisoes_simuladas": 57,
+    "cobertura_bloqueante": 9,
+    "vulnerabilidades_matriz": 13,
+    "novos_ids_bloqueados": "dvwa-weak-session-ids",
+    "referencia_p2_bloqueios": 80,
+    "referencia_p2_cobertura": 11,
+    "fonte_validacoes": "evidencias_informadas"
+  }
+]
+
+test_baseline_por_classe_e_estagio (test_analise.TesteAnalise.test_baseline_por_classe_e_estagio) ... ok
+test_confirmacao_p4_com_e_sem_nota (test_analise.TesteAnalise.test_confirmacao_p4_com_e_sem_nota) ... ok
+test_cvss31_vetores_de_referencia (test_analise.TesteAnalise.test_cvss31_vetores_de_referencia) ... ok
+test_estagio_e_classe_somam_bloqueios_em_toda_a_grade (test_analise.TesteAnalise.test_estagio_e_classe_somam_bloqueios_em_toda_a_grade) ... ok
+test_grupos_de_proxy_e_tornado (test_analise.TesteAnalise.test_grupos_de_proxy_e_tornado) ... ok
+test_lacunas_e_ids_de_infra_distintos (test_analise.TesteAnalise.test_lacunas_e_ids_de_infra_distintos) ... ok
+test_limiar_inclusivo_e_proxies_distintos (test_analise.TesteAnalise.test_limiar_inclusivo_e_proxies_distintos) ... ok
+test_p4_b_alternativa_usa_nota_do_vetor_alternativo (test_analise.TesteAnalise.test_p4_b_alternativa_usa_nota_do_vetor_alternativo) ... ok
+test_score_ausente_e_escopo_das_duas_politicas (test_analise.TesteAnalise.test_score_ausente_e_escopo_das_duas_politicas) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.007s
+
+OK

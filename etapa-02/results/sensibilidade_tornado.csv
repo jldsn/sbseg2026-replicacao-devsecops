@@ -1,0 +1,7 @@
+﻿grupo,descricao,unidades_do_grupo,nota_base,reducao_p3_vs_p2_base,nota_baixa,p2_bloqueios_baixa,p3_bloqueios_baixa,p2_cobertura_baixa,p3_cobertura_baixa,reducao_baixa,nota_alta,p2_bloqueios_alta,p3_bloqueios_alta,p2_cobertura_alta,p3_cobertura_alta,reducao_alta,amplitude_reducao
+semgrep_error,"Semgrep ERROR -> 7,5",51,7.5,0.3,5.5,29,5,9,4,0.8276,9.5,80,56,11,8,0.3,0.5276
+checkov,"Checkov sem severidade -> MEDIUM -> 5,0",63,5.0,0.3,3.0,80,56,11,8,0.3,7.0,143,119,11,9,0.1678,0.1322
+semgrep_warning,"Semgrep WARNING -> 5,0",26,5.0,0.3,3.0,80,56,11,8,0.3,7.0,106,82,11,8,0.2264,0.0736
+zap_baseline_medium,"ZAP Baseline Medium -> 5,0",5,5.0,0.3,3.0,80,56,11,8,0.3,7.0,85,61,12,9,0.2824,0.0176
+teste_credenciais,"Brute Force e Default Credentials -> 7,5",2,7.5,0.3,5.5,78,54,9,6,0.3077,9.5,80,56,11,8,0.3,0.0077
+zap_baseline_low,"ZAP Baseline Low -> 3,0",7,3.0,0.3,1.0,80,56,11,8,0.3,5.0,80,56,11,8,0.3,0.0

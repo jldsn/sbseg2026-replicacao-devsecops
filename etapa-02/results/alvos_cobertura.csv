@@ -1,0 +1,29 @@
+﻿aplicacao,vulnerability_id,nome,cwe,camada,fonte,diretas,indiretas,status,ferramentas,bloqueia_P1,bloqueia_P2,bloqueia_P3
+teastore,ts-session-key,Sessão em cookie assinada com chave fixa,CWE-321,APP,revisao_codigo,0,0,nao detectada,,0,0,0
+teastore,ts-db-reset-unauth,Regeneração do banco sem autenticação via GET,CWE-306,APP,revisao_codigo,0,18,apenas indireta,Trivy Image,0,1,0
+teastore,ts-csrf,Formulários e ações sem token anti-CSRF,CWE-352,APP,revisao_codigo,0,0,nao detectada,,0,0,0
+teastore,ts-cookie-flags,Cookie de sessão sem HttpOnly e Secure,CWE-1004|CWE-614,APP,revisao_codigo,11,0,direta,OWASP ZAP (passivo)|Semgrep,0,0,0
+teastore,ts-output-encoding,Saída sem escape nas páginas JSP,CWE-116|CWE-79,APP,revisao_codigo,171,16,direta,Semgrep|Trivy Image,1,1,0
+teastore,ts-tls-trust-all,Cliente REST aceita qualquer certificado TLS,CWE-295,APP,revisao_codigo,2,153,direta,Semgrep|Trivy FS (SCA)|Trivy Image,1,1,0
+teastore,ts-private-key,Chave privada TLS versionada e embarcada na imagem,CWE-798|CWE-321,APP,revisao_codigo,1,0,direta,Semgrep,0,1,1
+teastore,ts-default-credentials,Usuários gerados com senha padrão conhecida,CWE-798,APP,revisao_codigo,100,0,direta,Semgrep,0,1,1
+teastore,ts-weak-bcrypt-cost,BCrypt com custo 6,CWE-916,APP,revisao_codigo,0,0,nao detectada,,0,0,0
+teastore,ts-db-root-password,Senha root do MySQL fixa no Dockerfile,CWE-260,APP,revisao_codigo,0,0,nao detectada,,0,0,0
+teastore,ts-outdated-os,Imagens com SO em fim de suporte,CWE-1104,INFRA,trivy_metadata,7,0,direta,Trivy Image,1,1,1
+teastore,ts-outdated-packages,Pacotes com correção disponível,CWE-1104,INFRA,trivy_metadata,7,0,direta,Trivy Image,1,1,1
+teastore,ts-containers-root,Contêineres executando como root,CWE-250,INFRA,revisao_codigo,31,0,direta,Checkov,0,0,0
+teastore,ts-no-network-policy,Serviços internos e banco sem NetworkPolicy,CWE-284,INFRA,revisao_codigo,7,0,direta,Checkov,0,0,0
+juice-shop,js-sqli-login,Injeção SQL no login,CWE-89,APP,desafio_oficial:loginAdminChallenge,2,1,direta,Semgrep|Trivy Image,0,1,1
+juice-shop,js-sqli-search,Injeção SQL na busca,CWE-89,APP,desafio_oficial:unionSqlInjectionChallenge,3,1,direta,OWASP ZAP (ativo)|Semgrep|Trivy Image,0,1,1
+juice-shop,js-nosqli-reviews,Injeção NoSQL nas avaliações,CWE-943,APP,desafio_oficial:noSqlReviewsChallenge,0,0,nao detectada,,0,0,0
+juice-shop,js-redirect,Redirecionamento aberto por lista permissiva,CWE-601,APP,desafio_oficial:redirectChallenge,2,0,direta,Semgrep,0,0,0
+juice-shop,js-dom-xss,XSS DOM na busca,CWE-79,APP,desafio_oficial:localXssChallenge,0,10,apenas indireta,Trivy Image,0,1,0
+juice-shop,js-reflected-xss,XSS refletido no rastreamento de pedido,CWE-79|CWE-116,APP,desafio_oficial:reflectedXssChallenge,1,11,direta,Semgrep|Trivy Image,0,1,0
+juice-shop,js-directory-listing,Listagem do diretório /ftp,CWE-548,APP,desafio_oficial:directoryListingChallenge,4,0,direta,Semgrep,0,0,0
+juice-shop,js-access-log,Logs de acesso expostos,CWE-532|CWE-548,APP,desafio_oficial:accessLogDisclosureChallenge,4,0,direta,Semgrep,0,0,0
+juice-shop,js-exposed-metrics,Métricas Prometheus expostas sem autenticação,CWE-200,APP,desafio_oficial:exposedMetricsChallenge,0,5,apenas indireta,Trivy Image,0,1,0
+juice-shop,js-register-admin,Atribuição em massa do papel admin no cadastro,CWE-915,APP,desafio_oficial:registerAdminChallenge,0,0,nao detectada,,0,0,0
+juice-shop,js-hardcoded-key,Chave privada JWT e chave HMAC no código,CWE-798|CWE-321,APP,revisao_codigo,3,0,direta,Semgrep,0,0,0
+juice-shop,js-xxe,XXE no upload de XML,CWE-611,APP,desafio_oficial:xxeFileDisclosureChallenge,1,0,direta,Semgrep,0,0,0
+juice-shop,js-rce-b2b,Execução de código no pedido B2B,CWE-94,APP,desafio_oficial:rceChallenge,0,17,apenas indireta,Trivy Image,1,1,0
+juice-shop,js-outdated-packages,Pacotes com correção disponível,CWE-1104,INFRA,trivy_metadata,1,0,direta,Trivy Image,1,1,1

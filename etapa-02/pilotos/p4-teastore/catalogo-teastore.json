@@ -1,0 +1,70 @@
+{
+ "aplicacao": "teastore",
+ "executado_em": "2026-11-22T20:13:02.984476+00:00",
+ "casos": {
+  "ts-db-reset-unauth": {
+   "modelo": "funcao_critica_sem_autenticacao",
+   "criterio": "redireciona para /status e o serviço registra 'DB is re-generating', sem sessão",
+   "requisicao": {
+    "metodo": "POST",
+    "url": "http://127.0.0.1:18081/tools.descartes.teastore.webui/dataBaseAction",
+    "corpo_enviado": "categories=5&products=100&users=100&orders=5&confirm=Confirm",
+    "cookies_enviados": null,
+    "http": 302,
+    "location": "/tools.descartes.teastore.webui/status",
+    "content_type": null,
+    "sha256_corpo": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "inicio_do_corpo": ""
+   },
+   "log_do_servico": [
+    "[http-nio-8080-exec-4] INFO tools.descartes.teastore.webui.servlet.DataBaseActionServlet - DB is re-generating."
+   ],
+   "criterio_atendido": true,
+   "controle_negativo": {
+    "requisicao": {
+     "metodo": "GET",
+     "url": "http://127.0.0.1:18081/tools.descartes.teastore.webui/dataBaseAction",
+     "corpo_enviado": null,
+     "cookies_enviados": null,
+     "http": 302,
+     "location": "/tools.descartes.teastore.webui/",
+     "content_type": null,
+     "sha256_corpo": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "inicio_do_corpo": ""
+    },
+    "log_do_servico": [],
+    "reprovou": true
+   },
+   "status": "confirmada",
+   "controle_rota_protegida": {
+    "requisicao": {
+     "metodo": "GET",
+     "url": "http://127.0.0.1:18081/tools.descartes.teastore.webui/profile",
+     "corpo_enviado": null,
+     "cookies_enviados": null,
+     "http": 302,
+     "location": "/tools.descartes.teastore.webui/",
+     "content_type": null,
+     "sha256_corpo": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "inicio_do_corpo": ""
+    },
+    "reprovou": true
+   }
+  }
+ },
+ "configuracao": {
+  "compose": "ambientes/teastore/docker-compose.yaml",
+  "imagens": [
+   "descartesresearch/teastore-registry@sha256:25000aa7fb7c1798febd464805d363a402cfe4a26877eb4d50874689efcc3e2f",
+   "descartesresearch/teastore-db@sha256:7a22000cc6b5fa7bfa99f7c8ccca68651ddd44684f5a571341723c839722b60c",
+   "descartesresearch/teastore-persistence@sha256:ac6b0fe9aeca04ee31fea20caed0b49af2ddf709c28a2cf1f4b9b041af05279b",
+   "descartesresearch/teastore-auth@sha256:1babe5ca10bda103daa03f52db3e2357e0d3ec32a9ed549c4b2e2020152b0dac",
+   "descartesresearch/teastore-image@sha256:8f339e6b8ee7d7b2c3efd173b1a23c7ffda03ab9d0bc5b8904beb6a1f2e2bd98",
+   "descartesresearch/teastore-recommender@sha256:8cd0cc779929f9a03ac5990d09637f95e24bb333cbcc0b8df139c4c16df93d50",
+   "descartesresearch/teastore-webui@sha256:d0e490bd025167fefaf84d43f978c3c6d14fad9bf3cba9bc49ef902a0d106078",
+   "zaproxy/zap-stable@sha256:9624669db72f54d86c4b46a7064518bd9bf79d8c61a4c31befa9923489f328af"
+  ],
+  "portas": "webui 127.0.0.1:18081; banco não publicado",
+  "nota": "Cópia congelada da execução de scripts/p4_catalogo.py; pilotos/p4-catalogo/ é regravado a cada execução."
+ }
+}

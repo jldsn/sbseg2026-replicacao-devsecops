@@ -1,0 +1,1458 @@
+﻿aplicacao,politica,tipo,contexto,alvo_da_acao,itens,cves,sem_correcao,versoes_corrigidas
+dvwa,P1,migrar_so,debian 9.5,,1,0,0,
+dvwa,P1,pacote_so,debian 9.5,apache2,64,8,0,2.4.25-3+deb9u10|2.4.25-3+deb9u11|2.4.25-3+deb9u12|2.4.25-3+deb9u13|2.4.25-3+deb9u8
+dvwa,P1,pacote_so,debian 9.5,bzip2,2,1,1,
+dvwa,P1,pacote_so,debian 9.5,db5.3,1,1,1,
+dvwa,P1,pacote_so,debian 9.5,dpkg,2,1,0,1.18.26
+dvwa,P1,pacote_so,debian 9.5,elfutils,2,1,0,0.168-1+deb9u1
+dvwa,P1,pacote_so,debian 9.5,expat,14,7,0,2.2.0-2+deb9u4|2.2.0-2+deb9u5
+dvwa,P1,pacote_so,debian 9.5,freetype,3,2,1,2.6.3-3.2+deb9u2
+dvwa,P1,pacote_so,debian 9.5,glibc,24,4,0,2.24-11+deb9u4
+dvwa,P1,pacote_so,debian 9.5,inetutils,2,1,0,2:1.9.4-2+deb9u1
+dvwa,P1,pacote_so,debian 9.5,krb5,5,1,1,
+dvwa,P1,pacote_so,debian 9.5,libbsd,2,1,0,0.8.3-1+deb9u1
+dvwa,P1,pacote_so,debian 9.5,libdbd-mysql-perl,1,1,1,
+dvwa,P1,pacote_so,debian 9.5,libgd2,2,1,0,2.2.4-2+deb9u4
+dvwa,P1,pacote_so,debian 9.5,libidn,2,1,0,1.33-1+deb9u1
+dvwa,P1,pacote_so,debian 9.5,libpng1.6,1,1,1,
+dvwa,P1,pacote_so,debian 9.5,libwebp,20,10,0,0.5.2-1+deb9u1
+dvwa,P1,pacote_so,debian 9.5,libx11,12,3,0,2:1.6.4-3+deb9u1|2:1.6.4-3+deb9u4
+dvwa,P1,pacote_so,debian 9.5,libxml2,2,1,0,2.9.4+dfsg1-2.2+deb9u3
+dvwa,P1,pacote_so,debian 9.5,libxslt,2,1,0,1.1.29-2.1+deb9u1
+dvwa,P1,pacote_so,debian 9.5,lz4,2,1,0,0.0~r131-2+deb9u1
+dvwa,P1,pacote_so,debian 9.5,mariadb-10.1,14,1,0,10.1.47-0+deb9u1
+dvwa,P1,pacote_so,debian 9.5,openldap,4,1,0,2.4.44+dfsg-5+deb9u9
+dvwa,P1,pacote_so,debian 9.5,perl,32,4,0,5.24.1-3+deb9u5
+dvwa,P1,pacote_so,debian 9.5,php7.0,297,14,1,7.0.33-0+deb9u2|7.0.33-0+deb9u3|7.0.33-0+deb9u5|7.0.33-0+deb9u6|7.0.33-0+deb9u7
+dvwa,P1,pacote_so,debian 9.5,rsync,4,2,0,3.1.2-1+deb9u2
+dvwa,P1,pacote_so,debian 9.5,shadow,4,1,0,1:4.4-4.1+deb9u1
+dvwa,P1,pacote_so,debian 9.5,sqlite3,1,1,1,
+dvwa,P2,migrar_so,debian 9.5,,1,0,0,
+dvwa,P2,pacote_so,debian 9.5,apache2,172,23,1,2.4.25-3+deb9u10|2.4.25-3+deb9u11|2.4.25-3+deb9u12|2.4.25-3+deb9u13|2.4.25-3+deb9u6|2.4.25-3+deb9u7|2.4.25-3+deb9u8
+dvwa,P2,pacote_so,debian 9.5,apr,2,1,0,1.5.2-5+deb9u1
+dvwa,P2,pacote_so,debian 9.5,apt,4,1,0,1.4.9
+dvwa,P2,pacote_so,debian 9.5,bzip2,2,1,1,
+dvwa,P2,pacote_so,debian 9.5,cyrus-sasl2,12,2,0,2.1.27~101-g0780600+dfsg-3+deb9u1|2.1.27~101-g0780600+dfsg-3+deb9u2
+dvwa,P2,pacote_so,debian 9.5,db5.3,1,1,1,
+dvwa,P2,pacote_so,debian 9.5,dpkg,2,1,0,1.18.26
+dvwa,P2,pacote_so,debian 9.5,e2fsprogs,4,1,1,
+dvwa,P2,pacote_so,debian 9.5,elfutils,2,1,0,0.168-1+deb9u1
+dvwa,P2,pacote_so,debian 9.5,expat,30,15,0,2.2.0-2+deb9u2|2.2.0-2+deb9u3|2.2.0-2+deb9u4|2.2.0-2+deb9u5
+dvwa,P2,pacote_so,debian 9.5,file,9,2,1,1:5.30-1+deb9u3
+dvwa,P2,pacote_so,debian 9.5,freetype,5,4,1,2.6.3-3.2+deb9u2
+dvwa,P2,pacote_so,debian 9.5,gcc-6,3,1,1,
+dvwa,P2,pacote_so,debian 9.5,glibc,48,8,0,2.24-11+deb9u4
+dvwa,P2,pacote_so,debian 9.5,gmp,2,1,0,2:6.1.2+dfsg-1+deb9u1
+dvwa,P2,pacote_so,debian 9.5,gnupg2,3,3,1,
+dvwa,P2,pacote_so,debian 9.5,gnutls28,2,1,0,3.5.8-5+deb9u5
+dvwa,P2,pacote_so,debian 9.5,gzip,2,1,0,1.6-5+deb9u1
+dvwa,P2,pacote_so,debian 9.5,icu,2,1,0,57.1-6+deb9u4
+dvwa,P2,pacote_so,debian 9.5,inetutils,3,2,1,2:1.9.4-2+deb9u1
+dvwa,P2,pacote_so,debian 9.5,krb5,15,2,1,1.15-1+deb9u2
+dvwa,P2,pacote_so,debian 9.5,libbsd,2,1,0,0.8.3-1+deb9u1
+dvwa,P2,pacote_so,debian 9.5,libdbd-mysql-perl,1,1,1,
+dvwa,P2,pacote_so,debian 9.5,libdbi-perl,2,1,0,1.636-1+deb9u1
+dvwa,P2,pacote_so,debian 9.5,libgcrypt20,1,1,1,
+dvwa,P2,pacote_so,debian 9.5,libgd2,8,5,1,2.2.4-2+deb9u3|2.2.4-2+deb9u4
+dvwa,P2,pacote_so,debian 9.5,libidn,2,1,0,1.33-1+deb9u1
+dvwa,P2,pacote_so,debian 9.5,libjpeg-turbo,6,3,0,1:1.5.1-2+deb9u1|1:1.5.1-2+deb9u2
+dvwa,P2,pacote_so,debian 9.5,libpng1.6,1,1,1,
+dvwa,P2,pacote_so,debian 9.5,libwebp,21,11,1,0.5.2-1+deb9u1
+dvwa,P2,pacote_so,debian 9.5,libx11,20,5,0,2:1.6.4-3+deb9u1|2:1.6.4-3+deb9u3|2:1.6.4-3+deb9u4
+dvwa,P2,pacote_so,debian 9.5,libxml2,22,11,0,2.9.4+dfsg1-2.2+deb9u3|2.9.4+dfsg1-2.2+deb9u4|2.9.4+dfsg1-2.2+deb9u6
+dvwa,P2,pacote_so,debian 9.5,libxslt,4,2,0,1.1.29-2.1+deb9u1|1.1.29-2.1+deb9u2
+dvwa,P2,pacote_so,debian 9.5,lz4,3,2,1,0.0~r131-2+deb9u1
+dvwa,P2,pacote_so,debian 9.5,mariadb-10.1,84,6,0,10.1.37-0+deb9u1|10.1.47-0+deb9u1|10.1.48-0+deb9u2
+dvwa,P2,pacote_so,debian 9.5,ncurses,5,1,1,
+dvwa,P2,pacote_so,debian 9.5,nettle,8,2,0,3.3-1+deb9u1
+dvwa,P2,pacote_so,debian 9.5,nghttp2,8,4,0,1.18.1-1+deb9u1|1.18.1-1+deb9u2
+dvwa,P2,pacote_so,debian 9.5,openldap,68,17,0,2.4.44+dfsg-5+deb9u3|2.4.44+dfsg-5+deb9u4|2.4.44+dfsg-5+deb9u5|2.4.44+dfsg-5+deb9u6|2.4.44+dfsg-5+deb9u7|2.4.44+dfsg-5+deb9u8|2.4.44+dfsg-5+deb9u9
+dvwa,P2,pacote_so,debian 9.5,openssl,24,6,0,1.1.0j-1~deb9u1|1.1.0k-1~deb9u1|1.1.0l-1~deb9u3|1.1.0l-1~deb9u4|1.1.0l-1~deb9u5|1.1.0l-1~deb9u6
+dvwa,P2,pacote_so,debian 9.5,openssl1.0,8,4,0,1.0.2q-1~deb9u1|1.0.2u-1~deb9u4|1.0.2u-1~deb9u6|1.0.2u-1~deb9u7
+dvwa,P2,pacote_so,debian 9.5,p11-kit,2,1,0,0.23.3-2+deb9u1
+dvwa,P2,pacote_so,debian 9.5,perl,60,8,1,5.24.1-3+deb9u5|5.24.1-3+deb9u7
+dvwa,P2,pacote_so,debian 9.5,php-pear,9,5,1,1:1.10.1+submodules+notgz-9+deb9u1|1:1.10.1+submodules+notgz-9+deb9u2|1:1.10.1+submodules+notgz-9+deb9u3
+dvwa,P2,pacote_so,debian 9.5,php7.0,737,36,1,7.0.33-0+deb9u1|7.0.33-0+deb9u11|7.0.33-0+deb9u12|7.0.33-0+deb9u2|7.0.33-0+deb9u3|7.0.33-0+deb9u5|7.0.33-0+deb9u6|7.0.33-0+deb9u7|7.0.33-0+deb9u8
+dvwa,P2,pacote_so,debian 9.5,postgresql-9.6,14,7,0,9.6.15-0+deb9u1|9.6.19-0+deb9u1|9.6.20-0+deb9u1|9.6.22-0+deb9u1|9.6.24-0+deb9u1
+dvwa,P2,pacote_so,debian 9.5,rsync,10,5,0,3.1.2-1+deb9u2|3.1.2-1+deb9u3
+dvwa,P2,pacote_so,debian 9.5,shadow,8,2,0,1:4.4-4.1+deb9u1
+dvwa,P2,pacote_so,debian 9.5,sqlite3,21,11,1,3.16.2-5+deb9u2|3.16.2-5+deb9u3
+dvwa,P2,pacote_so,debian 9.5,systemd,30,9,1,232-25+deb9u10|232-25+deb9u11|232-25+deb9u14|232-25+deb9u6|232-25+deb9u7
+dvwa,P2,pacote_so,debian 9.5,tiff,24,12,0,4.0.8-2+deb9u4|4.0.8-2+deb9u5|4.0.8-2+deb9u6|4.0.8-2+deb9u7
+dvwa,P2,pacote_so,debian 9.5,util-linux,8,1,1,
+dvwa,P2,pacote_so,debian 9.5,xz-utils,4,1,0,5.2.2-1.2+deb9u1
+dvwa,P2,pacote_so,debian 9.5,zlib,2,1,0,1:1.2.8.dfsg-5+deb9u1
+dvwa,P2,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/authbypass/authbypass.js,4,0,0,
+dvwa,P2,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/high.js,1,0,0,
+dvwa,P2,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/impossible.js,1,0,0,
+dvwa,P2,semgrep,php.lang.security.eval-use.eval-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/view_help.php,2,0,0,
+dvwa,P2,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/api/src/HealthController.php,1,0,0,
+dvwa,P2,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,P2,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,P2,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,P2,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,P2,semgrep,php.lang.security.injection.echoed-request.echoed-request,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/jsonp.php,1,0,0,
+dvwa,P2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/low.php,3,0,0,
+dvwa,P2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/medium.php,3,0,0,
+dvwa,P2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,P2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli/source/low.php,2,0,0,
+dvwa,P2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/high.php,2,0,0,
+dvwa,P2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/low.php,2,0,0,
+dvwa,P2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/medium.php,1,0,0,
+dvwa,P2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/login.php,1,0,0,
+dvwa,P2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/high.php,1,0,0,
+dvwa,P2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,P2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/medium.php,1,0,0,
+dvwa,P2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/captcha/source/impossible.php,1,0,0,
+dvwa,P2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/cryptography/source/ecb_attack.php,2,0,0,
+dvwa,P2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csrf/test_credentials.php,1,0,0,
+dvwa,P2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/javascript/index.php,2,0,0,
+dvwa,P2,semgrep,php.lang.security.phpinfo-use.phpinfo-use,Instrumentos/Codigos/DevSecOps/dvwa/src/phpinfo.php,1,0,0,
+dvwa,P2,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,P2,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,P2,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,P2,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,P2,unidade,Brute Force,dvwa-174,1,0,0,
+dvwa,P2,unidade,Brute Force,dvwa-175,1,0,0,
+dvwa,P3,migrar_so,debian 9.5,,1,0,0,
+dvwa,P3,pacote_so,debian 9.5,apache2,172,23,1,2.4.25-3+deb9u10|2.4.25-3+deb9u11|2.4.25-3+deb9u12|2.4.25-3+deb9u13|2.4.25-3+deb9u6|2.4.25-3+deb9u7|2.4.25-3+deb9u8
+dvwa,P3,pacote_so,debian 9.5,apr,2,1,0,1.5.2-5+deb9u1
+dvwa,P3,pacote_so,debian 9.5,apt,4,1,0,1.4.9
+dvwa,P3,pacote_so,debian 9.5,bzip2,2,1,1,
+dvwa,P3,pacote_so,debian 9.5,cyrus-sasl2,9,2,0,2.1.27~101-g0780600+dfsg-3+deb9u1|2.1.27~101-g0780600+dfsg-3+deb9u2
+dvwa,P3,pacote_so,debian 9.5,db5.3,1,1,1,
+dvwa,P3,pacote_so,debian 9.5,dpkg,2,1,0,1.18.26
+dvwa,P3,pacote_so,debian 9.5,e2fsprogs,4,1,1,
+dvwa,P3,pacote_so,debian 9.5,elfutils,2,1,0,0.168-1+deb9u1
+dvwa,P3,pacote_so,debian 9.5,expat,30,15,0,2.2.0-2+deb9u2|2.2.0-2+deb9u3|2.2.0-2+deb9u4|2.2.0-2+deb9u5
+dvwa,P3,pacote_so,debian 9.5,file,9,2,1,1:5.30-1+deb9u3
+dvwa,P3,pacote_so,debian 9.5,freetype,5,4,1,2.6.3-3.2+deb9u2
+dvwa,P3,pacote_so,debian 9.5,gcc-6,3,1,1,
+dvwa,P3,pacote_so,debian 9.5,glibc,48,8,0,2.24-11+deb9u4
+dvwa,P3,pacote_so,debian 9.5,gmp,2,1,0,2:6.1.2+dfsg-1+deb9u1
+dvwa,P3,pacote_so,debian 9.5,gnupg2,2,2,1,
+dvwa,P3,pacote_so,debian 9.5,gnutls28,2,1,0,3.5.8-5+deb9u5
+dvwa,P3,pacote_so,debian 9.5,gzip,2,1,0,1.6-5+deb9u1
+dvwa,P3,pacote_so,debian 9.5,icu,2,1,0,57.1-6+deb9u4
+dvwa,P3,pacote_so,debian 9.5,inetutils,3,2,1,2:1.9.4-2+deb9u1
+dvwa,P3,pacote_so,debian 9.5,krb5,15,2,1,1.15-1+deb9u2
+dvwa,P3,pacote_so,debian 9.5,libbsd,2,1,0,0.8.3-1+deb9u1
+dvwa,P3,pacote_so,debian 9.5,libdbd-mysql-perl,1,1,1,
+dvwa,P3,pacote_so,debian 9.5,libdbi-perl,2,1,0,1.636-1+deb9u1
+dvwa,P3,pacote_so,debian 9.5,libgcrypt20,1,1,1,
+dvwa,P3,pacote_so,debian 9.5,libgd2,8,5,1,2.2.4-2+deb9u3|2.2.4-2+deb9u4
+dvwa,P3,pacote_so,debian 9.5,libidn,2,1,0,1.33-1+deb9u1
+dvwa,P3,pacote_so,debian 9.5,libjpeg-turbo,6,3,0,1:1.5.1-2+deb9u1|1:1.5.1-2+deb9u2
+dvwa,P3,pacote_so,debian 9.5,libpng1.6,1,1,1,
+dvwa,P3,pacote_so,debian 9.5,libwebp,21,11,1,0.5.2-1+deb9u1
+dvwa,P3,pacote_so,debian 9.5,libx11,20,5,0,2:1.6.4-3+deb9u1|2:1.6.4-3+deb9u3|2:1.6.4-3+deb9u4
+dvwa,P3,pacote_so,debian 9.5,libxml2,22,11,0,2.9.4+dfsg1-2.2+deb9u3|2.9.4+dfsg1-2.2+deb9u4|2.9.4+dfsg1-2.2+deb9u6
+dvwa,P3,pacote_so,debian 9.5,libxslt,4,2,0,1.1.29-2.1+deb9u1|1.1.29-2.1+deb9u2
+dvwa,P3,pacote_so,debian 9.5,lz4,3,2,1,0.0~r131-2+deb9u1
+dvwa,P3,pacote_so,debian 9.5,mariadb-10.1,84,6,0,10.1.37-0+deb9u1|10.1.47-0+deb9u1|10.1.48-0+deb9u2
+dvwa,P3,pacote_so,debian 9.5,ncurses,5,1,1,
+dvwa,P3,pacote_so,debian 9.5,nettle,8,2,0,3.3-1+deb9u1
+dvwa,P3,pacote_so,debian 9.5,nghttp2,8,4,0,1.18.1-1+deb9u1|1.18.1-1+deb9u2
+dvwa,P3,pacote_so,debian 9.5,openldap,66,17,0,2.4.44+dfsg-5+deb9u3|2.4.44+dfsg-5+deb9u4|2.4.44+dfsg-5+deb9u5|2.4.44+dfsg-5+deb9u6|2.4.44+dfsg-5+deb9u7|2.4.44+dfsg-5+deb9u8|2.4.44+dfsg-5+deb9u9
+dvwa,P3,pacote_so,debian 9.5,openssl,20,6,0,1.1.0j-1~deb9u1|1.1.0k-1~deb9u1|1.1.0l-1~deb9u3|1.1.0l-1~deb9u4|1.1.0l-1~deb9u5|1.1.0l-1~deb9u6
+dvwa,P3,pacote_so,debian 9.5,openssl1.0,8,4,0,1.0.2q-1~deb9u1|1.0.2u-1~deb9u4|1.0.2u-1~deb9u6|1.0.2u-1~deb9u7
+dvwa,P3,pacote_so,debian 9.5,p11-kit,2,1,0,0.23.3-2+deb9u1
+dvwa,P3,pacote_so,debian 9.5,perl,60,8,1,5.24.1-3+deb9u5|5.24.1-3+deb9u7
+dvwa,P3,pacote_so,debian 9.5,php-pear,9,5,1,1:1.10.1+submodules+notgz-9+deb9u1|1:1.10.1+submodules+notgz-9+deb9u2|1:1.10.1+submodules+notgz-9+deb9u3
+dvwa,P3,pacote_so,debian 9.5,php7.0,726,36,1,7.0.33-0+deb9u1|7.0.33-0+deb9u11|7.0.33-0+deb9u12|7.0.33-0+deb9u2|7.0.33-0+deb9u3|7.0.33-0+deb9u5|7.0.33-0+deb9u6|7.0.33-0+deb9u7|7.0.33-0+deb9u8
+dvwa,P3,pacote_so,debian 9.5,postgresql-9.6,11,7,0,9.6.15-0+deb9u1|9.6.19-0+deb9u1|9.6.20-0+deb9u1|9.6.22-0+deb9u1|9.6.24-0+deb9u1
+dvwa,P3,pacote_so,debian 9.5,rsync,10,5,0,3.1.2-1+deb9u2|3.1.2-1+deb9u3
+dvwa,P3,pacote_so,debian 9.5,shadow,8,2,0,1:4.4-4.1+deb9u1
+dvwa,P3,pacote_so,debian 9.5,sqlite3,21,11,1,3.16.2-5+deb9u2|3.16.2-5+deb9u3
+dvwa,P3,pacote_so,debian 9.5,systemd,30,9,1,232-25+deb9u10|232-25+deb9u11|232-25+deb9u14|232-25+deb9u6|232-25+deb9u7
+dvwa,P3,pacote_so,debian 9.5,tiff,24,12,0,4.0.8-2+deb9u4|4.0.8-2+deb9u5|4.0.8-2+deb9u6|4.0.8-2+deb9u7
+dvwa,P3,pacote_so,debian 9.5,util-linux,8,1,1,
+dvwa,P3,pacote_so,debian 9.5,xz-utils,4,1,0,5.2.2-1.2+deb9u1
+dvwa,P3,pacote_so,debian 9.5,zlib,2,1,0,1:1.2.8.dfsg-5+deb9u1
+dvwa,P3,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/authbypass/authbypass.js,4,0,0,
+dvwa,P3,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/high.js,1,0,0,
+dvwa,P3,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/impossible.js,1,0,0,
+dvwa,P3,semgrep,php.lang.security.eval-use.eval-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/view_help.php,2,0,0,
+dvwa,P3,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/api/src/HealthController.php,1,0,0,
+dvwa,P3,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,P3,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,P3,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,P3,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,P3,semgrep,php.lang.security.injection.echoed-request.echoed-request,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/jsonp.php,1,0,0,
+dvwa,P3,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/low.php,3,0,0,
+dvwa,P3,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/medium.php,3,0,0,
+dvwa,P3,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,P3,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli/source/low.php,2,0,0,
+dvwa,P3,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/high.php,2,0,0,
+dvwa,P3,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/low.php,2,0,0,
+dvwa,P3,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/medium.php,1,0,0,
+dvwa,P3,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/login.php,1,0,0,
+dvwa,P3,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/high.php,1,0,0,
+dvwa,P3,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,P3,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/medium.php,1,0,0,
+dvwa,P3,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/captcha/source/impossible.php,1,0,0,
+dvwa,P3,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/cryptography/source/ecb_attack.php,2,0,0,
+dvwa,P3,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csrf/test_credentials.php,1,0,0,
+dvwa,P3,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/javascript/index.php,2,0,0,
+dvwa,P3,semgrep,php.lang.security.phpinfo-use.phpinfo-use,Instrumentos/Codigos/DevSecOps/dvwa/src/phpinfo.php,1,0,0,
+dvwa,P3,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,P3,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,P3,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,P3,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,P3,unidade,Brute Force,dvwa-174,1,0,0,
+dvwa,P3,unidade,Brute Force,dvwa-175,1,0,0,
+dvwa,P3*,confirmacao,P3*,dvwa-csrf,1,0,0,
+dvwa,P3*,confirmacao,P3*,dvwa-weak-session-ids,1,0,0,
+dvwa,P3*,migrar_so,debian 9.5,,1,0,0,
+dvwa,P3*,pacote_so,debian 9.5,apache2,172,23,1,2.4.25-3+deb9u10|2.4.25-3+deb9u11|2.4.25-3+deb9u12|2.4.25-3+deb9u13|2.4.25-3+deb9u6|2.4.25-3+deb9u7|2.4.25-3+deb9u8
+dvwa,P3*,pacote_so,debian 9.5,apr,2,1,0,1.5.2-5+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,apt,4,1,0,1.4.9
+dvwa,P3*,pacote_so,debian 9.5,bzip2,2,1,1,
+dvwa,P3*,pacote_so,debian 9.5,cyrus-sasl2,9,2,0,2.1.27~101-g0780600+dfsg-3+deb9u1|2.1.27~101-g0780600+dfsg-3+deb9u2
+dvwa,P3*,pacote_so,debian 9.5,db5.3,1,1,1,
+dvwa,P3*,pacote_so,debian 9.5,dpkg,2,1,0,1.18.26
+dvwa,P3*,pacote_so,debian 9.5,e2fsprogs,4,1,1,
+dvwa,P3*,pacote_so,debian 9.5,elfutils,2,1,0,0.168-1+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,expat,30,15,0,2.2.0-2+deb9u2|2.2.0-2+deb9u3|2.2.0-2+deb9u4|2.2.0-2+deb9u5
+dvwa,P3*,pacote_so,debian 9.5,file,9,2,1,1:5.30-1+deb9u3
+dvwa,P3*,pacote_so,debian 9.5,freetype,5,4,1,2.6.3-3.2+deb9u2
+dvwa,P3*,pacote_so,debian 9.5,gcc-6,3,1,1,
+dvwa,P3*,pacote_so,debian 9.5,glibc,48,8,0,2.24-11+deb9u4
+dvwa,P3*,pacote_so,debian 9.5,gmp,2,1,0,2:6.1.2+dfsg-1+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,gnupg2,2,2,1,
+dvwa,P3*,pacote_so,debian 9.5,gnutls28,2,1,0,3.5.8-5+deb9u5
+dvwa,P3*,pacote_so,debian 9.5,gzip,2,1,0,1.6-5+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,icu,2,1,0,57.1-6+deb9u4
+dvwa,P3*,pacote_so,debian 9.5,inetutils,3,2,1,2:1.9.4-2+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,krb5,15,2,1,1.15-1+deb9u2
+dvwa,P3*,pacote_so,debian 9.5,libbsd,2,1,0,0.8.3-1+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,libdbd-mysql-perl,1,1,1,
+dvwa,P3*,pacote_so,debian 9.5,libdbi-perl,2,1,0,1.636-1+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,libgcrypt20,1,1,1,
+dvwa,P3*,pacote_so,debian 9.5,libgd2,8,5,1,2.2.4-2+deb9u3|2.2.4-2+deb9u4
+dvwa,P3*,pacote_so,debian 9.5,libidn,2,1,0,1.33-1+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,libjpeg-turbo,6,3,0,1:1.5.1-2+deb9u1|1:1.5.1-2+deb9u2
+dvwa,P3*,pacote_so,debian 9.5,libpng1.6,1,1,1,
+dvwa,P3*,pacote_so,debian 9.5,libwebp,21,11,1,0.5.2-1+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,libx11,20,5,0,2:1.6.4-3+deb9u1|2:1.6.4-3+deb9u3|2:1.6.4-3+deb9u4
+dvwa,P3*,pacote_so,debian 9.5,libxml2,22,11,0,2.9.4+dfsg1-2.2+deb9u3|2.9.4+dfsg1-2.2+deb9u4|2.9.4+dfsg1-2.2+deb9u6
+dvwa,P3*,pacote_so,debian 9.5,libxslt,4,2,0,1.1.29-2.1+deb9u1|1.1.29-2.1+deb9u2
+dvwa,P3*,pacote_so,debian 9.5,lz4,3,2,1,0.0~r131-2+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,mariadb-10.1,84,6,0,10.1.37-0+deb9u1|10.1.47-0+deb9u1|10.1.48-0+deb9u2
+dvwa,P3*,pacote_so,debian 9.5,ncurses,5,1,1,
+dvwa,P3*,pacote_so,debian 9.5,nettle,8,2,0,3.3-1+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,nghttp2,8,4,0,1.18.1-1+deb9u1|1.18.1-1+deb9u2
+dvwa,P3*,pacote_so,debian 9.5,openldap,66,17,0,2.4.44+dfsg-5+deb9u3|2.4.44+dfsg-5+deb9u4|2.4.44+dfsg-5+deb9u5|2.4.44+dfsg-5+deb9u6|2.4.44+dfsg-5+deb9u7|2.4.44+dfsg-5+deb9u8|2.4.44+dfsg-5+deb9u9
+dvwa,P3*,pacote_so,debian 9.5,openssl,20,6,0,1.1.0j-1~deb9u1|1.1.0k-1~deb9u1|1.1.0l-1~deb9u3|1.1.0l-1~deb9u4|1.1.0l-1~deb9u5|1.1.0l-1~deb9u6
+dvwa,P3*,pacote_so,debian 9.5,openssl1.0,8,4,0,1.0.2q-1~deb9u1|1.0.2u-1~deb9u4|1.0.2u-1~deb9u6|1.0.2u-1~deb9u7
+dvwa,P3*,pacote_so,debian 9.5,p11-kit,2,1,0,0.23.3-2+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,perl,60,8,1,5.24.1-3+deb9u5|5.24.1-3+deb9u7
+dvwa,P3*,pacote_so,debian 9.5,php-pear,9,5,1,1:1.10.1+submodules+notgz-9+deb9u1|1:1.10.1+submodules+notgz-9+deb9u2|1:1.10.1+submodules+notgz-9+deb9u3
+dvwa,P3*,pacote_so,debian 9.5,php7.0,726,36,1,7.0.33-0+deb9u1|7.0.33-0+deb9u11|7.0.33-0+deb9u12|7.0.33-0+deb9u2|7.0.33-0+deb9u3|7.0.33-0+deb9u5|7.0.33-0+deb9u6|7.0.33-0+deb9u7|7.0.33-0+deb9u8
+dvwa,P3*,pacote_so,debian 9.5,postgresql-9.6,11,7,0,9.6.15-0+deb9u1|9.6.19-0+deb9u1|9.6.20-0+deb9u1|9.6.22-0+deb9u1|9.6.24-0+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,rsync,10,5,0,3.1.2-1+deb9u2|3.1.2-1+deb9u3
+dvwa,P3*,pacote_so,debian 9.5,shadow,8,2,0,1:4.4-4.1+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,sqlite3,21,11,1,3.16.2-5+deb9u2|3.16.2-5+deb9u3
+dvwa,P3*,pacote_so,debian 9.5,systemd,30,9,1,232-25+deb9u10|232-25+deb9u11|232-25+deb9u14|232-25+deb9u6|232-25+deb9u7
+dvwa,P3*,pacote_so,debian 9.5,tiff,24,12,0,4.0.8-2+deb9u4|4.0.8-2+deb9u5|4.0.8-2+deb9u6|4.0.8-2+deb9u7
+dvwa,P3*,pacote_so,debian 9.5,util-linux,8,1,1,
+dvwa,P3*,pacote_so,debian 9.5,xz-utils,4,1,0,5.2.2-1.2+deb9u1
+dvwa,P3*,pacote_so,debian 9.5,zlib,2,1,0,1:1.2.8.dfsg-5+deb9u1
+dvwa,P3*,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/authbypass/authbypass.js,4,0,0,
+dvwa,P3*,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/high.js,1,0,0,
+dvwa,P3*,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/impossible.js,1,0,0,
+dvwa,P3*,semgrep,php.lang.security.eval-use.eval-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/view_help.php,2,0,0,
+dvwa,P3*,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/api/src/HealthController.php,1,0,0,
+dvwa,P3*,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,P3*,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,P3*,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,P3*,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,P3*,semgrep,php.lang.security.injection.echoed-request.echoed-request,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/jsonp.php,1,0,0,
+dvwa,P3*,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/low.php,3,0,0,
+dvwa,P3*,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/medium.php,3,0,0,
+dvwa,P3*,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,P3*,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli/source/low.php,2,0,0,
+dvwa,P3*,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/high.php,2,0,0,
+dvwa,P3*,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/low.php,2,0,0,
+dvwa,P3*,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/medium.php,1,0,0,
+dvwa,P3*,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/login.php,1,0,0,
+dvwa,P3*,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/high.php,1,0,0,
+dvwa,P3*,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,P3*,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/medium.php,1,0,0,
+dvwa,P3*,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/captcha/source/impossible.php,1,0,0,
+dvwa,P3*,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/cryptography/source/ecb_attack.php,2,0,0,
+dvwa,P3*,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csrf/test_credentials.php,1,0,0,
+dvwa,P3*,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/javascript/index.php,2,0,0,
+dvwa,P3*,semgrep,php.lang.security.phpinfo-use.phpinfo-use,Instrumentos/Codigos/DevSecOps/dvwa/src/phpinfo.php,1,0,0,
+dvwa,P3*,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,P3*,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,P3*,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,P3*,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,P3*,unidade,Brute Force,dvwa-174,1,0,0,
+dvwa,P3*,unidade,Brute Force,dvwa-175,1,0,0,
+dvwa,A2,migrar_so,debian 9.5,,1,0,0,
+dvwa,A2,pacote_so,debian 9.5,apache2,172,23,1,2.4.25-3+deb9u10|2.4.25-3+deb9u11|2.4.25-3+deb9u12|2.4.25-3+deb9u13|2.4.25-3+deb9u6|2.4.25-3+deb9u7|2.4.25-3+deb9u8
+dvwa,A2,pacote_so,debian 9.5,apr,2,1,0,1.5.2-5+deb9u1
+dvwa,A2,pacote_so,debian 9.5,apt,4,1,0,1.4.9
+dvwa,A2,pacote_so,debian 9.5,bzip2,2,1,1,
+dvwa,A2,pacote_so,debian 9.5,cyrus-sasl2,9,2,0,2.1.27~101-g0780600+dfsg-3+deb9u1|2.1.27~101-g0780600+dfsg-3+deb9u2
+dvwa,A2,pacote_so,debian 9.5,db5.3,1,1,1,
+dvwa,A2,pacote_so,debian 9.5,dpkg,2,1,0,1.18.26
+dvwa,A2,pacote_so,debian 9.5,e2fsprogs,4,1,1,
+dvwa,A2,pacote_so,debian 9.5,elfutils,2,1,0,0.168-1+deb9u1
+dvwa,A2,pacote_so,debian 9.5,expat,30,15,0,2.2.0-2+deb9u2|2.2.0-2+deb9u3|2.2.0-2+deb9u4|2.2.0-2+deb9u5
+dvwa,A2,pacote_so,debian 9.5,file,9,2,1,1:5.30-1+deb9u3
+dvwa,A2,pacote_so,debian 9.5,freetype,5,4,1,2.6.3-3.2+deb9u2
+dvwa,A2,pacote_so,debian 9.5,gcc-6,3,1,1,
+dvwa,A2,pacote_so,debian 9.5,glibc,48,8,0,2.24-11+deb9u4
+dvwa,A2,pacote_so,debian 9.5,gmp,2,1,0,2:6.1.2+dfsg-1+deb9u1
+dvwa,A2,pacote_so,debian 9.5,gnupg2,2,2,1,
+dvwa,A2,pacote_so,debian 9.5,gnutls28,2,1,0,3.5.8-5+deb9u5
+dvwa,A2,pacote_so,debian 9.5,gzip,2,1,0,1.6-5+deb9u1
+dvwa,A2,pacote_so,debian 9.5,icu,2,1,0,57.1-6+deb9u4
+dvwa,A2,pacote_so,debian 9.5,inetutils,3,2,1,2:1.9.4-2+deb9u1
+dvwa,A2,pacote_so,debian 9.5,krb5,15,2,1,1.15-1+deb9u2
+dvwa,A2,pacote_so,debian 9.5,libbsd,2,1,0,0.8.3-1+deb9u1
+dvwa,A2,pacote_so,debian 9.5,libdbd-mysql-perl,1,1,1,
+dvwa,A2,pacote_so,debian 9.5,libdbi-perl,2,1,0,1.636-1+deb9u1
+dvwa,A2,pacote_so,debian 9.5,libgcrypt20,1,1,1,
+dvwa,A2,pacote_so,debian 9.5,libgd2,8,5,1,2.2.4-2+deb9u3|2.2.4-2+deb9u4
+dvwa,A2,pacote_so,debian 9.5,libidn,2,1,0,1.33-1+deb9u1
+dvwa,A2,pacote_so,debian 9.5,libjpeg-turbo,6,3,0,1:1.5.1-2+deb9u1|1:1.5.1-2+deb9u2
+dvwa,A2,pacote_so,debian 9.5,libpng1.6,1,1,1,
+dvwa,A2,pacote_so,debian 9.5,libwebp,21,11,1,0.5.2-1+deb9u1
+dvwa,A2,pacote_so,debian 9.5,libx11,20,5,0,2:1.6.4-3+deb9u1|2:1.6.4-3+deb9u3|2:1.6.4-3+deb9u4
+dvwa,A2,pacote_so,debian 9.5,libxml2,22,11,0,2.9.4+dfsg1-2.2+deb9u3|2.9.4+dfsg1-2.2+deb9u4|2.9.4+dfsg1-2.2+deb9u6
+dvwa,A2,pacote_so,debian 9.5,libxslt,4,2,0,1.1.29-2.1+deb9u1|1.1.29-2.1+deb9u2
+dvwa,A2,pacote_so,debian 9.5,lz4,3,2,1,0.0~r131-2+deb9u1
+dvwa,A2,pacote_so,debian 9.5,mariadb-10.1,84,6,0,10.1.37-0+deb9u1|10.1.47-0+deb9u1|10.1.48-0+deb9u2
+dvwa,A2,pacote_so,debian 9.5,ncurses,5,1,1,
+dvwa,A2,pacote_so,debian 9.5,nettle,8,2,0,3.3-1+deb9u1
+dvwa,A2,pacote_so,debian 9.5,nghttp2,8,4,0,1.18.1-1+deb9u1|1.18.1-1+deb9u2
+dvwa,A2,pacote_so,debian 9.5,openldap,68,17,0,2.4.44+dfsg-5+deb9u3|2.4.44+dfsg-5+deb9u4|2.4.44+dfsg-5+deb9u5|2.4.44+dfsg-5+deb9u6|2.4.44+dfsg-5+deb9u7|2.4.44+dfsg-5+deb9u8|2.4.44+dfsg-5+deb9u9
+dvwa,A2,pacote_so,debian 9.5,openssl,20,6,0,1.1.0j-1~deb9u1|1.1.0k-1~deb9u1|1.1.0l-1~deb9u3|1.1.0l-1~deb9u4|1.1.0l-1~deb9u5|1.1.0l-1~deb9u6
+dvwa,A2,pacote_so,debian 9.5,openssl1.0,8,4,0,1.0.2q-1~deb9u1|1.0.2u-1~deb9u4|1.0.2u-1~deb9u6|1.0.2u-1~deb9u7
+dvwa,A2,pacote_so,debian 9.5,p11-kit,2,1,0,0.23.3-2+deb9u1
+dvwa,A2,pacote_so,debian 9.5,perl,60,8,1,5.24.1-3+deb9u5|5.24.1-3+deb9u7
+dvwa,A2,pacote_so,debian 9.5,php-pear,9,5,1,1:1.10.1+submodules+notgz-9+deb9u1|1:1.10.1+submodules+notgz-9+deb9u2|1:1.10.1+submodules+notgz-9+deb9u3
+dvwa,A2,pacote_so,debian 9.5,php7.0,726,36,1,7.0.33-0+deb9u1|7.0.33-0+deb9u11|7.0.33-0+deb9u12|7.0.33-0+deb9u2|7.0.33-0+deb9u3|7.0.33-0+deb9u5|7.0.33-0+deb9u6|7.0.33-0+deb9u7|7.0.33-0+deb9u8
+dvwa,A2,pacote_so,debian 9.5,postgresql-9.6,11,7,0,9.6.15-0+deb9u1|9.6.19-0+deb9u1|9.6.20-0+deb9u1|9.6.22-0+deb9u1|9.6.24-0+deb9u1
+dvwa,A2,pacote_so,debian 9.5,rsync,10,5,0,3.1.2-1+deb9u2|3.1.2-1+deb9u3
+dvwa,A2,pacote_so,debian 9.5,shadow,8,2,0,1:4.4-4.1+deb9u1
+dvwa,A2,pacote_so,debian 9.5,sqlite3,21,11,1,3.16.2-5+deb9u2|3.16.2-5+deb9u3
+dvwa,A2,pacote_so,debian 9.5,systemd,30,9,1,232-25+deb9u10|232-25+deb9u11|232-25+deb9u14|232-25+deb9u6|232-25+deb9u7
+dvwa,A2,pacote_so,debian 9.5,tiff,24,12,0,4.0.8-2+deb9u4|4.0.8-2+deb9u5|4.0.8-2+deb9u6|4.0.8-2+deb9u7
+dvwa,A2,pacote_so,debian 9.5,util-linux,8,1,1,
+dvwa,A2,pacote_so,debian 9.5,xz-utils,4,1,0,5.2.2-1.2+deb9u1
+dvwa,A2,pacote_so,debian 9.5,zlib,2,1,0,1:1.2.8.dfsg-5+deb9u1
+dvwa,A2,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/authbypass/authbypass.js,4,0,0,
+dvwa,A2,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/high.js,1,0,0,
+dvwa,A2,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/impossible.js,1,0,0,
+dvwa,A2,semgrep,php.lang.security.eval-use.eval-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/view_help.php,2,0,0,
+dvwa,A2,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/api/src/HealthController.php,1,0,0,
+dvwa,A2,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,A2,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,A2,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,A2,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,A2,semgrep,php.lang.security.injection.echoed-request.echoed-request,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/jsonp.php,1,0,0,
+dvwa,A2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/low.php,3,0,0,
+dvwa,A2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/medium.php,3,0,0,
+dvwa,A2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,A2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli/source/low.php,2,0,0,
+dvwa,A2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/high.php,2,0,0,
+dvwa,A2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/low.php,2,0,0,
+dvwa,A2,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/medium.php,1,0,0,
+dvwa,A2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/login.php,1,0,0,
+dvwa,A2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/high.php,1,0,0,
+dvwa,A2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,A2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/medium.php,1,0,0,
+dvwa,A2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/captcha/source/impossible.php,1,0,0,
+dvwa,A2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/cryptography/source/ecb_attack.php,2,0,0,
+dvwa,A2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csrf/test_credentials.php,1,0,0,
+dvwa,A2,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/javascript/index.php,2,0,0,
+dvwa,A2,semgrep,php.lang.security.phpinfo-use.phpinfo-use,Instrumentos/Codigos/DevSecOps/dvwa/src/phpinfo.php,1,0,0,
+dvwa,A2,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,A2,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,A2,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,A2,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,A2,unidade,Brute Force,dvwa-174,1,0,0,
+dvwa,A2,unidade,Brute Force,dvwa-175,1,0,0,
+dvwa,ESCOPO,confirmacao,P3*,dvwa-csrf,1,0,0,
+dvwa,ESCOPO,confirmacao,P3*,dvwa-weak-session-ids,1,0,0,
+dvwa,ESCOPO,migrar_so,debian 9.5,,1,0,0,
+dvwa,ESCOPO,pacote_so,debian 9.5,apache2,92,23,1,2.4.25-3+deb9u10|2.4.25-3+deb9u11|2.4.25-3+deb9u12|2.4.25-3+deb9u13|2.4.25-3+deb9u6|2.4.25-3+deb9u7|2.4.25-3+deb9u8
+dvwa,ESCOPO,pacote_so,debian 9.5,apr,1,1,0,1.5.2-5+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,apt,2,1,0,1.4.9
+dvwa,ESCOPO,pacote_so,debian 9.5,bzip2,2,1,1,
+dvwa,ESCOPO,pacote_so,debian 9.5,cyrus-sasl2,6,2,0,2.1.27~101-g0780600+dfsg-3+deb9u1|2.1.27~101-g0780600+dfsg-3+deb9u2
+dvwa,ESCOPO,pacote_so,debian 9.5,db5.3,1,1,1,
+dvwa,ESCOPO,pacote_so,debian 9.5,dpkg,1,1,0,1.18.26
+dvwa,ESCOPO,pacote_so,debian 9.5,e2fsprogs,4,1,1,
+dvwa,ESCOPO,pacote_so,debian 9.5,elfutils,1,1,0,0.168-1+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,expat,15,15,0,2.2.0-2+deb9u2|2.2.0-2+deb9u3|2.2.0-2+deb9u4|2.2.0-2+deb9u5
+dvwa,ESCOPO,pacote_so,debian 9.5,file,6,2,1,1:5.30-1+deb9u3
+dvwa,ESCOPO,pacote_so,debian 9.5,freetype,4,4,1,2.6.3-3.2+deb9u2
+dvwa,ESCOPO,pacote_so,debian 9.5,gcc-6,3,1,1,
+dvwa,ESCOPO,pacote_so,debian 9.5,glibc,24,8,0,2.24-11+deb9u4
+dvwa,ESCOPO,pacote_so,debian 9.5,gmp,1,1,0,2:6.1.2+dfsg-1+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,gnupg2,3,3,1,
+dvwa,ESCOPO,pacote_so,debian 9.5,gnutls28,1,1,0,3.5.8-5+deb9u5
+dvwa,ESCOPO,pacote_so,debian 9.5,gzip,1,1,0,1.6-5+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,icu,1,1,0,57.1-6+deb9u4
+dvwa,ESCOPO,pacote_so,debian 9.5,inetutils,2,2,1,2:1.9.4-2+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,krb5,10,2,1,1.15-1+deb9u2
+dvwa,ESCOPO,pacote_so,debian 9.5,libbsd,1,1,0,0.8.3-1+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,libdbd-mysql-perl,1,1,1,
+dvwa,ESCOPO,pacote_so,debian 9.5,libdbi-perl,1,1,0,1.636-1+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,libgcrypt20,1,1,1,
+dvwa,ESCOPO,pacote_so,debian 9.5,libgd2,5,5,1,2.2.4-2+deb9u3|2.2.4-2+deb9u4
+dvwa,ESCOPO,pacote_so,debian 9.5,libidn,1,1,0,1.33-1+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,libjpeg-turbo,3,3,0,1:1.5.1-2+deb9u1|1:1.5.1-2+deb9u2
+dvwa,ESCOPO,pacote_so,debian 9.5,libpng1.6,1,1,1,
+dvwa,ESCOPO,pacote_so,debian 9.5,libwebp,11,11,1,0.5.2-1+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,libx11,10,5,0,2:1.6.4-3+deb9u1|2:1.6.4-3+deb9u3|2:1.6.4-3+deb9u4
+dvwa,ESCOPO,pacote_so,debian 9.5,libxml2,11,11,0,2.9.4+dfsg1-2.2+deb9u3|2.9.4+dfsg1-2.2+deb9u4|2.9.4+dfsg1-2.2+deb9u6
+dvwa,ESCOPO,pacote_so,debian 9.5,libxslt,2,2,0,1.1.29-2.1+deb9u1|1.1.29-2.1+deb9u2
+dvwa,ESCOPO,pacote_so,debian 9.5,lz4,2,2,1,0.0~r131-2+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,mariadb-10.1,42,6,0,10.1.37-0+deb9u1|10.1.47-0+deb9u1|10.1.48-0+deb9u2
+dvwa,ESCOPO,pacote_so,debian 9.5,ncurses,5,1,1,
+dvwa,ESCOPO,pacote_so,debian 9.5,nettle,4,2,0,3.3-1+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,nghttp2,4,4,0,1.18.1-1+deb9u1|1.18.1-1+deb9u2
+dvwa,ESCOPO,pacote_so,debian 9.5,openldap,34,17,0,2.4.44+dfsg-5+deb9u3|2.4.44+dfsg-5+deb9u4|2.4.44+dfsg-5+deb9u5|2.4.44+dfsg-5+deb9u6|2.4.44+dfsg-5+deb9u7|2.4.44+dfsg-5+deb9u8|2.4.44+dfsg-5+deb9u9
+dvwa,ESCOPO,pacote_so,debian 9.5,openssl,12,6,0,1.1.0j-1~deb9u1|1.1.0k-1~deb9u1|1.1.0l-1~deb9u3|1.1.0l-1~deb9u4|1.1.0l-1~deb9u5|1.1.0l-1~deb9u6
+dvwa,ESCOPO,pacote_so,debian 9.5,openssl1.0,4,4,0,1.0.2q-1~deb9u1|1.0.2u-1~deb9u4|1.0.2u-1~deb9u6|1.0.2u-1~deb9u7
+dvwa,ESCOPO,pacote_so,debian 9.5,p11-kit,1,1,0,0.23.3-2+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,perl,32,8,1,5.24.1-3+deb9u5|5.24.1-3+deb9u7
+dvwa,ESCOPO,pacote_so,debian 9.5,php-pear,5,5,1,1:1.10.1+submodules+notgz-9+deb9u1|1:1.10.1+submodules+notgz-9+deb9u2|1:1.10.1+submodules+notgz-9+deb9u3
+dvwa,ESCOPO,pacote_so,debian 9.5,php7.0,396,36,1,7.0.33-0+deb9u1|7.0.33-0+deb9u11|7.0.33-0+deb9u12|7.0.33-0+deb9u2|7.0.33-0+deb9u3|7.0.33-0+deb9u5|7.0.33-0+deb9u6|7.0.33-0+deb9u7|7.0.33-0+deb9u8
+dvwa,ESCOPO,pacote_so,debian 9.5,postgresql-9.6,7,7,0,9.6.15-0+deb9u1|9.6.19-0+deb9u1|9.6.20-0+deb9u1|9.6.22-0+deb9u1|9.6.24-0+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,rsync,5,5,0,3.1.2-1+deb9u2|3.1.2-1+deb9u3
+dvwa,ESCOPO,pacote_so,debian 9.5,shadow,4,2,0,1:4.4-4.1+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,sqlite3,11,11,1,3.16.2-5+deb9u2|3.16.2-5+deb9u3
+dvwa,ESCOPO,pacote_so,debian 9.5,systemd,18,9,1,232-25+deb9u10|232-25+deb9u11|232-25+deb9u14|232-25+deb9u6|232-25+deb9u7
+dvwa,ESCOPO,pacote_so,debian 9.5,tiff,12,12,0,4.0.8-2+deb9u4|4.0.8-2+deb9u5|4.0.8-2+deb9u6|4.0.8-2+deb9u7
+dvwa,ESCOPO,pacote_so,debian 9.5,util-linux,8,1,1,
+dvwa,ESCOPO,pacote_so,debian 9.5,xz-utils,2,1,0,5.2.2-1.2+deb9u1
+dvwa,ESCOPO,pacote_so,debian 9.5,zlib,1,1,0,1:1.2.8.dfsg-5+deb9u1
+dvwa,ESCOPO,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/authbypass/authbypass.js,4,0,0,
+dvwa,ESCOPO,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/high.js,1,0,0,
+dvwa,ESCOPO,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/impossible.js,1,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.eval-use.eval-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/view_help.php,2,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/api/src/HealthController.php,1,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.injection.echoed-request.echoed-request,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/jsonp.php,1,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/low.php,3,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/medium.php,3,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli/source/low.php,2,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/high.php,2,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/low.php,2,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/medium.php,1,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/login.php,1,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/high.php,1,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/medium.php,1,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/captcha/source/impossible.php,1,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/cryptography/source/ecb_attack.php,2,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csrf/test_credentials.php,1,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/javascript/index.php,2,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.phpinfo-use.phpinfo-use,Instrumentos/Codigos/DevSecOps/dvwa/src/phpinfo.php,1,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,ESCOPO,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,ESCOPO,unidade,Brute Force,dvwa-174,1,0,0,
+dvwa,ESCOPO,unidade,Brute Force,dvwa-175,1,0,0,
+dvwa,P4-reg,confirmacao,P3*,dvwa-csrf,1,0,0,
+dvwa,P4-reg,confirmacao,P3*,dvwa-weak-session-ids,1,0,0,
+dvwa,P4-reg,migrar_so,debian 9.5,,1,0,0,
+dvwa,P4-reg,pacote_so,debian 9.5,apache2,92,23,1,2.4.25-3+deb9u10|2.4.25-3+deb9u11|2.4.25-3+deb9u12|2.4.25-3+deb9u13|2.4.25-3+deb9u6|2.4.25-3+deb9u7|2.4.25-3+deb9u8
+dvwa,P4-reg,pacote_so,debian 9.5,apr,1,1,0,1.5.2-5+deb9u1
+dvwa,P4-reg,pacote_so,debian 9.5,cyrus-sasl2,6,2,0,2.1.27~101-g0780600+dfsg-3+deb9u1|2.1.27~101-g0780600+dfsg-3+deb9u2
+dvwa,P4-reg,pacote_so,debian 9.5,e2fsprogs,4,1,1,
+dvwa,P4-reg,pacote_so,debian 9.5,expat,15,15,0,2.2.0-2+deb9u2|2.2.0-2+deb9u3|2.2.0-2+deb9u4|2.2.0-2+deb9u5
+dvwa,P4-reg,pacote_so,debian 9.5,file,3,1,0,1:5.30-1+deb9u3
+dvwa,P4-reg,pacote_so,debian 9.5,freetype,4,4,1,2.6.3-3.2+deb9u2
+dvwa,P4-reg,pacote_so,debian 9.5,gcc-6,3,1,1,
+dvwa,P4-reg,pacote_so,debian 9.5,glibc,24,8,0,2.24-11+deb9u4
+dvwa,P4-reg,pacote_so,debian 9.5,gmp,1,1,0,2:6.1.2+dfsg-1+deb9u1
+dvwa,P4-reg,pacote_so,debian 9.5,gnutls28,1,1,0,3.5.8-5+deb9u5
+dvwa,P4-reg,pacote_so,debian 9.5,gzip,1,1,0,1.6-5+deb9u1
+dvwa,P4-reg,pacote_so,debian 9.5,icu,1,1,0,57.1-6+deb9u4
+dvwa,P4-reg,pacote_so,debian 9.5,krb5,10,2,1,1.15-1+deb9u2
+dvwa,P4-reg,pacote_so,debian 9.5,libbsd,1,1,0,0.8.3-1+deb9u1
+dvwa,P4-reg,pacote_so,debian 9.5,libgcrypt20,1,1,1,
+dvwa,P4-reg,pacote_so,debian 9.5,libgd2,5,5,1,2.2.4-2+deb9u3|2.2.4-2+deb9u4
+dvwa,P4-reg,pacote_so,debian 9.5,libidn,1,1,0,1.33-1+deb9u1
+dvwa,P4-reg,pacote_so,debian 9.5,libjpeg-turbo,3,3,0,1:1.5.1-2+deb9u1|1:1.5.1-2+deb9u2
+dvwa,P4-reg,pacote_so,debian 9.5,libpng1.6,1,1,1,
+dvwa,P4-reg,pacote_so,debian 9.5,libwebp,11,11,1,0.5.2-1+deb9u1
+dvwa,P4-reg,pacote_so,debian 9.5,libx11,10,5,0,2:1.6.4-3+deb9u1|2:1.6.4-3+deb9u3|2:1.6.4-3+deb9u4
+dvwa,P4-reg,pacote_so,debian 9.5,libxml2,11,11,0,2.9.4+dfsg1-2.2+deb9u3|2.9.4+dfsg1-2.2+deb9u4|2.9.4+dfsg1-2.2+deb9u6
+dvwa,P4-reg,pacote_so,debian 9.5,libxslt,2,2,0,1.1.29-2.1+deb9u1|1.1.29-2.1+deb9u2
+dvwa,P4-reg,pacote_so,debian 9.5,lz4,2,2,1,0.0~r131-2+deb9u1
+dvwa,P4-reg,pacote_so,debian 9.5,mariadb-10.1,42,6,0,10.1.37-0+deb9u1|10.1.47-0+deb9u1|10.1.48-0+deb9u2
+dvwa,P4-reg,pacote_so,debian 9.5,ncurses,5,1,1,
+dvwa,P4-reg,pacote_so,debian 9.5,nettle,4,2,0,3.3-1+deb9u1
+dvwa,P4-reg,pacote_so,debian 9.5,openldap,34,17,0,2.4.44+dfsg-5+deb9u3|2.4.44+dfsg-5+deb9u4|2.4.44+dfsg-5+deb9u5|2.4.44+dfsg-5+deb9u6|2.4.44+dfsg-5+deb9u7|2.4.44+dfsg-5+deb9u8|2.4.44+dfsg-5+deb9u9
+dvwa,P4-reg,pacote_so,debian 9.5,openssl,12,6,0,1.1.0j-1~deb9u1|1.1.0k-1~deb9u1|1.1.0l-1~deb9u3|1.1.0l-1~deb9u4|1.1.0l-1~deb9u5|1.1.0l-1~deb9u6
+dvwa,P4-reg,pacote_so,debian 9.5,openssl1.0,4,4,0,1.0.2q-1~deb9u1|1.0.2u-1~deb9u4|1.0.2u-1~deb9u6|1.0.2u-1~deb9u7
+dvwa,P4-reg,pacote_so,debian 9.5,p11-kit,1,1,0,0.23.3-2+deb9u1
+dvwa,P4-reg,pacote_so,debian 9.5,php7.0,396,36,1,7.0.33-0+deb9u1|7.0.33-0+deb9u11|7.0.33-0+deb9u12|7.0.33-0+deb9u2|7.0.33-0+deb9u3|7.0.33-0+deb9u5|7.0.33-0+deb9u6|7.0.33-0+deb9u7|7.0.33-0+deb9u8
+dvwa,P4-reg,pacote_so,debian 9.5,postgresql-9.6,7,7,0,9.6.15-0+deb9u1|9.6.19-0+deb9u1|9.6.20-0+deb9u1|9.6.22-0+deb9u1|9.6.24-0+deb9u1
+dvwa,P4-reg,pacote_so,debian 9.5,systemd,18,9,1,232-25+deb9u10|232-25+deb9u11|232-25+deb9u14|232-25+deb9u6|232-25+deb9u7
+dvwa,P4-reg,pacote_so,debian 9.5,tiff,12,12,0,4.0.8-2+deb9u4|4.0.8-2+deb9u5|4.0.8-2+deb9u6|4.0.8-2+deb9u7
+dvwa,P4-reg,pacote_so,debian 9.5,util-linux,8,1,1,
+dvwa,P4-reg,pacote_so,debian 9.5,xz-utils,2,1,0,5.2.2-1.2+deb9u1
+dvwa,P4-reg,pacote_so,debian 9.5,zlib,1,1,0,1:1.2.8.dfsg-5+deb9u1
+dvwa,P4-reg,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/authbypass/authbypass.js,4,0,0,
+dvwa,P4-reg,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/high.js,1,0,0,
+dvwa,P4-reg,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/impossible.js,1,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.eval-use.eval-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/view_help.php,2,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/api/src/HealthController.php,1,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.injection.echoed-request.echoed-request,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/jsonp.php,1,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/low.php,3,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/medium.php,3,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli/source/low.php,2,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/high.php,2,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/low.php,2,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/medium.php,1,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/login.php,1,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/high.php,1,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/medium.php,1,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/captcha/source/impossible.php,1,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/cryptography/source/ecb_attack.php,2,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csrf/test_credentials.php,1,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/javascript/index.php,2,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.phpinfo-use.phpinfo-use,Instrumentos/Codigos/DevSecOps/dvwa/src/phpinfo.php,1,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,P4-reg,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,P4-reg,unidade,Brute Force,dvwa-174,1,0,0,
+dvwa,P4-reg,unidade,Brute Force,dvwa-175,1,0,0,
+dvwa,P4,confirmacao,P3*,dvwa-csrf,1,0,0,
+dvwa,P4,confirmacao,P3*,dvwa-weak-session-ids,1,0,0,
+dvwa,P4,migrar_so,debian 9.5,,1,0,0,
+dvwa,P4,pacote_so,debian 9.5,apache2,92,23,1,2.4.25-3+deb9u10|2.4.25-3+deb9u11|2.4.25-3+deb9u12|2.4.25-3+deb9u13|2.4.25-3+deb9u6|2.4.25-3+deb9u7|2.4.25-3+deb9u8
+dvwa,P4,pacote_so,debian 9.5,apr,1,1,0,1.5.2-5+deb9u1
+dvwa,P4,pacote_so,debian 9.5,cyrus-sasl2,6,2,0,2.1.27~101-g0780600+dfsg-3+deb9u1|2.1.27~101-g0780600+dfsg-3+deb9u2
+dvwa,P4,pacote_so,debian 9.5,e2fsprogs,4,1,1,
+dvwa,P4,pacote_so,debian 9.5,expat,15,15,0,2.2.0-2+deb9u2|2.2.0-2+deb9u3|2.2.0-2+deb9u4|2.2.0-2+deb9u5
+dvwa,P4,pacote_so,debian 9.5,file,3,1,0,1:5.30-1+deb9u3
+dvwa,P4,pacote_so,debian 9.5,freetype,4,4,1,2.6.3-3.2+deb9u2
+dvwa,P4,pacote_so,debian 9.5,gcc-6,3,1,1,
+dvwa,P4,pacote_so,debian 9.5,glibc,24,8,0,2.24-11+deb9u4
+dvwa,P4,pacote_so,debian 9.5,gmp,1,1,0,2:6.1.2+dfsg-1+deb9u1
+dvwa,P4,pacote_so,debian 9.5,gnutls28,1,1,0,3.5.8-5+deb9u5
+dvwa,P4,pacote_so,debian 9.5,gzip,1,1,0,1.6-5+deb9u1
+dvwa,P4,pacote_so,debian 9.5,icu,1,1,0,57.1-6+deb9u4
+dvwa,P4,pacote_so,debian 9.5,krb5,10,2,1,1.15-1+deb9u2
+dvwa,P4,pacote_so,debian 9.5,libbsd,1,1,0,0.8.3-1+deb9u1
+dvwa,P4,pacote_so,debian 9.5,libgcrypt20,1,1,1,
+dvwa,P4,pacote_so,debian 9.5,libgd2,5,5,1,2.2.4-2+deb9u3|2.2.4-2+deb9u4
+dvwa,P4,pacote_so,debian 9.5,libidn,1,1,0,1.33-1+deb9u1
+dvwa,P4,pacote_so,debian 9.5,libjpeg-turbo,3,3,0,1:1.5.1-2+deb9u1|1:1.5.1-2+deb9u2
+dvwa,P4,pacote_so,debian 9.5,libpng1.6,1,1,1,
+dvwa,P4,pacote_so,debian 9.5,libwebp,11,11,1,0.5.2-1+deb9u1
+dvwa,P4,pacote_so,debian 9.5,libx11,10,5,0,2:1.6.4-3+deb9u1|2:1.6.4-3+deb9u3|2:1.6.4-3+deb9u4
+dvwa,P4,pacote_so,debian 9.5,libxml2,11,11,0,2.9.4+dfsg1-2.2+deb9u3|2.9.4+dfsg1-2.2+deb9u4|2.9.4+dfsg1-2.2+deb9u6
+dvwa,P4,pacote_so,debian 9.5,libxslt,2,2,0,1.1.29-2.1+deb9u1|1.1.29-2.1+deb9u2
+dvwa,P4,pacote_so,debian 9.5,lz4,2,2,1,0.0~r131-2+deb9u1
+dvwa,P4,pacote_so,debian 9.5,mariadb-10.1,42,6,0,10.1.37-0+deb9u1|10.1.47-0+deb9u1|10.1.48-0+deb9u2
+dvwa,P4,pacote_so,debian 9.5,ncurses,5,1,1,
+dvwa,P4,pacote_so,debian 9.5,nettle,4,2,0,3.3-1+deb9u1
+dvwa,P4,pacote_so,debian 9.5,openldap,34,17,0,2.4.44+dfsg-5+deb9u3|2.4.44+dfsg-5+deb9u4|2.4.44+dfsg-5+deb9u5|2.4.44+dfsg-5+deb9u6|2.4.44+dfsg-5+deb9u7|2.4.44+dfsg-5+deb9u8|2.4.44+dfsg-5+deb9u9
+dvwa,P4,pacote_so,debian 9.5,openssl,12,6,0,1.1.0j-1~deb9u1|1.1.0k-1~deb9u1|1.1.0l-1~deb9u3|1.1.0l-1~deb9u4|1.1.0l-1~deb9u5|1.1.0l-1~deb9u6
+dvwa,P4,pacote_so,debian 9.5,openssl1.0,4,4,0,1.0.2q-1~deb9u1|1.0.2u-1~deb9u4|1.0.2u-1~deb9u6|1.0.2u-1~deb9u7
+dvwa,P4,pacote_so,debian 9.5,p11-kit,1,1,0,0.23.3-2+deb9u1
+dvwa,P4,pacote_so,debian 9.5,php7.0,396,36,1,7.0.33-0+deb9u1|7.0.33-0+deb9u11|7.0.33-0+deb9u12|7.0.33-0+deb9u2|7.0.33-0+deb9u3|7.0.33-0+deb9u5|7.0.33-0+deb9u6|7.0.33-0+deb9u7|7.0.33-0+deb9u8
+dvwa,P4,pacote_so,debian 9.5,postgresql-9.6,7,7,0,9.6.15-0+deb9u1|9.6.19-0+deb9u1|9.6.20-0+deb9u1|9.6.22-0+deb9u1|9.6.24-0+deb9u1
+dvwa,P4,pacote_so,debian 9.5,systemd,18,9,1,232-25+deb9u10|232-25+deb9u11|232-25+deb9u14|232-25+deb9u6|232-25+deb9u7
+dvwa,P4,pacote_so,debian 9.5,tiff,12,12,0,4.0.8-2+deb9u4|4.0.8-2+deb9u5|4.0.8-2+deb9u6|4.0.8-2+deb9u7
+dvwa,P4,pacote_so,debian 9.5,util-linux,8,1,1,
+dvwa,P4,pacote_so,debian 9.5,xz-utils,2,1,0,5.2.2-1.2+deb9u1
+dvwa,P4,pacote_so,debian 9.5,zlib,1,1,0,1:1.2.8.dfsg-5+deb9u1
+dvwa,P4,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/authbypass/authbypass.js,4,0,0,
+dvwa,P4,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/high.js,1,0,0,
+dvwa,P4,semgrep,javascript.browser.security.insecure-document-method.insecure-document-method,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/impossible.js,1,0,0,
+dvwa,P4,semgrep,php.lang.security.eval-use.eval-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/view_help.php,2,0,0,
+dvwa,P4,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/api/src/HealthController.php,1,0,0,
+dvwa,P4,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,P4,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,P4,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,P4,semgrep,php.lang.security.exec-use.exec-use,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,P4,semgrep,php.lang.security.injection.echoed-request.echoed-request,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csp/source/jsonp.php,1,0,0,
+dvwa,P4,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/low.php,3,0,0,
+dvwa,P4,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/bac/source/medium.php,3,0,0,
+dvwa,P4,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,P4,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli/source/low.php,2,0,0,
+dvwa,P4,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/high.php,2,0,0,
+dvwa,P4,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/low.php,2,0,0,
+dvwa,P4,semgrep,php.lang.security.injection.tainted-sql-string.tainted-sql-string,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/sqli_blind/source/medium.php,1,0,0,
+dvwa,P4,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/login.php,1,0,0,
+dvwa,P4,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/high.php,1,0,0,
+dvwa,P4,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/low.php,1,0,0,
+dvwa,P4,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/brute/source/medium.php,1,0,0,
+dvwa,P4,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/captcha/source/impossible.php,1,0,0,
+dvwa,P4,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/cryptography/source/ecb_attack.php,2,0,0,
+dvwa,P4,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/csrf/test_credentials.php,1,0,0,
+dvwa,P4,semgrep,php.lang.security.md5-loose-equality.md5-loose-equality,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/javascript/index.php,2,0,0,
+dvwa,P4,semgrep,php.lang.security.phpinfo-use.phpinfo-use,Instrumentos/Codigos/DevSecOps/dvwa/src/phpinfo.php,1,0,0,
+dvwa,P4,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/high.php,2,0,0,
+dvwa,P4,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/impossible.php,2,0,0,
+dvwa,P4,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/low.php,2,0,0,
+dvwa,P4,semgrep,php.lang.security.tainted-exec.tainted-exec,Instrumentos/Codigos/DevSecOps/dvwa/src/vulnerabilities/exec/source/medium.php,2,0,0,
+dvwa,P4,unidade,Brute Force,dvwa-174,1,0,0,
+dvwa,P4,unidade,Brute Force,dvwa-175,1,0,0,
+teastore,P1,dependencia,go,stdlib,10,5,0,"1.16.14, 1.17.7|1.19.8, 1.20.3|1.19.9, 1.20.4|1.21.11, 1.22.4|1.24.13, 1.25.7, 1.26.0-rc.3"
+teastore,P1,dependencia,maven,log4j:log4j,2,0,0,
+teastore,P1,dependencia,maven,org.hsqldb:hsqldb,4,1,0,2.7.1
+teastore,P1,migrar_so,debian 10.10,,6,0,0,
+teastore,P1,migrar_so,ubuntu 18.04,,1,0,0,
+teastore,P1,pacote_so,debian 10.10,curl,36,1,0,7.64.0-4+deb10u4
+teastore,P1,pacote_so,debian 10.10,db5.3,6,1,1,
+teastore,P1,pacote_so,debian 10.10,dpkg,12,1,0,1.19.8
+teastore,P1,pacote_so,debian 10.10,expat,84,7,0,2.2.6-2+deb10u2|2.2.6-2+deb10u3
+teastore,P1,pacote_so,debian 10.10,freetype,12,1,0,2.9.1-3+deb10u3
+teastore,P1,pacote_so,debian 10.10,git,72,3,0,1:2.20.1-2+deb10u7|1:2.20.1-2+deb10u9
+teastore,P1,pacote_so,debian 10.10,glibc,96,4,0,2.28-10+deb10u2
+teastore,P1,pacote_so,debian 10.10,libksba,24,2,0,1.3.5-2+deb10u1|1.3.5-2+deb10u2
+teastore,P1,pacote_so,debian 10.10,libtasn1-6,12,1,0,4.13-3+deb10u1
+teastore,P1,pacote_so,debian 10.10,openldap,24,1,0,2.4.47+dfsg-3+deb10u7
+teastore,P1,pacote_so,debian 10.10,openssh,12,1,0,1:7.9p1-10+deb10u3
+teastore,P1,pacote_so,debian 10.10,openssl,24,1,0,1.1.1d-0+deb10u7
+teastore,P1,pacote_so,debian 10.10,pcre2,24,2,0,10.32-5+deb10u1
+teastore,P1,pacote_so,debian 10.10,python2.7,96,2,0,2.7.16-2+deb10u2|2.7.16-2+deb10u3
+teastore,P1,pacote_so,debian 10.10,sqlite3,12,1,0,3.27.2-3+deb10u2
+teastore,P1,pacote_so,debian 10.10,wget,6,1,1,
+teastore,P1,pacote_so,debian 10.10,zlib,18,2,1,1:1.2.11.dfsg-1+deb10u2
+teastore,P1,pacote_so,ubuntu 18.04,dpkg,2,1,0,1.19.0.5ubuntu2.4
+teastore,P1,pacote_so,ubuntu 18.04,glibc,20,5,0,2.27-3ubuntu1.2|2.27-3ubuntu1.5
+teastore,P1,pacote_so,ubuntu 18.04,heimdal,18,1,0,7.5.0+dfsg-1ubuntu0.3
+teastore,P1,pacote_so,ubuntu 18.04,libksba,4,2,0,1.3.5-2ubuntu0.18.04.1|1.3.5-2ubuntu0.18.04.2
+teastore,P1,pacote_so,ubuntu 18.04,lz4,2,1,0,0.0~r131-2ubuntu3.1
+teastore,P1,pacote_so,ubuntu 18.04,openldap,4,1,0,2.4.45+dfsg-1ubuntu1.11
+teastore,P1,pacote_so,ubuntu 18.04,openssl,2,1,0,1.1.1-1ubuntu2.1~18.04.13
+teastore,P1,pacote_so,ubuntu 18.04,pam,8,1,0,1.1.8-3.6ubuntu2.18.04.4
+teastore,P1,pacote_so,ubuntu 18.04,rsync,2,1,0,3.1.2-2.1ubuntu1.5
+teastore,P1,pacote_so,ubuntu 18.04,systemd,4,1,0,237-3ubuntu10.54
+teastore,P1,pacote_so,ubuntu 18.04,zlib,2,1,0,1:1.2.11.dfsg-0ubuntu2.2
+teastore,P2,dependencia,go,stdlib,160,80,0,"1.13.15, 1.14.7|1.15.13, 1.16.5|1.15.9, 1.16.1|1.16.10, 1.17.3|1.16.12, 1.17.5|1.16.14, 1.17.7|1.16.15, 1.17.8|1.16.8, 1.17.1|1.17.11, 1.18.3|1.17.12, 1.18.4|1.17.13, 1.18.5|1.17.9, 1.18.1|1.18.6, 1.19.1|1.18.7, 1.19.2|1.18.8, 1.19.3|1.18.9, 1.19.4|1.19.10, 1.20.5|1.19.6, 1.20.1|1.19.8, 1.20.3|1.19."
+teastore,P2,dependencia,maven,com.fasterxml.jackson.core:jackson-core,36,3,0,"2.15.0|2.18.8, 2.21.4|2.21.7, 2.22.3, 2.18.11"
+teastore,P2,dependencia,maven,com.fasterxml.jackson.core:jackson-databind,108,9,0,"2.12.6, 2.13.1|2.12.7.1, 2.13.4|2.12.7.1, 2.13.4.2|2.13.2.1, 2.12.6.1|2.14.0|2.18.11, 2.21.7, 2.22.3|2.18.8, 2.21.4, 3.1.4|2.18.8, 3.1.4, 2.21.4|2.21.7, 2.18.11, 2.22.3"
+teastore,P2,dependencia,maven,com.google.code.gson:gson,10,1,0,2.8.9
+teastore,P2,dependencia,maven,com.google.guava:guava,22,2,0,32.0.0-android|33.7.2
+teastore,P2,dependencia,maven,com.rabbitmq:amqp-client,91,7,0,5.18.0|5.33.0|5.33.1|5.34.0|5.36.0|5.36.1
+teastore,P2,dependencia,maven,com.squareup.okhttp3:okhttp,10,1,0,4.9.2
+teastore,P2,dependencia,maven,com.squareup.okio:okio,10,1,0,"3.4.0, 1.17.6"
+teastore,P2,dependencia,maven,log4j:log4j,6,0,0,
+teastore,P2,dependencia,maven,org.apache.thrift:libthrift,50,5,0,"0.13.0|0.14.0|0.23.0|0.24.0|0.9.3-1, 0.12.0"
+teastore,P2,dependencia,maven,org.apache.tomcat:tomcat-coyote,24,2,0,"11.0.0-M12, 10.1.14, 9.0.81, 8.5.94|9.0.68, 10.0.27, 10.1.1"
+teastore,P2,dependencia,maven,org.hsqldb:hsqldb,4,1,0,2.7.1
+teastore,P2,migrar_so,debian 10.10,,6,0,0,
+teastore,P2,migrar_so,ubuntu 18.04,,1,0,0,
+teastore,P2,pacote_so,debian 10.10,curl,270,8,1,7.64.0-4+deb10u3|7.64.0-4+deb10u4|7.64.0-4+deb10u6|7.64.0-4+deb10u9
+teastore,P2,pacote_so,debian 10.10,cyrus-sasl2,24,1,0,2.1.27+dfsg-1+deb10u2
+teastore,P2,pacote_so,debian 10.10,db5.3,6,1,1,
+teastore,P2,pacote_so,debian 10.10,dpkg,12,1,0,1.19.8
+teastore,P2,pacote_so,debian 10.10,e2fsprogs,24,1,1,
+teastore,P2,pacote_so,debian 10.10,expat,204,17,0,2.2.6-2+deb10u2|2.2.6-2+deb10u3|2.2.6-2+deb10u5|2.2.6-2+deb10u6|2.2.6-2+deb10u7
+teastore,P2,pacote_so,debian 10.10,freetype,36,3,0,2.9.1-3+deb10u3
+teastore,P2,pacote_so,debian 10.10,gcc-8,36,2,1,
+teastore,P2,pacote_so,debian 10.10,git,360,15,0,1:2.20.1-2+deb10u4|1:2.20.1-2+deb10u5|1:2.20.1-2+deb10u7|1:2.20.1-2+deb10u8|1:2.20.1-2+deb10u9
+teastore,P2,pacote_so,debian 10.10,glibc,252,11,1,2.28-10+deb10u2|2.28-10+deb10u3|2.28-10+deb10u4
+teastore,P2,pacote_so,debian 10.10,gmp,12,1,0,2:6.1.2+dfsg-4+deb10u1
+teastore,P2,pacote_so,debian 10.10,gnupg2,66,1,1,
+teastore,P2,pacote_so,debian 10.10,gnutls28,36,3,0,3.6.7-4+deb10u10|3.6.7-4+deb10u12|3.6.7-4+deb10u9
+teastore,P2,pacote_so,debian 10.10,gzip,12,1,0,1.9-3+deb10u1
+teastore,P2,pacote_so,debian 10.10,krb5,96,2,0,1.17-3+deb10u2|1.17-3+deb10u5
+teastore,P2,pacote_so,debian 10.10,libgcrypt20,6,1,1,
+teastore,P2,pacote_so,debian 10.10,libidn2,6,1,1,
+teastore,P2,pacote_so,debian 10.10,libksba,24,2,0,1.3.5-2+deb10u1|1.3.5-2+deb10u2
+teastore,P2,pacote_so,debian 10.10,libssh2,36,3,0,1.8.0-2.1+deb10u1
+teastore,P2,pacote_so,debian 10.10,libtasn1-6,12,1,0,4.13-3+deb10u1
+teastore,P2,pacote_so,debian 10.10,lz4,6,1,1,
+teastore,P2,pacote_so,debian 10.10,ncurses,180,3,0,6.1+20181013-2+deb10u3|6.1+20181013-2+deb10u5
+teastore,P2,pacote_so,debian 10.10,nghttp2,24,2,0,1.36.0-2+deb10u2
+teastore,P2,pacote_so,debian 10.10,openldap,36,2,1,2.4.47+dfsg-3+deb10u7
+teastore,P2,pacote_so,debian 10.10,openssh,24,2,0,1:7.9p1-10+deb10u3|1:7.9p1-10+deb10u4
+teastore,P2,pacote_so,debian 10.10,openssl,216,9,0,1.1.1d-0+deb10u7|1.1.1d-0+deb10u8|1.1.1n-0+deb10u2|1.1.1n-0+deb10u3|1.1.1n-0+deb10u4|1.1.1n-0+deb10u5
+teastore,P2,pacote_so,debian 10.10,pcre2,36,3,0,10.32-5+deb10u1
+teastore,P2,pacote_so,debian 10.10,perl,48,2,1,
+teastore,P2,pacote_so,debian 10.10,python2.7,504,11,1,2.7.16-2+deb10u2|2.7.16-2+deb10u3
+teastore,P2,pacote_so,debian 10.10,sqlite3,36,4,1,3.27.2-3+deb10u2
+teastore,P2,pacote_so,debian 10.10,subversion,24,1,0,1.10.4-1+deb10u3
+teastore,P2,pacote_so,debian 10.10,systemd,72,5,1,241-7~deb10u9
+teastore,P2,pacote_so,debian 10.10,wget,6,1,1,
+teastore,P2,pacote_so,debian 10.10,xz-utils,24,1,0,5.2.4-1+deb10u1
+teastore,P2,pacote_so,debian 10.10,zlib,30,3,1,1:1.2.11.dfsg-1+deb10u1|1:1.2.11.dfsg-1+deb10u2
+teastore,P2,pacote_so,ubuntu 18.04,bash,2,1,0,4.4.18-2ubuntu1.3
+teastore,P2,pacote_so,ubuntu 18.04,cyrus-sasl2,4,1,0,2.1.27~101-g0780600+dfsg-3ubuntu2.4
+teastore,P2,pacote_so,ubuntu 18.04,dpkg,2,1,0,1.19.0.5ubuntu2.4
+teastore,P2,pacote_so,ubuntu 18.04,e2fsprogs,8,1,0,1.44.1-1ubuntu1.4
+teastore,P2,pacote_so,ubuntu 18.04,glibc,48,12,0,2.27-3ubuntu1.2|2.27-3ubuntu1.5
+teastore,P2,pacote_so,ubuntu 18.04,gmp,2,1,0,2:6.1.2+dfsg-2ubuntu0.1
+teastore,P2,pacote_so,ubuntu 18.04,gnupg2,44,2,0,2.2.4-1ubuntu1.3|2.2.4-1ubuntu1.5
+teastore,P2,pacote_so,ubuntu 18.04,gnutls28,2,1,0,3.5.18-1ubuntu1.6
+teastore,P2,pacote_so,ubuntu 18.04,gzip,2,1,0,1.6-5ubuntu1.2
+teastore,P2,pacote_so,ubuntu 18.04,heimdal,144,8,0,7.5.0+dfsg-1ubuntu0.1|7.5.0+dfsg-1ubuntu0.2|7.5.0+dfsg-1ubuntu0.3|7.5.0+dfsg-1ubuntu0.4
+teastore,P2,pacote_so,ubuntu 18.04,libdbi-perl,2,1,0,1.640-1ubuntu0.3
+teastore,P2,pacote_so,ubuntu 18.04,libgcrypt20,2,1,0,1.8.1-4ubuntu1.3
+teastore,P2,pacote_so,ubuntu 18.04,libksba,4,2,0,1.3.5-2ubuntu0.18.04.1|1.3.5-2ubuntu0.18.04.2
+teastore,P2,pacote_so,ubuntu 18.04,lz4,2,1,0,0.0~r131-2ubuntu3.1
+teastore,P2,pacote_so,ubuntu 18.04,mysql-5.7,6,3,0,5.7.30-0ubuntu0.18.04.1|5.7.42-0ubuntu0.18.04.1
+teastore,P2,pacote_so,ubuntu 18.04,ncurses,30,3,0,6.1-1ubuntu1.18.04.1
+teastore,P2,pacote_so,ubuntu 18.04,nettle,8,2,0,3.4-1ubuntu0.1|3.4.1-0ubuntu0.18.04.1
+teastore,P2,pacote_so,ubuntu 18.04,openldap,64,16,0,2.4.45+dfsg-1ubuntu1.10|2.4.45+dfsg-1ubuntu1.11|2.4.45+dfsg-1ubuntu1.5|2.4.45+dfsg-1ubuntu1.7|2.4.45+dfsg-1ubuntu1.8|2.4.45+dfsg-1ubuntu1.9
+teastore,P2,pacote_so,ubuntu 18.04,openssl,20,10,0,1.1.1-1ubuntu2.1~18.04.13|1.1.1-1ubuntu2.1~18.04.15|1.1.1-1ubuntu2.1~18.04.17|1.1.1-1ubuntu2.1~18.04.19|1.1.1-1ubuntu2.1~18.04.21|1.1.1-1ubuntu2.1~18.04.22|1.1.1-1ubuntu2.1~18.04.8
+teastore,P2,pacote_so,ubuntu 18.04,p11-kit,4,2,0,0.23.9-2ubuntu0.1
+teastore,P2,pacote_so,ubuntu 18.04,pam,8,1,0,1.1.8-3.6ubuntu2.18.04.4
+teastore,P2,pacote_so,ubuntu 18.04,pcre3,2,1,0,2:8.39-9ubuntu0.1
+teastore,P2,pacote_so,ubuntu 18.04,perl,40,5,0,5.26.1-6ubuntu0.5|5.26.1-6ubuntu0.6|5.26.1-6ubuntu0.7
+teastore,P2,pacote_so,ubuntu 18.04,rsync,6,3,0,3.1.2-2.1ubuntu1.4|3.1.2-2.1ubuntu1.5|3.1.2-2.1ubuntu1.6
+teastore,P2,pacote_so,ubuntu 18.04,sqlite3,10,5,0,3.22.0-1ubuntu0.4|3.22.0-1ubuntu0.5|3.22.0-1ubuntu0.6|3.22.0-1ubuntu0.7
+teastore,P2,pacote_so,ubuntu 18.04,systemd,4,1,0,237-3ubuntu10.54
+teastore,P2,pacote_so,ubuntu 18.04,tar,2,1,0,1.29b-2ubuntu0.2
+teastore,P2,pacote_so,ubuntu 18.04,util-linux,18,1,0,2.31.1-0.4ubuntu3.7
+teastore,P2,pacote_so,ubuntu 18.04,xz-utils,4,1,0,5.2.2-1.3ubuntu0.1
+teastore,P2,pacote_so,ubuntu 18.04,zlib,4,2,0,1:1.2.11.dfsg-0ubuntu2.1|1:1.2.11.dfsg-0ubuntu2.2
+teastore,P2,semgrep,detected-bcrypt-hash,utilities/tools.descartes.teastore.database/setupData.sql,100,0,0,
+teastore,P2,semgrep,detected-private-key,utilities/tools.descartes.teastore.dockerbase/ssl/key.pem,1,0,0,
+teastore,P3,dependencia,go,stdlib,155,80,0,"1.13.15, 1.14.7|1.15.13, 1.16.5|1.15.9, 1.16.1|1.16.10, 1.17.3|1.16.12, 1.17.5|1.16.14, 1.17.7|1.16.15, 1.17.8|1.16.8, 1.17.1|1.17.11, 1.18.3|1.17.12, 1.18.4|1.17.13, 1.18.5|1.17.9, 1.18.1|1.18.6, 1.19.1|1.18.7, 1.19.2|1.18.8, 1.19.3|1.18.9, 1.19.4|1.19.10, 1.20.5|1.19.6, 1.20.1|1.19.8, 1.20.3|1.19."
+teastore,P3,dependencia,maven,com.fasterxml.jackson.core:jackson-core,36,3,0,"2.15.0|2.18.8, 2.21.4|2.21.7, 2.22.3, 2.18.11"
+teastore,P3,dependencia,maven,com.fasterxml.jackson.core:jackson-databind,108,9,0,"2.12.6, 2.13.1|2.12.7.1, 2.13.4|2.12.7.1, 2.13.4.2|2.13.2.1, 2.12.6.1|2.14.0|2.18.11, 2.21.7, 2.22.3|2.18.8, 2.21.4, 3.1.4|2.18.8, 3.1.4, 2.21.4|2.21.7, 2.18.11, 2.22.3"
+teastore,P3,dependencia,maven,com.google.code.gson:gson,10,1,0,2.8.9
+teastore,P3,dependencia,maven,com.google.guava:guava,22,2,0,32.0.0-android|33.7.2
+teastore,P3,dependencia,maven,com.rabbitmq:amqp-client,91,7,0,5.18.0|5.33.0|5.33.1|5.34.0|5.36.0|5.36.1
+teastore,P3,dependencia,maven,com.squareup.okhttp3:okhttp,5,1,0,4.9.2
+teastore,P3,dependencia,maven,com.squareup.okio:okio,10,1,0,"3.4.0, 1.17.6"
+teastore,P3,dependencia,maven,log4j:log4j,6,0,0,
+teastore,P3,dependencia,maven,org.apache.thrift:libthrift,40,5,0,"0.13.0|0.14.0|0.23.0|0.24.0|0.9.3-1, 0.12.0"
+teastore,P3,dependencia,maven,org.apache.tomcat:tomcat-coyote,24,2,0,"11.0.0-M12, 10.1.14, 9.0.81, 8.5.94|9.0.68, 10.0.27, 10.1.1"
+teastore,P3,dependencia,maven,org.hsqldb:hsqldb,4,1,0,2.7.1
+teastore,P3,migrar_so,debian 10.10,,6,0,0,
+teastore,P3,migrar_so,ubuntu 18.04,,1,0,0,
+teastore,P3,pacote_so,debian 10.10,curl,234,8,1,7.64.0-4+deb10u3|7.64.0-4+deb10u4|7.64.0-4+deb10u6|7.64.0-4+deb10u9
+teastore,P3,pacote_so,debian 10.10,cyrus-sasl2,24,1,0,2.1.27+dfsg-1+deb10u2
+teastore,P3,pacote_so,debian 10.10,db5.3,6,1,1,
+teastore,P3,pacote_so,debian 10.10,dpkg,12,1,0,1.19.8
+teastore,P3,pacote_so,debian 10.10,e2fsprogs,24,1,1,
+teastore,P3,pacote_so,debian 10.10,expat,198,17,0,2.2.6-2+deb10u2|2.2.6-2+deb10u3|2.2.6-2+deb10u5|2.2.6-2+deb10u6|2.2.6-2+deb10u7
+teastore,P3,pacote_so,debian 10.10,freetype,36,3,0,2.9.1-3+deb10u3
+teastore,P3,pacote_so,debian 10.10,gcc-8,36,2,1,
+teastore,P3,pacote_so,debian 10.10,git,360,15,0,1:2.20.1-2+deb10u4|1:2.20.1-2+deb10u5|1:2.20.1-2+deb10u7|1:2.20.1-2+deb10u8|1:2.20.1-2+deb10u9
+teastore,P3,pacote_so,debian 10.10,glibc,252,11,1,2.28-10+deb10u2|2.28-10+deb10u3|2.28-10+deb10u4
+teastore,P3,pacote_so,debian 10.10,gmp,12,1,0,2:6.1.2+dfsg-4+deb10u1
+teastore,P3,pacote_so,debian 10.10,gnupg2,66,1,1,
+teastore,P3,pacote_so,debian 10.10,gnutls28,36,3,0,3.6.7-4+deb10u10|3.6.7-4+deb10u12|3.6.7-4+deb10u9
+teastore,P3,pacote_so,debian 10.10,gzip,12,1,0,1.9-3+deb10u1
+teastore,P3,pacote_so,debian 10.10,krb5,96,2,0,1.17-3+deb10u2|1.17-3+deb10u5
+teastore,P3,pacote_so,debian 10.10,libgcrypt20,6,1,1,
+teastore,P3,pacote_so,debian 10.10,libidn2,6,1,1,
+teastore,P3,pacote_so,debian 10.10,libksba,24,2,0,1.3.5-2+deb10u1|1.3.5-2+deb10u2
+teastore,P3,pacote_so,debian 10.10,libssh2,36,3,0,1.8.0-2.1+deb10u1
+teastore,P3,pacote_so,debian 10.10,libtasn1-6,12,1,0,4.13-3+deb10u1
+teastore,P3,pacote_so,debian 10.10,lz4,6,1,1,
+teastore,P3,pacote_so,debian 10.10,ncurses,180,3,0,6.1+20181013-2+deb10u3|6.1+20181013-2+deb10u5
+teastore,P3,pacote_so,debian 10.10,nghttp2,24,2,0,1.36.0-2+deb10u2
+teastore,P3,pacote_so,debian 10.10,openldap,36,2,1,2.4.47+dfsg-3+deb10u7
+teastore,P3,pacote_so,debian 10.10,openssh,24,2,0,1:7.9p1-10+deb10u3|1:7.9p1-10+deb10u4
+teastore,P3,pacote_so,debian 10.10,openssl,204,9,0,1.1.1d-0+deb10u7|1.1.1d-0+deb10u8|1.1.1n-0+deb10u2|1.1.1n-0+deb10u3|1.1.1n-0+deb10u4|1.1.1n-0+deb10u5
+teastore,P3,pacote_so,debian 10.10,pcre2,36,3,0,10.32-5+deb10u1
+teastore,P3,pacote_so,debian 10.10,perl,24,1,1,
+teastore,P3,pacote_so,debian 10.10,python2.7,504,11,1,2.7.16-2+deb10u2|2.7.16-2+deb10u3
+teastore,P3,pacote_so,debian 10.10,sqlite3,36,4,1,3.27.2-3+deb10u2
+teastore,P3,pacote_so,debian 10.10,subversion,24,1,0,1.10.4-1+deb10u3
+teastore,P3,pacote_so,debian 10.10,systemd,72,5,1,241-7~deb10u9
+teastore,P3,pacote_so,debian 10.10,wget,6,1,1,
+teastore,P3,pacote_so,debian 10.10,xz-utils,24,1,0,5.2.4-1+deb10u1
+teastore,P3,pacote_so,debian 10.10,zlib,30,3,1,1:1.2.11.dfsg-1+deb10u1|1:1.2.11.dfsg-1+deb10u2
+teastore,P3,pacote_so,ubuntu 18.04,bash,2,1,0,4.4.18-2ubuntu1.3
+teastore,P3,pacote_so,ubuntu 18.04,cyrus-sasl2,4,1,0,2.1.27~101-g0780600+dfsg-3ubuntu2.4
+teastore,P3,pacote_so,ubuntu 18.04,dpkg,2,1,0,1.19.0.5ubuntu2.4
+teastore,P3,pacote_so,ubuntu 18.04,e2fsprogs,8,1,0,1.44.1-1ubuntu1.4
+teastore,P3,pacote_so,ubuntu 18.04,glibc,48,12,0,2.27-3ubuntu1.2|2.27-3ubuntu1.5
+teastore,P3,pacote_so,ubuntu 18.04,gmp,2,1,0,2:6.1.2+dfsg-2ubuntu0.1
+teastore,P3,pacote_so,ubuntu 18.04,gnupg2,33,2,0,2.2.4-1ubuntu1.3|2.2.4-1ubuntu1.5
+teastore,P3,pacote_so,ubuntu 18.04,gnutls28,2,1,0,3.5.18-1ubuntu1.6
+teastore,P3,pacote_so,ubuntu 18.04,gzip,2,1,0,1.6-5ubuntu1.2
+teastore,P3,pacote_so,ubuntu 18.04,heimdal,135,8,0,7.5.0+dfsg-1ubuntu0.1|7.5.0+dfsg-1ubuntu0.2|7.5.0+dfsg-1ubuntu0.3|7.5.0+dfsg-1ubuntu0.4
+teastore,P3,pacote_so,ubuntu 18.04,libdbi-perl,2,1,0,1.640-1ubuntu0.3
+teastore,P3,pacote_so,ubuntu 18.04,libgcrypt20,2,1,0,1.8.1-4ubuntu1.3
+teastore,P3,pacote_so,ubuntu 18.04,libksba,4,2,0,1.3.5-2ubuntu0.18.04.1|1.3.5-2ubuntu0.18.04.2
+teastore,P3,pacote_so,ubuntu 18.04,lz4,2,1,0,0.0~r131-2ubuntu3.1
+teastore,P3,pacote_so,ubuntu 18.04,mysql-5.7,6,3,0,5.7.30-0ubuntu0.18.04.1|5.7.42-0ubuntu0.18.04.1
+teastore,P3,pacote_so,ubuntu 18.04,ncurses,30,3,0,6.1-1ubuntu1.18.04.1
+teastore,P3,pacote_so,ubuntu 18.04,nettle,8,2,0,3.4-1ubuntu0.1|3.4.1-0ubuntu0.18.04.1
+teastore,P3,pacote_so,ubuntu 18.04,openldap,64,16,0,2.4.45+dfsg-1ubuntu1.10|2.4.45+dfsg-1ubuntu1.11|2.4.45+dfsg-1ubuntu1.5|2.4.45+dfsg-1ubuntu1.7|2.4.45+dfsg-1ubuntu1.8|2.4.45+dfsg-1ubuntu1.9
+teastore,P3,pacote_so,ubuntu 18.04,openssl,19,10,0,1.1.1-1ubuntu2.1~18.04.13|1.1.1-1ubuntu2.1~18.04.15|1.1.1-1ubuntu2.1~18.04.17|1.1.1-1ubuntu2.1~18.04.19|1.1.1-1ubuntu2.1~18.04.21|1.1.1-1ubuntu2.1~18.04.22|1.1.1-1ubuntu2.1~18.04.8
+teastore,P3,pacote_so,ubuntu 18.04,p11-kit,4,2,0,0.23.9-2ubuntu0.1
+teastore,P3,pacote_so,ubuntu 18.04,pam,8,1,0,1.1.8-3.6ubuntu2.18.04.4
+teastore,P3,pacote_so,ubuntu 18.04,pcre3,2,1,0,2:8.39-9ubuntu0.1
+teastore,P3,pacote_so,ubuntu 18.04,perl,36,5,0,5.26.1-6ubuntu0.5|5.26.1-6ubuntu0.6|5.26.1-6ubuntu0.7
+teastore,P3,pacote_so,ubuntu 18.04,rsync,6,3,0,3.1.2-2.1ubuntu1.4|3.1.2-2.1ubuntu1.5|3.1.2-2.1ubuntu1.6
+teastore,P3,pacote_so,ubuntu 18.04,sqlite3,10,5,0,3.22.0-1ubuntu0.4|3.22.0-1ubuntu0.5|3.22.0-1ubuntu0.6|3.22.0-1ubuntu0.7
+teastore,P3,pacote_so,ubuntu 18.04,systemd,4,1,0,237-3ubuntu10.54
+teastore,P3,pacote_so,ubuntu 18.04,tar,2,1,0,1.29b-2ubuntu0.2
+teastore,P3,pacote_so,ubuntu 18.04,util-linux,18,1,0,2.31.1-0.4ubuntu3.7
+teastore,P3,pacote_so,ubuntu 18.04,xz-utils,4,1,0,5.2.2-1.3ubuntu0.1
+teastore,P3,pacote_so,ubuntu 18.04,zlib,4,2,0,1:1.2.11.dfsg-0ubuntu2.1|1:1.2.11.dfsg-0ubuntu2.2
+teastore,P3,semgrep,detected-bcrypt-hash,utilities/tools.descartes.teastore.database/setupData.sql,100,0,0,
+teastore,P3,semgrep,detected-private-key,utilities/tools.descartes.teastore.dockerbase/ssl/key.pem,1,0,0,
+teastore,P3*,confirmacao,P3*,ts-db-reset-unauth,1,0,0,
+teastore,P3*,dependencia,go,stdlib,155,80,0,"1.13.15, 1.14.7|1.15.13, 1.16.5|1.15.9, 1.16.1|1.16.10, 1.17.3|1.16.12, 1.17.5|1.16.14, 1.17.7|1.16.15, 1.17.8|1.16.8, 1.17.1|1.17.11, 1.18.3|1.17.12, 1.18.4|1.17.13, 1.18.5|1.17.9, 1.18.1|1.18.6, 1.19.1|1.18.7, 1.19.2|1.18.8, 1.19.3|1.18.9, 1.19.4|1.19.10, 1.20.5|1.19.6, 1.20.1|1.19.8, 1.20.3|1.19."
+teastore,P3*,dependencia,maven,com.fasterxml.jackson.core:jackson-core,36,3,0,"2.15.0|2.18.8, 2.21.4|2.21.7, 2.22.3, 2.18.11"
+teastore,P3*,dependencia,maven,com.fasterxml.jackson.core:jackson-databind,108,9,0,"2.12.6, 2.13.1|2.12.7.1, 2.13.4|2.12.7.1, 2.13.4.2|2.13.2.1, 2.12.6.1|2.14.0|2.18.11, 2.21.7, 2.22.3|2.18.8, 2.21.4, 3.1.4|2.18.8, 3.1.4, 2.21.4|2.21.7, 2.18.11, 2.22.3"
+teastore,P3*,dependencia,maven,com.google.code.gson:gson,10,1,0,2.8.9
+teastore,P3*,dependencia,maven,com.google.guava:guava,22,2,0,32.0.0-android|33.7.2
+teastore,P3*,dependencia,maven,com.rabbitmq:amqp-client,91,7,0,5.18.0|5.33.0|5.33.1|5.34.0|5.36.0|5.36.1
+teastore,P3*,dependencia,maven,com.squareup.okhttp3:okhttp,5,1,0,4.9.2
+teastore,P3*,dependencia,maven,com.squareup.okio:okio,10,1,0,"3.4.0, 1.17.6"
+teastore,P3*,dependencia,maven,log4j:log4j,6,0,0,
+teastore,P3*,dependencia,maven,org.apache.thrift:libthrift,40,5,0,"0.13.0|0.14.0|0.23.0|0.24.0|0.9.3-1, 0.12.0"
+teastore,P3*,dependencia,maven,org.apache.tomcat:tomcat-coyote,24,2,0,"11.0.0-M12, 10.1.14, 9.0.81, 8.5.94|9.0.68, 10.0.27, 10.1.1"
+teastore,P3*,dependencia,maven,org.hsqldb:hsqldb,4,1,0,2.7.1
+teastore,P3*,migrar_so,debian 10.10,,6,0,0,
+teastore,P3*,migrar_so,ubuntu 18.04,,1,0,0,
+teastore,P3*,pacote_so,debian 10.10,curl,234,8,1,7.64.0-4+deb10u3|7.64.0-4+deb10u4|7.64.0-4+deb10u6|7.64.0-4+deb10u9
+teastore,P3*,pacote_so,debian 10.10,cyrus-sasl2,24,1,0,2.1.27+dfsg-1+deb10u2
+teastore,P3*,pacote_so,debian 10.10,db5.3,6,1,1,
+teastore,P3*,pacote_so,debian 10.10,dpkg,12,1,0,1.19.8
+teastore,P3*,pacote_so,debian 10.10,e2fsprogs,24,1,1,
+teastore,P3*,pacote_so,debian 10.10,expat,198,17,0,2.2.6-2+deb10u2|2.2.6-2+deb10u3|2.2.6-2+deb10u5|2.2.6-2+deb10u6|2.2.6-2+deb10u7
+teastore,P3*,pacote_so,debian 10.10,freetype,36,3,0,2.9.1-3+deb10u3
+teastore,P3*,pacote_so,debian 10.10,gcc-8,36,2,1,
+teastore,P3*,pacote_so,debian 10.10,git,360,15,0,1:2.20.1-2+deb10u4|1:2.20.1-2+deb10u5|1:2.20.1-2+deb10u7|1:2.20.1-2+deb10u8|1:2.20.1-2+deb10u9
+teastore,P3*,pacote_so,debian 10.10,glibc,252,11,1,2.28-10+deb10u2|2.28-10+deb10u3|2.28-10+deb10u4
+teastore,P3*,pacote_so,debian 10.10,gmp,12,1,0,2:6.1.2+dfsg-4+deb10u1
+teastore,P3*,pacote_so,debian 10.10,gnupg2,66,1,1,
+teastore,P3*,pacote_so,debian 10.10,gnutls28,36,3,0,3.6.7-4+deb10u10|3.6.7-4+deb10u12|3.6.7-4+deb10u9
+teastore,P3*,pacote_so,debian 10.10,gzip,12,1,0,1.9-3+deb10u1
+teastore,P3*,pacote_so,debian 10.10,krb5,96,2,0,1.17-3+deb10u2|1.17-3+deb10u5
+teastore,P3*,pacote_so,debian 10.10,libgcrypt20,6,1,1,
+teastore,P3*,pacote_so,debian 10.10,libidn2,6,1,1,
+teastore,P3*,pacote_so,debian 10.10,libksba,24,2,0,1.3.5-2+deb10u1|1.3.5-2+deb10u2
+teastore,P3*,pacote_so,debian 10.10,libssh2,36,3,0,1.8.0-2.1+deb10u1
+teastore,P3*,pacote_so,debian 10.10,libtasn1-6,12,1,0,4.13-3+deb10u1
+teastore,P3*,pacote_so,debian 10.10,lz4,6,1,1,
+teastore,P3*,pacote_so,debian 10.10,ncurses,180,3,0,6.1+20181013-2+deb10u3|6.1+20181013-2+deb10u5
+teastore,P3*,pacote_so,debian 10.10,nghttp2,24,2,0,1.36.0-2+deb10u2
+teastore,P3*,pacote_so,debian 10.10,openldap,36,2,1,2.4.47+dfsg-3+deb10u7
+teastore,P3*,pacote_so,debian 10.10,openssh,24,2,0,1:7.9p1-10+deb10u3|1:7.9p1-10+deb10u4
+teastore,P3*,pacote_so,debian 10.10,openssl,204,9,0,1.1.1d-0+deb10u7|1.1.1d-0+deb10u8|1.1.1n-0+deb10u2|1.1.1n-0+deb10u3|1.1.1n-0+deb10u4|1.1.1n-0+deb10u5
+teastore,P3*,pacote_so,debian 10.10,pcre2,36,3,0,10.32-5+deb10u1
+teastore,P3*,pacote_so,debian 10.10,perl,24,1,1,
+teastore,P3*,pacote_so,debian 10.10,python2.7,504,11,1,2.7.16-2+deb10u2|2.7.16-2+deb10u3
+teastore,P3*,pacote_so,debian 10.10,sqlite3,36,4,1,3.27.2-3+deb10u2
+teastore,P3*,pacote_so,debian 10.10,subversion,24,1,0,1.10.4-1+deb10u3
+teastore,P3*,pacote_so,debian 10.10,systemd,72,5,1,241-7~deb10u9
+teastore,P3*,pacote_so,debian 10.10,wget,6,1,1,
+teastore,P3*,pacote_so,debian 10.10,xz-utils,24,1,0,5.2.4-1+deb10u1
+teastore,P3*,pacote_so,debian 10.10,zlib,30,3,1,1:1.2.11.dfsg-1+deb10u1|1:1.2.11.dfsg-1+deb10u2
+teastore,P3*,pacote_so,ubuntu 18.04,bash,2,1,0,4.4.18-2ubuntu1.3
+teastore,P3*,pacote_so,ubuntu 18.04,cyrus-sasl2,4,1,0,2.1.27~101-g0780600+dfsg-3ubuntu2.4
+teastore,P3*,pacote_so,ubuntu 18.04,dpkg,2,1,0,1.19.0.5ubuntu2.4
+teastore,P3*,pacote_so,ubuntu 18.04,e2fsprogs,8,1,0,1.44.1-1ubuntu1.4
+teastore,P3*,pacote_so,ubuntu 18.04,glibc,48,12,0,2.27-3ubuntu1.2|2.27-3ubuntu1.5
+teastore,P3*,pacote_so,ubuntu 18.04,gmp,2,1,0,2:6.1.2+dfsg-2ubuntu0.1
+teastore,P3*,pacote_so,ubuntu 18.04,gnupg2,33,2,0,2.2.4-1ubuntu1.3|2.2.4-1ubuntu1.5
+teastore,P3*,pacote_so,ubuntu 18.04,gnutls28,2,1,0,3.5.18-1ubuntu1.6
+teastore,P3*,pacote_so,ubuntu 18.04,gzip,2,1,0,1.6-5ubuntu1.2
+teastore,P3*,pacote_so,ubuntu 18.04,heimdal,135,8,0,7.5.0+dfsg-1ubuntu0.1|7.5.0+dfsg-1ubuntu0.2|7.5.0+dfsg-1ubuntu0.3|7.5.0+dfsg-1ubuntu0.4
+teastore,P3*,pacote_so,ubuntu 18.04,libdbi-perl,2,1,0,1.640-1ubuntu0.3
+teastore,P3*,pacote_so,ubuntu 18.04,libgcrypt20,2,1,0,1.8.1-4ubuntu1.3
+teastore,P3*,pacote_so,ubuntu 18.04,libksba,4,2,0,1.3.5-2ubuntu0.18.04.1|1.3.5-2ubuntu0.18.04.2
+teastore,P3*,pacote_so,ubuntu 18.04,lz4,2,1,0,0.0~r131-2ubuntu3.1
+teastore,P3*,pacote_so,ubuntu 18.04,mysql-5.7,6,3,0,5.7.30-0ubuntu0.18.04.1|5.7.42-0ubuntu0.18.04.1
+teastore,P3*,pacote_so,ubuntu 18.04,ncurses,30,3,0,6.1-1ubuntu1.18.04.1
+teastore,P3*,pacote_so,ubuntu 18.04,nettle,8,2,0,3.4-1ubuntu0.1|3.4.1-0ubuntu0.18.04.1
+teastore,P3*,pacote_so,ubuntu 18.04,openldap,64,16,0,2.4.45+dfsg-1ubuntu1.10|2.4.45+dfsg-1ubuntu1.11|2.4.45+dfsg-1ubuntu1.5|2.4.45+dfsg-1ubuntu1.7|2.4.45+dfsg-1ubuntu1.8|2.4.45+dfsg-1ubuntu1.9
+teastore,P3*,pacote_so,ubuntu 18.04,openssl,19,10,0,1.1.1-1ubuntu2.1~18.04.13|1.1.1-1ubuntu2.1~18.04.15|1.1.1-1ubuntu2.1~18.04.17|1.1.1-1ubuntu2.1~18.04.19|1.1.1-1ubuntu2.1~18.04.21|1.1.1-1ubuntu2.1~18.04.22|1.1.1-1ubuntu2.1~18.04.8
+teastore,P3*,pacote_so,ubuntu 18.04,p11-kit,4,2,0,0.23.9-2ubuntu0.1
+teastore,P3*,pacote_so,ubuntu 18.04,pam,8,1,0,1.1.8-3.6ubuntu2.18.04.4
+teastore,P3*,pacote_so,ubuntu 18.04,pcre3,2,1,0,2:8.39-9ubuntu0.1
+teastore,P3*,pacote_so,ubuntu 18.04,perl,36,5,0,5.26.1-6ubuntu0.5|5.26.1-6ubuntu0.6|5.26.1-6ubuntu0.7
+teastore,P3*,pacote_so,ubuntu 18.04,rsync,6,3,0,3.1.2-2.1ubuntu1.4|3.1.2-2.1ubuntu1.5|3.1.2-2.1ubuntu1.6
+teastore,P3*,pacote_so,ubuntu 18.04,sqlite3,10,5,0,3.22.0-1ubuntu0.4|3.22.0-1ubuntu0.5|3.22.0-1ubuntu0.6|3.22.0-1ubuntu0.7
+teastore,P3*,pacote_so,ubuntu 18.04,systemd,4,1,0,237-3ubuntu10.54
+teastore,P3*,pacote_so,ubuntu 18.04,tar,2,1,0,1.29b-2ubuntu0.2
+teastore,P3*,pacote_so,ubuntu 18.04,util-linux,18,1,0,2.31.1-0.4ubuntu3.7
+teastore,P3*,pacote_so,ubuntu 18.04,xz-utils,4,1,0,5.2.2-1.3ubuntu0.1
+teastore,P3*,pacote_so,ubuntu 18.04,zlib,4,2,0,1:1.2.11.dfsg-0ubuntu2.1|1:1.2.11.dfsg-0ubuntu2.2
+teastore,P3*,semgrep,detected-bcrypt-hash,utilities/tools.descartes.teastore.database/setupData.sql,100,0,0,
+teastore,P3*,semgrep,detected-private-key,utilities/tools.descartes.teastore.dockerbase/ssl/key.pem,1,0,0,
+teastore,A2,dependencia,go,stdlib,156,80,0,"1.13.15, 1.14.7|1.15.13, 1.16.5|1.15.9, 1.16.1|1.16.10, 1.17.3|1.16.12, 1.17.5|1.16.14, 1.17.7|1.16.15, 1.17.8|1.16.8, 1.17.1|1.17.11, 1.18.3|1.17.12, 1.18.4|1.17.13, 1.18.5|1.17.9, 1.18.1|1.18.6, 1.19.1|1.18.7, 1.19.2|1.18.8, 1.19.3|1.18.9, 1.19.4|1.19.10, 1.20.5|1.19.6, 1.20.1|1.19.8, 1.20.3|1.19."
+teastore,A2,dependencia,maven,com.fasterxml.jackson.core:jackson-core,36,3,0,"2.15.0|2.18.8, 2.21.4|2.21.7, 2.22.3, 2.18.11"
+teastore,A2,dependencia,maven,com.fasterxml.jackson.core:jackson-databind,108,9,0,"2.12.6, 2.13.1|2.12.7.1, 2.13.4|2.12.7.1, 2.13.4.2|2.13.2.1, 2.12.6.1|2.14.0|2.18.11, 2.21.7, 2.22.3|2.18.8, 2.21.4, 3.1.4|2.18.8, 3.1.4, 2.21.4|2.21.7, 2.18.11, 2.22.3"
+teastore,A2,dependencia,maven,com.google.code.gson:gson,10,1,0,2.8.9
+teastore,A2,dependencia,maven,com.google.guava:guava,22,2,0,32.0.0-android|33.7.2
+teastore,A2,dependencia,maven,com.rabbitmq:amqp-client,91,7,0,5.18.0|5.33.0|5.33.1|5.34.0|5.36.0|5.36.1
+teastore,A2,dependencia,maven,com.squareup.okhttp3:okhttp,5,1,0,4.9.2
+teastore,A2,dependencia,maven,com.squareup.okio:okio,10,1,0,"3.4.0, 1.17.6"
+teastore,A2,dependencia,maven,log4j:log4j,6,0,0,
+teastore,A2,dependencia,maven,org.apache.thrift:libthrift,40,5,0,"0.13.0|0.14.0|0.23.0|0.24.0|0.9.3-1, 0.12.0"
+teastore,A2,dependencia,maven,org.apache.tomcat:tomcat-coyote,24,2,0,"11.0.0-M12, 10.1.14, 9.0.81, 8.5.94|9.0.68, 10.0.27, 10.1.1"
+teastore,A2,dependencia,maven,org.hsqldb:hsqldb,4,1,0,2.7.1
+teastore,A2,migrar_so,debian 10.10,,6,0,0,
+teastore,A2,migrar_so,ubuntu 18.04,,1,0,0,
+teastore,A2,pacote_so,debian 10.10,curl,234,8,1,7.64.0-4+deb10u3|7.64.0-4+deb10u4|7.64.0-4+deb10u6|7.64.0-4+deb10u9
+teastore,A2,pacote_so,debian 10.10,cyrus-sasl2,24,1,0,2.1.27+dfsg-1+deb10u2
+teastore,A2,pacote_so,debian 10.10,db5.3,6,1,1,
+teastore,A2,pacote_so,debian 10.10,dpkg,12,1,0,1.19.8
+teastore,A2,pacote_so,debian 10.10,e2fsprogs,24,1,1,
+teastore,A2,pacote_so,debian 10.10,expat,204,17,0,2.2.6-2+deb10u2|2.2.6-2+deb10u3|2.2.6-2+deb10u5|2.2.6-2+deb10u6|2.2.6-2+deb10u7
+teastore,A2,pacote_so,debian 10.10,freetype,36,3,0,2.9.1-3+deb10u3
+teastore,A2,pacote_so,debian 10.10,gcc-8,36,2,1,
+teastore,A2,pacote_so,debian 10.10,git,360,15,0,1:2.20.1-2+deb10u4|1:2.20.1-2+deb10u5|1:2.20.1-2+deb10u7|1:2.20.1-2+deb10u8|1:2.20.1-2+deb10u9
+teastore,A2,pacote_so,debian 10.10,glibc,252,11,1,2.28-10+deb10u2|2.28-10+deb10u3|2.28-10+deb10u4
+teastore,A2,pacote_so,debian 10.10,gmp,12,1,0,2:6.1.2+dfsg-4+deb10u1
+teastore,A2,pacote_so,debian 10.10,gnupg2,66,1,1,
+teastore,A2,pacote_so,debian 10.10,gnutls28,36,3,0,3.6.7-4+deb10u10|3.6.7-4+deb10u12|3.6.7-4+deb10u9
+teastore,A2,pacote_so,debian 10.10,gzip,12,1,0,1.9-3+deb10u1
+teastore,A2,pacote_so,debian 10.10,krb5,96,2,0,1.17-3+deb10u2|1.17-3+deb10u5
+teastore,A2,pacote_so,debian 10.10,libgcrypt20,6,1,1,
+teastore,A2,pacote_so,debian 10.10,libidn2,6,1,1,
+teastore,A2,pacote_so,debian 10.10,libksba,24,2,0,1.3.5-2+deb10u1|1.3.5-2+deb10u2
+teastore,A2,pacote_so,debian 10.10,libssh2,36,3,0,1.8.0-2.1+deb10u1
+teastore,A2,pacote_so,debian 10.10,libtasn1-6,12,1,0,4.13-3+deb10u1
+teastore,A2,pacote_so,debian 10.10,lz4,6,1,1,
+teastore,A2,pacote_so,debian 10.10,ncurses,180,3,0,6.1+20181013-2+deb10u3|6.1+20181013-2+deb10u5
+teastore,A2,pacote_so,debian 10.10,nghttp2,24,2,0,1.36.0-2+deb10u2
+teastore,A2,pacote_so,debian 10.10,openldap,36,2,1,2.4.47+dfsg-3+deb10u7
+teastore,A2,pacote_so,debian 10.10,openssh,24,2,0,1:7.9p1-10+deb10u3|1:7.9p1-10+deb10u4
+teastore,A2,pacote_so,debian 10.10,openssl,204,9,0,1.1.1d-0+deb10u7|1.1.1d-0+deb10u8|1.1.1n-0+deb10u2|1.1.1n-0+deb10u3|1.1.1n-0+deb10u4|1.1.1n-0+deb10u5
+teastore,A2,pacote_so,debian 10.10,pcre2,36,3,0,10.32-5+deb10u1
+teastore,A2,pacote_so,debian 10.10,perl,24,1,1,
+teastore,A2,pacote_so,debian 10.10,python2.7,504,11,1,2.7.16-2+deb10u2|2.7.16-2+deb10u3
+teastore,A2,pacote_so,debian 10.10,sqlite3,36,4,1,3.27.2-3+deb10u2
+teastore,A2,pacote_so,debian 10.10,subversion,24,1,0,1.10.4-1+deb10u3
+teastore,A2,pacote_so,debian 10.10,systemd,72,5,1,241-7~deb10u9
+teastore,A2,pacote_so,debian 10.10,wget,6,1,1,
+teastore,A2,pacote_so,debian 10.10,xz-utils,24,1,0,5.2.4-1+deb10u1
+teastore,A2,pacote_so,debian 10.10,zlib,30,3,1,1:1.2.11.dfsg-1+deb10u1|1:1.2.11.dfsg-1+deb10u2
+teastore,A2,pacote_so,ubuntu 18.04,bash,2,1,0,4.4.18-2ubuntu1.3
+teastore,A2,pacote_so,ubuntu 18.04,cyrus-sasl2,4,1,0,2.1.27~101-g0780600+dfsg-3ubuntu2.4
+teastore,A2,pacote_so,ubuntu 18.04,dpkg,2,1,0,1.19.0.5ubuntu2.4
+teastore,A2,pacote_so,ubuntu 18.04,e2fsprogs,8,1,0,1.44.1-1ubuntu1.4
+teastore,A2,pacote_so,ubuntu 18.04,glibc,48,12,0,2.27-3ubuntu1.2|2.27-3ubuntu1.5
+teastore,A2,pacote_so,ubuntu 18.04,gmp,2,1,0,2:6.1.2+dfsg-2ubuntu0.1
+teastore,A2,pacote_so,ubuntu 18.04,gnupg2,33,2,0,2.2.4-1ubuntu1.3|2.2.4-1ubuntu1.5
+teastore,A2,pacote_so,ubuntu 18.04,gnutls28,2,1,0,3.5.18-1ubuntu1.6
+teastore,A2,pacote_so,ubuntu 18.04,gzip,2,1,0,1.6-5ubuntu1.2
+teastore,A2,pacote_so,ubuntu 18.04,heimdal,135,8,0,7.5.0+dfsg-1ubuntu0.1|7.5.0+dfsg-1ubuntu0.2|7.5.0+dfsg-1ubuntu0.3|7.5.0+dfsg-1ubuntu0.4
+teastore,A2,pacote_so,ubuntu 18.04,libdbi-perl,2,1,0,1.640-1ubuntu0.3
+teastore,A2,pacote_so,ubuntu 18.04,libgcrypt20,2,1,0,1.8.1-4ubuntu1.3
+teastore,A2,pacote_so,ubuntu 18.04,libksba,4,2,0,1.3.5-2ubuntu0.18.04.1|1.3.5-2ubuntu0.18.04.2
+teastore,A2,pacote_so,ubuntu 18.04,lz4,2,1,0,0.0~r131-2ubuntu3.1
+teastore,A2,pacote_so,ubuntu 18.04,mysql-5.7,6,3,0,5.7.30-0ubuntu0.18.04.1|5.7.42-0ubuntu0.18.04.1
+teastore,A2,pacote_so,ubuntu 18.04,ncurses,30,3,0,6.1-1ubuntu1.18.04.1
+teastore,A2,pacote_so,ubuntu 18.04,nettle,8,2,0,3.4-1ubuntu0.1|3.4.1-0ubuntu0.18.04.1
+teastore,A2,pacote_so,ubuntu 18.04,openldap,64,16,0,2.4.45+dfsg-1ubuntu1.10|2.4.45+dfsg-1ubuntu1.11|2.4.45+dfsg-1ubuntu1.5|2.4.45+dfsg-1ubuntu1.7|2.4.45+dfsg-1ubuntu1.8|2.4.45+dfsg-1ubuntu1.9
+teastore,A2,pacote_so,ubuntu 18.04,openssl,19,10,0,1.1.1-1ubuntu2.1~18.04.13|1.1.1-1ubuntu2.1~18.04.15|1.1.1-1ubuntu2.1~18.04.17|1.1.1-1ubuntu2.1~18.04.19|1.1.1-1ubuntu2.1~18.04.21|1.1.1-1ubuntu2.1~18.04.22|1.1.1-1ubuntu2.1~18.04.8
+teastore,A2,pacote_so,ubuntu 18.04,p11-kit,4,2,0,0.23.9-2ubuntu0.1
+teastore,A2,pacote_so,ubuntu 18.04,pam,8,1,0,1.1.8-3.6ubuntu2.18.04.4
+teastore,A2,pacote_so,ubuntu 18.04,pcre3,2,1,0,2:8.39-9ubuntu0.1
+teastore,A2,pacote_so,ubuntu 18.04,perl,36,5,0,5.26.1-6ubuntu0.5|5.26.1-6ubuntu0.6|5.26.1-6ubuntu0.7
+teastore,A2,pacote_so,ubuntu 18.04,rsync,6,3,0,3.1.2-2.1ubuntu1.4|3.1.2-2.1ubuntu1.5|3.1.2-2.1ubuntu1.6
+teastore,A2,pacote_so,ubuntu 18.04,sqlite3,10,5,0,3.22.0-1ubuntu0.4|3.22.0-1ubuntu0.5|3.22.0-1ubuntu0.6|3.22.0-1ubuntu0.7
+teastore,A2,pacote_so,ubuntu 18.04,systemd,4,1,0,237-3ubuntu10.54
+teastore,A2,pacote_so,ubuntu 18.04,tar,2,1,0,1.29b-2ubuntu0.2
+teastore,A2,pacote_so,ubuntu 18.04,util-linux,18,1,0,2.31.1-0.4ubuntu3.7
+teastore,A2,pacote_so,ubuntu 18.04,xz-utils,4,1,0,5.2.2-1.3ubuntu0.1
+teastore,A2,pacote_so,ubuntu 18.04,zlib,4,2,0,1:1.2.11.dfsg-0ubuntu2.1|1:1.2.11.dfsg-0ubuntu2.2
+teastore,A2,semgrep,detected-bcrypt-hash,utilities/tools.descartes.teastore.database/setupData.sql,100,0,0,
+teastore,A2,semgrep,detected-private-key,utilities/tools.descartes.teastore.dockerbase/ssl/key.pem,1,0,0,
+teastore,ESCOPO,confirmacao,P3*,ts-db-reset-unauth,1,0,0,
+teastore,ESCOPO,dependencia,go,stdlib,80,80,0,"1.13.15, 1.14.7|1.15.13, 1.16.5|1.15.9, 1.16.1|1.16.10, 1.17.3|1.16.12, 1.17.5|1.16.14, 1.17.7|1.16.15, 1.17.8|1.16.8, 1.17.1|1.17.11, 1.18.3|1.17.12, 1.18.4|1.17.13, 1.18.5|1.17.9, 1.18.1|1.18.6, 1.19.1|1.18.7, 1.19.2|1.18.8, 1.19.3|1.18.9, 1.19.4|1.19.10, 1.20.5|1.19.6, 1.20.1|1.19.8, 1.20.3|1.19."
+teastore,ESCOPO,dependencia,maven,com.fasterxml.jackson.core:jackson-core,18,3,0,"2.15.0|2.18.8, 2.21.4|2.21.7, 2.22.3, 2.18.11"
+teastore,ESCOPO,dependencia,maven,com.fasterxml.jackson.core:jackson-databind,54,9,0,"2.12.6, 2.13.1|2.12.7.1, 2.13.4|2.12.7.1, 2.13.4.2|2.13.2.1, 2.12.6.1|2.14.0|2.18.11, 2.21.7, 2.22.3|2.18.8, 2.21.4, 3.1.4|2.18.8, 3.1.4, 2.21.4|2.21.7, 2.18.11, 2.22.3"
+teastore,ESCOPO,dependencia,maven,com.google.code.gson:gson,5,1,0,2.8.9
+teastore,ESCOPO,dependencia,maven,com.google.guava:guava,12,2,0,32.0.0-android|33.7.2
+teastore,ESCOPO,dependencia,maven,com.rabbitmq:amqp-client,49,7,0,5.18.0|5.33.0|5.33.1|5.34.0|5.36.0|5.36.1
+teastore,ESCOPO,dependencia,maven,com.squareup.okhttp3:okhttp,5,1,0,4.9.2
+teastore,ESCOPO,dependencia,maven,com.squareup.okio:okio,5,1,0,"3.4.0, 1.17.6"
+teastore,ESCOPO,dependencia,maven,log4j:log4j,6,0,0,
+teastore,ESCOPO,dependencia,maven,org.apache.thrift:libthrift,25,5,0,"0.13.0|0.14.0|0.23.0|0.24.0|0.9.3-1, 0.12.0"
+teastore,ESCOPO,dependencia,maven,org.apache.tomcat:tomcat-coyote,12,2,0,"11.0.0-M12, 10.1.14, 9.0.81, 8.5.94|9.0.68, 10.0.27, 10.1.1"
+teastore,ESCOPO,dependencia,maven,org.hsqldb:hsqldb,3,1,0,2.7.1
+teastore,ESCOPO,migrar_so,debian 10.10,,6,0,0,
+teastore,ESCOPO,migrar_so,ubuntu 18.04,,1,0,0,
+teastore,ESCOPO,pacote_so,debian 10.10,curl,144,8,1,7.64.0-4+deb10u3|7.64.0-4+deb10u4|7.64.0-4+deb10u6|7.64.0-4+deb10u9
+teastore,ESCOPO,pacote_so,debian 10.10,cyrus-sasl2,12,1,0,2.1.27+dfsg-1+deb10u2
+teastore,ESCOPO,pacote_so,debian 10.10,db5.3,6,1,1,
+teastore,ESCOPO,pacote_so,debian 10.10,dpkg,6,1,0,1.19.8
+teastore,ESCOPO,pacote_so,debian 10.10,e2fsprogs,24,1,1,
+teastore,ESCOPO,pacote_so,debian 10.10,expat,102,17,0,2.2.6-2+deb10u2|2.2.6-2+deb10u3|2.2.6-2+deb10u5|2.2.6-2+deb10u6|2.2.6-2+deb10u7
+teastore,ESCOPO,pacote_so,debian 10.10,freetype,18,3,0,2.9.1-3+deb10u3
+teastore,ESCOPO,pacote_so,debian 10.10,gcc-8,36,2,1,
+teastore,ESCOPO,pacote_so,debian 10.10,git,180,15,0,1:2.20.1-2+deb10u4|1:2.20.1-2+deb10u5|1:2.20.1-2+deb10u7|1:2.20.1-2+deb10u8|1:2.20.1-2+deb10u9
+teastore,ESCOPO,pacote_so,debian 10.10,glibc,132,11,1,2.28-10+deb10u2|2.28-10+deb10u3|2.28-10+deb10u4
+teastore,ESCOPO,pacote_so,debian 10.10,gmp,6,1,0,2:6.1.2+dfsg-4+deb10u1
+teastore,ESCOPO,pacote_so,debian 10.10,gnupg2,66,1,1,
+teastore,ESCOPO,pacote_so,debian 10.10,gnutls28,18,3,0,3.6.7-4+deb10u10|3.6.7-4+deb10u12|3.6.7-4+deb10u9
+teastore,ESCOPO,pacote_so,debian 10.10,gzip,6,1,0,1.9-3+deb10u1
+teastore,ESCOPO,pacote_so,debian 10.10,krb5,48,2,0,1.17-3+deb10u2|1.17-3+deb10u5
+teastore,ESCOPO,pacote_so,debian 10.10,libgcrypt20,6,1,1,
+teastore,ESCOPO,pacote_so,debian 10.10,libidn2,6,1,1,
+teastore,ESCOPO,pacote_so,debian 10.10,libksba,12,2,0,1.3.5-2+deb10u1|1.3.5-2+deb10u2
+teastore,ESCOPO,pacote_so,debian 10.10,libssh2,18,3,0,1.8.0-2.1+deb10u1
+teastore,ESCOPO,pacote_so,debian 10.10,libtasn1-6,6,1,0,4.13-3+deb10u1
+teastore,ESCOPO,pacote_so,debian 10.10,lz4,6,1,1,
+teastore,ESCOPO,pacote_so,debian 10.10,ncurses,90,3,0,6.1+20181013-2+deb10u3|6.1+20181013-2+deb10u5
+teastore,ESCOPO,pacote_so,debian 10.10,nghttp2,12,2,0,1.36.0-2+deb10u2
+teastore,ESCOPO,pacote_so,debian 10.10,openldap,24,2,1,2.4.47+dfsg-3+deb10u7
+teastore,ESCOPO,pacote_so,debian 10.10,openssh,12,2,0,1:7.9p1-10+deb10u3|1:7.9p1-10+deb10u4
+teastore,ESCOPO,pacote_so,debian 10.10,openssl,108,9,0,1.1.1d-0+deb10u7|1.1.1d-0+deb10u8|1.1.1n-0+deb10u2|1.1.1n-0+deb10u3|1.1.1n-0+deb10u4|1.1.1n-0+deb10u5
+teastore,ESCOPO,pacote_so,debian 10.10,pcre2,18,3,0,10.32-5+deb10u1
+teastore,ESCOPO,pacote_so,debian 10.10,perl,48,2,1,
+teastore,ESCOPO,pacote_so,debian 10.10,python2.7,264,11,1,2.7.16-2+deb10u2|2.7.16-2+deb10u3
+teastore,ESCOPO,pacote_so,debian 10.10,sqlite3,24,4,1,3.27.2-3+deb10u2
+teastore,ESCOPO,pacote_so,debian 10.10,subversion,12,1,0,1.10.4-1+deb10u3
+teastore,ESCOPO,pacote_so,debian 10.10,systemd,60,5,1,241-7~deb10u9
+teastore,ESCOPO,pacote_so,debian 10.10,wget,6,1,1,
+teastore,ESCOPO,pacote_so,debian 10.10,xz-utils,12,1,0,5.2.4-1+deb10u1
+teastore,ESCOPO,pacote_so,debian 10.10,zlib,18,3,1,1:1.2.11.dfsg-1+deb10u1|1:1.2.11.dfsg-1+deb10u2
+teastore,ESCOPO,pacote_so,ubuntu 18.04,bash,1,1,0,4.4.18-2ubuntu1.3
+teastore,ESCOPO,pacote_so,ubuntu 18.04,cyrus-sasl2,2,1,0,2.1.27~101-g0780600+dfsg-3ubuntu2.4
+teastore,ESCOPO,pacote_so,ubuntu 18.04,dpkg,1,1,0,1.19.0.5ubuntu2.4
+teastore,ESCOPO,pacote_so,ubuntu 18.04,e2fsprogs,4,1,0,1.44.1-1ubuntu1.4
+teastore,ESCOPO,pacote_so,ubuntu 18.04,glibc,24,12,0,2.27-3ubuntu1.2|2.27-3ubuntu1.5
+teastore,ESCOPO,pacote_so,ubuntu 18.04,gmp,1,1,0,2:6.1.2+dfsg-2ubuntu0.1
+teastore,ESCOPO,pacote_so,ubuntu 18.04,gnupg2,22,2,0,2.2.4-1ubuntu1.3|2.2.4-1ubuntu1.5
+teastore,ESCOPO,pacote_so,ubuntu 18.04,gnutls28,1,1,0,3.5.18-1ubuntu1.6
+teastore,ESCOPO,pacote_so,ubuntu 18.04,gzip,1,1,0,1.6-5ubuntu1.2
+teastore,ESCOPO,pacote_so,ubuntu 18.04,heimdal,72,8,0,7.5.0+dfsg-1ubuntu0.1|7.5.0+dfsg-1ubuntu0.2|7.5.0+dfsg-1ubuntu0.3|7.5.0+dfsg-1ubuntu0.4
+teastore,ESCOPO,pacote_so,ubuntu 18.04,libdbi-perl,1,1,0,1.640-1ubuntu0.3
+teastore,ESCOPO,pacote_so,ubuntu 18.04,libgcrypt20,1,1,0,1.8.1-4ubuntu1.3
+teastore,ESCOPO,pacote_so,ubuntu 18.04,libksba,2,2,0,1.3.5-2ubuntu0.18.04.1|1.3.5-2ubuntu0.18.04.2
+teastore,ESCOPO,pacote_so,ubuntu 18.04,lz4,1,1,0,0.0~r131-2ubuntu3.1
+teastore,ESCOPO,pacote_so,ubuntu 18.04,mysql-5.7,3,3,0,5.7.30-0ubuntu0.18.04.1|5.7.42-0ubuntu0.18.04.1
+teastore,ESCOPO,pacote_so,ubuntu 18.04,ncurses,15,3,0,6.1-1ubuntu1.18.04.1
+teastore,ESCOPO,pacote_so,ubuntu 18.04,nettle,4,2,0,3.4-1ubuntu0.1|3.4.1-0ubuntu0.18.04.1
+teastore,ESCOPO,pacote_so,ubuntu 18.04,openldap,32,16,0,2.4.45+dfsg-1ubuntu1.10|2.4.45+dfsg-1ubuntu1.11|2.4.45+dfsg-1ubuntu1.5|2.4.45+dfsg-1ubuntu1.7|2.4.45+dfsg-1ubuntu1.8|2.4.45+dfsg-1ubuntu1.9
+teastore,ESCOPO,pacote_so,ubuntu 18.04,openssl,10,10,0,1.1.1-1ubuntu2.1~18.04.13|1.1.1-1ubuntu2.1~18.04.15|1.1.1-1ubuntu2.1~18.04.17|1.1.1-1ubuntu2.1~18.04.19|1.1.1-1ubuntu2.1~18.04.21|1.1.1-1ubuntu2.1~18.04.22|1.1.1-1ubuntu2.1~18.04.8
+teastore,ESCOPO,pacote_so,ubuntu 18.04,p11-kit,2,2,0,0.23.9-2ubuntu0.1
+teastore,ESCOPO,pacote_so,ubuntu 18.04,pam,4,1,0,1.1.8-3.6ubuntu2.18.04.4
+teastore,ESCOPO,pacote_so,ubuntu 18.04,pcre3,1,1,0,2:8.39-9ubuntu0.1
+teastore,ESCOPO,pacote_so,ubuntu 18.04,perl,20,5,0,5.26.1-6ubuntu0.5|5.26.1-6ubuntu0.6|5.26.1-6ubuntu0.7
+teastore,ESCOPO,pacote_so,ubuntu 18.04,rsync,3,3,0,3.1.2-2.1ubuntu1.4|3.1.2-2.1ubuntu1.5|3.1.2-2.1ubuntu1.6
+teastore,ESCOPO,pacote_so,ubuntu 18.04,sqlite3,5,5,0,3.22.0-1ubuntu0.4|3.22.0-1ubuntu0.5|3.22.0-1ubuntu0.6|3.22.0-1ubuntu0.7
+teastore,ESCOPO,pacote_so,ubuntu 18.04,systemd,2,1,0,237-3ubuntu10.54
+teastore,ESCOPO,pacote_so,ubuntu 18.04,tar,1,1,0,1.29b-2ubuntu0.2
+teastore,ESCOPO,pacote_so,ubuntu 18.04,util-linux,9,1,0,2.31.1-0.4ubuntu3.7
+teastore,ESCOPO,pacote_so,ubuntu 18.04,xz-utils,2,1,0,5.2.2-1.3ubuntu0.1
+teastore,ESCOPO,pacote_so,ubuntu 18.04,zlib,2,2,0,1:1.2.11.dfsg-0ubuntu2.1|1:1.2.11.dfsg-0ubuntu2.2
+teastore,ESCOPO,semgrep,detected-bcrypt-hash,utilities/tools.descartes.teastore.database/setupData.sql,100,0,0,
+teastore,ESCOPO,semgrep,detected-private-key,utilities/tools.descartes.teastore.dockerbase/ssl/key.pem,1,0,0,
+teastore,P4-reg,confirmacao,P3*,ts-db-reset-unauth,1,0,0,
+teastore,P4-reg,dependencia,go,stdlib,80,80,0,"1.13.15, 1.14.7|1.15.13, 1.16.5|1.15.9, 1.16.1|1.16.10, 1.17.3|1.16.12, 1.17.5|1.16.14, 1.17.7|1.16.15, 1.17.8|1.16.8, 1.17.1|1.17.11, 1.18.3|1.17.12, 1.18.4|1.17.13, 1.18.5|1.17.9, 1.18.1|1.18.6, 1.19.1|1.18.7, 1.19.2|1.18.8, 1.19.3|1.18.9, 1.19.4|1.19.10, 1.20.5|1.19.6, 1.20.1|1.19.8, 1.20.3|1.19."
+teastore,P4-reg,dependencia,maven,com.fasterxml.jackson.core:jackson-core,15,3,0,"2.15.0|2.18.8, 2.21.4|2.21.7, 2.22.3, 2.18.11"
+teastore,P4-reg,dependencia,maven,com.fasterxml.jackson.core:jackson-databind,45,9,0,"2.12.6, 2.13.1|2.12.7.1, 2.13.4|2.12.7.1, 2.13.4.2|2.13.2.1, 2.12.6.1|2.14.0|2.18.11, 2.21.7, 2.22.3|2.18.8, 2.21.4, 3.1.4|2.18.8, 3.1.4, 2.21.4|2.21.7, 2.18.11, 2.22.3"
+teastore,P4-reg,dependencia,maven,com.google.code.gson:gson,5,1,0,2.8.9
+teastore,P4-reg,dependencia,maven,com.google.guava:guava,12,2,0,32.0.0-android|33.7.2
+teastore,P4-reg,dependencia,maven,com.rabbitmq:amqp-client,49,7,0,5.18.0|5.33.0|5.33.1|5.34.0|5.36.0|5.36.1
+teastore,P4-reg,dependencia,maven,com.squareup.okhttp3:okhttp,5,1,0,4.9.2
+teastore,P4-reg,dependencia,maven,com.squareup.okio:okio,5,1,0,"3.4.0, 1.17.6"
+teastore,P4-reg,dependencia,maven,log4j:log4j,6,0,0,
+teastore,P4-reg,dependencia,maven,org.apache.thrift:libthrift,25,5,0,"0.13.0|0.14.0|0.23.0|0.24.0|0.9.3-1, 0.12.0"
+teastore,P4-reg,dependencia,maven,org.apache.tomcat:tomcat-coyote,12,2,0,"11.0.0-M12, 10.1.14, 9.0.81, 8.5.94|9.0.68, 10.0.27, 10.1.1"
+teastore,P4-reg,dependencia,maven,org.hsqldb:hsqldb,3,1,0,2.7.1
+teastore,P4-reg,migrar_so,debian 10.10,,6,0,0,
+teastore,P4-reg,migrar_so,ubuntu 18.04,,1,0,0,
+teastore,P4-reg,pacote_so,debian 10.10,freetype,3,3,0,2.9.1-3+deb10u3
+teastore,P4-reg,pacote_so,debian 10.10,gcc-8,36,2,1,
+teastore,P4-reg,pacote_so,debian 10.10,glibc,132,11,1,2.28-10+deb10u2|2.28-10+deb10u3|2.28-10+deb10u4
+teastore,P4-reg,pacote_so,debian 10.10,ncurses,90,3,0,6.1+20181013-2+deb10u3|6.1+20181013-2+deb10u5
+teastore,P4-reg,pacote_so,debian 10.10,nghttp2,6,1,0,1.36.0-2+deb10u2
+teastore,P4-reg,pacote_so,debian 10.10,openssl,108,9,0,1.1.1d-0+deb10u7|1.1.1d-0+deb10u8|1.1.1n-0+deb10u2|1.1.1n-0+deb10u3|1.1.1n-0+deb10u4|1.1.1n-0+deb10u5
+teastore,P4-reg,pacote_so,debian 10.10,zlib,18,3,1,1:1.2.11.dfsg-1+deb10u1|1:1.2.11.dfsg-1+deb10u2
+teastore,P4-reg,pacote_so,ubuntu 18.04,bash,1,1,0,4.4.18-2ubuntu1.3
+teastore,P4-reg,pacote_so,ubuntu 18.04,glibc,24,12,0,2.27-3ubuntu1.2|2.27-3ubuntu1.5
+teastore,P4-reg,pacote_so,ubuntu 18.04,gzip,1,1,0,1.6-5ubuntu1.2
+teastore,P4-reg,pacote_so,ubuntu 18.04,libgcrypt20,1,1,0,1.8.1-4ubuntu1.3
+teastore,P4-reg,pacote_so,ubuntu 18.04,lz4,1,1,0,0.0~r131-2ubuntu3.1
+teastore,P4-reg,pacote_so,ubuntu 18.04,openssl,10,10,0,1.1.1-1ubuntu2.1~18.04.13|1.1.1-1ubuntu2.1~18.04.15|1.1.1-1ubuntu2.1~18.04.17|1.1.1-1ubuntu2.1~18.04.19|1.1.1-1ubuntu2.1~18.04.21|1.1.1-1ubuntu2.1~18.04.22|1.1.1-1ubuntu2.1~18.04.8
+teastore,P4-reg,pacote_so,ubuntu 18.04,pcre3,1,1,0,2:8.39-9ubuntu0.1
+teastore,P4-reg,pacote_so,ubuntu 18.04,rsync,2,2,0,3.1.2-2.1ubuntu1.4|3.1.2-2.1ubuntu1.5
+teastore,P4-reg,pacote_so,ubuntu 18.04,systemd,2,1,0,237-3ubuntu10.54
+teastore,P4-reg,pacote_so,ubuntu 18.04,util-linux,9,1,0,2.31.1-0.4ubuntu3.7
+teastore,P4-reg,pacote_so,ubuntu 18.04,xz-utils,2,1,0,5.2.2-1.3ubuntu0.1
+teastore,P4-reg,pacote_so,ubuntu 18.04,zlib,2,2,0,1:1.2.11.dfsg-0ubuntu2.1|1:1.2.11.dfsg-0ubuntu2.2
+teastore,P4-reg,semgrep,detected-bcrypt-hash,utilities/tools.descartes.teastore.database/setupData.sql,100,0,0,
+teastore,P4-reg,semgrep,detected-private-key,utilities/tools.descartes.teastore.dockerbase/ssl/key.pem,1,0,0,
+teastore,P4,confirmacao,P3*,ts-db-reset-unauth,1,0,0,
+teastore,P4,dependencia,go,stdlib,80,80,0,"1.13.15, 1.14.7|1.15.13, 1.16.5|1.15.9, 1.16.1|1.16.10, 1.17.3|1.16.12, 1.17.5|1.16.14, 1.17.7|1.16.15, 1.17.8|1.16.8, 1.17.1|1.17.11, 1.18.3|1.17.12, 1.18.4|1.17.13, 1.18.5|1.17.9, 1.18.1|1.18.6, 1.19.1|1.18.7, 1.19.2|1.18.8, 1.19.3|1.18.9, 1.19.4|1.19.10, 1.20.5|1.19.6, 1.20.1|1.19.8, 1.20.3|1.19."
+teastore,P4,dependencia,maven,com.fasterxml.jackson.core:jackson-core,15,3,0,"2.15.0|2.18.8, 2.21.4|2.21.7, 2.22.3, 2.18.11"
+teastore,P4,dependencia,maven,com.fasterxml.jackson.core:jackson-databind,45,9,0,"2.12.6, 2.13.1|2.12.7.1, 2.13.4|2.12.7.1, 2.13.4.2|2.13.2.1, 2.12.6.1|2.14.0|2.18.11, 2.21.7, 2.22.3|2.18.8, 2.21.4, 3.1.4|2.18.8, 3.1.4, 2.21.4|2.21.7, 2.18.11, 2.22.3"
+teastore,P4,dependencia,maven,com.google.code.gson:gson,5,1,0,2.8.9
+teastore,P4,dependencia,maven,com.google.guava:guava,12,2,0,32.0.0-android|33.7.2
+teastore,P4,dependencia,maven,com.rabbitmq:amqp-client,49,7,0,5.18.0|5.33.0|5.33.1|5.34.0|5.36.0|5.36.1
+teastore,P4,dependencia,maven,com.squareup.okhttp3:okhttp,5,1,0,4.9.2
+teastore,P4,dependencia,maven,com.squareup.okio:okio,5,1,0,"3.4.0, 1.17.6"
+teastore,P4,dependencia,maven,log4j:log4j,6,0,0,
+teastore,P4,dependencia,maven,org.apache.thrift:libthrift,25,5,0,"0.13.0|0.14.0|0.23.0|0.24.0|0.9.3-1, 0.12.0"
+teastore,P4,dependencia,maven,org.apache.tomcat:tomcat-coyote,12,2,0,"11.0.0-M12, 10.1.14, 9.0.81, 8.5.94|9.0.68, 10.0.27, 10.1.1"
+teastore,P4,dependencia,maven,org.hsqldb:hsqldb,3,1,0,2.7.1
+teastore,P4,migrar_so,debian 10.10,,6,0,0,
+teastore,P4,migrar_so,ubuntu 18.04,,1,0,0,
+teastore,P4,pacote_so,debian 10.10,freetype,3,3,0,2.9.1-3+deb10u3
+teastore,P4,pacote_so,debian 10.10,gcc-8,36,2,1,
+teastore,P4,pacote_so,debian 10.10,glibc,132,11,1,2.28-10+deb10u2|2.28-10+deb10u3|2.28-10+deb10u4
+teastore,P4,pacote_so,debian 10.10,gzip,6,1,0,1.9-3+deb10u1
+teastore,P4,pacote_so,debian 10.10,libgcrypt20,6,1,1,
+teastore,P4,pacote_so,debian 10.10,lz4,6,1,1,
+teastore,P4,pacote_so,debian 10.10,ncurses,90,3,0,6.1+20181013-2+deb10u3|6.1+20181013-2+deb10u5
+teastore,P4,pacote_so,debian 10.10,nghttp2,6,1,0,1.36.0-2+deb10u2
+teastore,P4,pacote_so,debian 10.10,openssl,108,9,0,1.1.1d-0+deb10u7|1.1.1d-0+deb10u8|1.1.1n-0+deb10u2|1.1.1n-0+deb10u3|1.1.1n-0+deb10u4|1.1.1n-0+deb10u5
+teastore,P4,pacote_so,debian 10.10,systemd,60,5,1,241-7~deb10u9
+teastore,P4,pacote_so,debian 10.10,xz-utils,12,1,0,5.2.4-1+deb10u1
+teastore,P4,pacote_so,debian 10.10,zlib,18,3,1,1:1.2.11.dfsg-1+deb10u1|1:1.2.11.dfsg-1+deb10u2
+teastore,P4,pacote_so,ubuntu 18.04,bash,1,1,0,4.4.18-2ubuntu1.3
+teastore,P4,pacote_so,ubuntu 18.04,glibc,24,12,0,2.27-3ubuntu1.2|2.27-3ubuntu1.5
+teastore,P4,pacote_so,ubuntu 18.04,gzip,1,1,0,1.6-5ubuntu1.2
+teastore,P4,pacote_so,ubuntu 18.04,libgcrypt20,1,1,0,1.8.1-4ubuntu1.3
+teastore,P4,pacote_so,ubuntu 18.04,lz4,1,1,0,0.0~r131-2ubuntu3.1
+teastore,P4,pacote_so,ubuntu 18.04,ncurses,15,3,0,6.1-1ubuntu1.18.04.1
+teastore,P4,pacote_so,ubuntu 18.04,openssl,10,10,0,1.1.1-1ubuntu2.1~18.04.13|1.1.1-1ubuntu2.1~18.04.15|1.1.1-1ubuntu2.1~18.04.17|1.1.1-1ubuntu2.1~18.04.19|1.1.1-1ubuntu2.1~18.04.21|1.1.1-1ubuntu2.1~18.04.22|1.1.1-1ubuntu2.1~18.04.8
+teastore,P4,pacote_so,ubuntu 18.04,pcre3,1,1,0,2:8.39-9ubuntu0.1
+teastore,P4,pacote_so,ubuntu 18.04,rsync,2,2,0,3.1.2-2.1ubuntu1.4|3.1.2-2.1ubuntu1.5
+teastore,P4,pacote_so,ubuntu 18.04,systemd,2,1,0,237-3ubuntu10.54
+teastore,P4,pacote_so,ubuntu 18.04,util-linux,9,1,0,2.31.1-0.4ubuntu3.7
+teastore,P4,pacote_so,ubuntu 18.04,xz-utils,2,1,0,5.2.2-1.3ubuntu0.1
+teastore,P4,pacote_so,ubuntu 18.04,zlib,2,2,0,1:1.2.11.dfsg-0ubuntu2.1|1:1.2.11.dfsg-0ubuntu2.2
+teastore,P4,semgrep,detected-bcrypt-hash,utilities/tools.descartes.teastore.database/setupData.sql,100,0,0,
+teastore,P4,semgrep,detected-private-key,utilities/tools.descartes.teastore.dockerbase/ssl/key.pem,1,0,0,
+juice-shop,P1,dependencia,npm,crypto-js,4,2,0,4.0.0|4.2.0
+juice-shop,P1,dependencia,npm,dottie,2,1,0,2.0.7
+juice-shop,P1,dependencia,npm,express-jwt,2,1,0,6.0.0
+juice-shop,P1,dependencia,npm,handlebars,2,1,0,4.7.9
+juice-shop,P1,dependencia,npm,ip,1,1,1,
+juice-shop,P1,dependencia,npm,jsonwebtoken,4,1,0,4.2.2
+juice-shop,P1,dependencia,npm,lodash,4,2,0,4.17.12|4.18.0
+juice-shop,P1,dependencia,npm,vm2,49,25,1,3.10.0|3.10.2|3.10.5|3.11.0|3.11.1|3.11.2|3.11.3|3.11.6|3.11.7|3.11.8|3.12.1|3.12.2|3.9.18
+juice-shop,P1,pacote_so,debian 12.11,glibc,1,1,1,
+juice-shop,P1,pacote_so,debian 12.11,openssl,6,3,0,3.0.18-1~deb12u2|3.0.19-1~deb12u2|3.0.20-1~deb12u2
+juice-shop,P2,dependencia,npm,body-parser,2,1,0,"2.4.0, 1.20.9"
+juice-shop,P2,dependencia,npm,brace-expansion,120,5,0,"1.1.18, 2.1.4, 3.0.6, 5.0.9|5.0.10, 3.0.7, 2.1.5, 1.1.19|5.0.5, 3.0.2, 2.0.3, 1.1.13|5.0.7, 1.1.16, 2.1.2|5.0.8, 3.0.3, 2.1.3, 1.1.17"
+juice-shop,P2,dependencia,npm,braces,2,1,0,3.0.3
+juice-shop,P2,dependencia,npm,compression,2,1,0,1.8.2
+juice-shop,P2,dependencia,npm,crypto-js,4,2,0,4.0.0|4.2.0
+juice-shop,P2,dependencia,npm,decode-uri-component,4,2,0,0.5.0|0.5.1
+juice-shop,P2,dependencia,npm,decompress,3,3,1,
+juice-shop,P2,dependencia,npm,diff,2,1,0,"8.0.3, 5.2.2, 4.0.4, 3.5.1"
+juice-shop,P2,dependencia,npm,dottie,2,1,0,2.0.7
+juice-shop,P2,dependencia,npm,engine.io,2,1,0,6.6.7
+juice-shop,P2,dependencia,npm,express-jwt,2,1,0,6.0.0
+juice-shop,P2,dependencia,npm,glob,2,1,0,"11.1.0, 10.5.0"
+juice-shop,P2,dependencia,npm,handlebars,14,7,0,4.7.10|4.7.9
+juice-shop,P2,dependencia,npm,http-cache-semantics,2,1,0,4.1.1
+juice-shop,P2,dependencia,npm,ip,1,1,1,
+juice-shop,P2,dependencia,npm,ip-address,2,1,0,10.3.1
+juice-shop,P2,dependencia,npm,js-yaml,6,3,0,"3.15.0, 4.3.0|4.3.1, 3.15.1|4.3.2, 3.15.2"
+juice-shop,P2,dependencia,npm,jsonwebtoken,12,3,0,4.2.2|9.0.0
+juice-shop,P2,dependencia,npm,jws,4,2,0,"3.2.3, 4.0.1|>=3.0.0"
+juice-shop,P2,dependencia,npm,lodash,6,3,0,4.17.12|4.17.21|4.18.0
+juice-shop,P2,dependencia,npm,lodash.set,1,1,1,
+juice-shop,P2,dependencia,npm,minimatch,26,1,0,"10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3"
+juice-shop,P2,dependencia,npm,moment,4,2,0,2.19.3|2.29.2
+juice-shop,P2,dependencia,npm,multer,16,8,0,"2.0.0|2.1.0|2.1.1|2.2.0, 3.0.0-alpha.2|2.3.0"
+juice-shop,P2,dependencia,npm,proxy-addr,2,1,0,2.0.8
+juice-shop,P2,dependencia,npm,qs,6,3,0,6.14.1|6.14.2|6.16.0
+juice-shop,P2,dependencia,npm,sanitize-html,2,1,0,2.7.1
+juice-shop,P2,dependencia,npm,sequelize,2,1,0,6.37.8
+juice-shop,P2,dependencia,npm,socket.io,2,1,0,"2.5.1, 4.6.2"
+juice-shop,P2,dependencia,npm,socket.io-parser,6,3,0,"3.3.5, 3.4.4, 4.2.6|4.2.3, 3.4.3, 3.3.4|4.2.7, 3.4.5, 3.3.6"
+juice-shop,P2,dependencia,npm,tar,36,6,0,7.5.18|7.5.19|7.5.21|7.5.7|7.5.8
+juice-shop,P2,dependencia,npm,tar-fs,2,1,0,"3.1.1, 2.1.4, 1.16.6"
+juice-shop,P2,dependencia,npm,uuid,2,1,0,"11.1.1, 12.0.1, 13.0.1"
+juice-shop,P2,dependencia,npm,validator,2,1,0,13.15.22
+juice-shop,P2,dependencia,npm,vm2,85,43,1,3.10.0|3.10.2|3.10.5|3.11.0|3.11.1|3.11.2|3.11.3|3.11.4|3.11.6|3.11.7|3.11.8|3.12.1|3.12.2|3.9.18
+juice-shop,P2,dependencia,npm,ws,6,2,0,"5.2.5, 6.2.4, 7.5.11, 8.21.0|8.20.1"
+juice-shop,P2,pacote_so,debian 12.11,gcc-12,8,2,1,
+juice-shop,P2,pacote_so,debian 12.11,glibc,11,9,1,2.36-9+deb12u11|2.36-9+deb12u14
+juice-shop,P2,pacote_so,debian 12.11,openssl,32,16,0,3.0.18-1~deb12u2|3.0.19-1~deb12u2|3.0.20-1~deb12u2|3.0.22-1~deb12u1|3.0.22-1~deb12u2
+juice-shop,P2,semgrep,code-string-concat,routes/userProfile.ts,1,0,0,
+juice-shop,P2,semgrep,detected-google-oauth-url,frontend/src/app/login/login.component.ts,1,0,0,
+juice-shop,P2,semgrep,express-sequelize-injection,routes/login.ts,1,0,0,
+juice-shop,P2,semgrep,express-sequelize-injection,routes/search.ts,1,0,0,
+juice-shop,P2,semgrep,insecure-document-method,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,P2,semgrep,insecure-innerhtml,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,P2,unidade,OWASP ZAP (ativo),juice-shop-0083,1,0,0,
+juice-shop,P3,dependencia,npm,body-parser,2,1,0,"2.4.0, 1.20.9"
+juice-shop,P3,dependencia,npm,brace-expansion,120,5,0,"1.1.18, 2.1.4, 3.0.6, 5.0.9|5.0.10, 3.0.7, 2.1.5, 1.1.19|5.0.5, 3.0.2, 2.0.3, 1.1.13|5.0.7, 1.1.16, 2.1.2|5.0.8, 3.0.3, 2.1.3, 1.1.17"
+juice-shop,P3,dependencia,npm,braces,2,1,0,3.0.3
+juice-shop,P3,dependencia,npm,compression,2,1,0,1.8.2
+juice-shop,P3,dependencia,npm,crypto-js,4,2,0,4.0.0|4.2.0
+juice-shop,P3,dependencia,npm,decode-uri-component,4,2,0,0.5.0|0.5.1
+juice-shop,P3,dependencia,npm,decompress,3,3,1,
+juice-shop,P3,dependencia,npm,diff,2,1,0,"8.0.3, 5.2.2, 4.0.4, 3.5.1"
+juice-shop,P3,dependencia,npm,dottie,2,1,0,2.0.7
+juice-shop,P3,dependencia,npm,engine.io,2,1,0,6.6.7
+juice-shop,P3,dependencia,npm,express-jwt,2,1,0,6.0.0
+juice-shop,P3,dependencia,npm,glob,2,1,0,"11.1.0, 10.5.0"
+juice-shop,P3,dependencia,npm,handlebars,9,7,0,4.7.10|4.7.9
+juice-shop,P3,dependencia,npm,http-cache-semantics,2,1,0,4.1.1
+juice-shop,P3,dependencia,npm,ip,1,1,1,
+juice-shop,P3,dependencia,npm,ip-address,2,1,0,10.3.1
+juice-shop,P3,dependencia,npm,js-yaml,6,3,0,"3.15.0, 4.3.0|4.3.1, 3.15.1|4.3.2, 3.15.2"
+juice-shop,P3,dependencia,npm,jsonwebtoken,12,3,0,4.2.2|9.0.0
+juice-shop,P3,dependencia,npm,jws,4,2,0,"3.2.3, 4.0.1|>=3.0.0"
+juice-shop,P3,dependencia,npm,lodash,4,3,0,4.17.12|4.17.21|4.18.0
+juice-shop,P3,dependencia,npm,lodash.set,1,1,1,
+juice-shop,P3,dependencia,npm,minimatch,26,1,0,"10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3"
+juice-shop,P3,dependencia,npm,moment,4,2,0,2.19.3|2.29.2
+juice-shop,P3,dependencia,npm,multer,16,8,0,"2.0.0|2.1.0|2.1.1|2.2.0, 3.0.0-alpha.2|2.3.0"
+juice-shop,P3,dependencia,npm,proxy-addr,2,1,0,2.0.8
+juice-shop,P3,dependencia,npm,qs,6,3,0,6.14.1|6.14.2|6.16.0
+juice-shop,P3,dependencia,npm,sanitize-html,2,1,0,2.7.1
+juice-shop,P3,dependencia,npm,sequelize,1,1,0,6.37.8
+juice-shop,P3,dependencia,npm,socket.io,2,1,0,"2.5.1, 4.6.2"
+juice-shop,P3,dependencia,npm,socket.io-parser,6,3,0,"3.3.5, 3.4.4, 4.2.6|4.2.3, 3.4.3, 3.3.4|4.2.7, 3.4.5, 3.3.6"
+juice-shop,P3,dependencia,npm,tar,36,6,0,7.5.18|7.5.19|7.5.21|7.5.7|7.5.8
+juice-shop,P3,dependencia,npm,tar-fs,2,1,0,"3.1.1, 2.1.4, 1.16.6"
+juice-shop,P3,dependencia,npm,uuid,2,1,0,"11.1.1, 12.0.1, 13.0.1"
+juice-shop,P3,dependencia,npm,validator,2,1,0,13.15.22
+juice-shop,P3,dependencia,npm,vm2,74,43,1,3.10.0|3.10.2|3.10.5|3.11.0|3.11.1|3.11.2|3.11.3|3.11.4|3.11.6|3.11.7|3.11.8|3.12.1|3.12.2|3.9.18
+juice-shop,P3,dependencia,npm,ws,6,2,0,"5.2.5, 6.2.4, 7.5.11, 8.21.0|8.20.1"
+juice-shop,P3,pacote_so,debian 12.11,gcc-12,8,2,1,
+juice-shop,P3,pacote_so,debian 12.11,glibc,11,9,1,2.36-9+deb12u11|2.36-9+deb12u14
+juice-shop,P3,pacote_so,debian 12.11,openssl,32,16,0,3.0.18-1~deb12u2|3.0.19-1~deb12u2|3.0.20-1~deb12u2|3.0.22-1~deb12u1|3.0.22-1~deb12u2
+juice-shop,P3,semgrep,code-string-concat,routes/userProfile.ts,1,0,0,
+juice-shop,P3,semgrep,detected-google-oauth-url,frontend/src/app/login/login.component.ts,1,0,0,
+juice-shop,P3,semgrep,express-sequelize-injection,routes/login.ts,1,0,0,
+juice-shop,P3,semgrep,express-sequelize-injection,routes/search.ts,1,0,0,
+juice-shop,P3,semgrep,insecure-document-method,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,P3,semgrep,insecure-innerhtml,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,P3,unidade,OWASP ZAP (ativo),juice-shop-0083,1,0,0,
+juice-shop,P3*,confirmacao,P3*,js-exposed-metrics,1,0,0,
+juice-shop,P3*,dependencia,npm,body-parser,2,1,0,"2.4.0, 1.20.9"
+juice-shop,P3*,dependencia,npm,brace-expansion,120,5,0,"1.1.18, 2.1.4, 3.0.6, 5.0.9|5.0.10, 3.0.7, 2.1.5, 1.1.19|5.0.5, 3.0.2, 2.0.3, 1.1.13|5.0.7, 1.1.16, 2.1.2|5.0.8, 3.0.3, 2.1.3, 1.1.17"
+juice-shop,P3*,dependencia,npm,braces,2,1,0,3.0.3
+juice-shop,P3*,dependencia,npm,compression,2,1,0,1.8.2
+juice-shop,P3*,dependencia,npm,crypto-js,4,2,0,4.0.0|4.2.0
+juice-shop,P3*,dependencia,npm,decode-uri-component,4,2,0,0.5.0|0.5.1
+juice-shop,P3*,dependencia,npm,decompress,3,3,1,
+juice-shop,P3*,dependencia,npm,diff,2,1,0,"8.0.3, 5.2.2, 4.0.4, 3.5.1"
+juice-shop,P3*,dependencia,npm,dottie,2,1,0,2.0.7
+juice-shop,P3*,dependencia,npm,engine.io,2,1,0,6.6.7
+juice-shop,P3*,dependencia,npm,express-jwt,2,1,0,6.0.0
+juice-shop,P3*,dependencia,npm,glob,2,1,0,"11.1.0, 10.5.0"
+juice-shop,P3*,dependencia,npm,handlebars,9,7,0,4.7.10|4.7.9
+juice-shop,P3*,dependencia,npm,http-cache-semantics,2,1,0,4.1.1
+juice-shop,P3*,dependencia,npm,ip,1,1,1,
+juice-shop,P3*,dependencia,npm,ip-address,2,1,0,10.3.1
+juice-shop,P3*,dependencia,npm,js-yaml,6,3,0,"3.15.0, 4.3.0|4.3.1, 3.15.1|4.3.2, 3.15.2"
+juice-shop,P3*,dependencia,npm,jsonwebtoken,12,3,0,4.2.2|9.0.0
+juice-shop,P3*,dependencia,npm,jws,4,2,0,"3.2.3, 4.0.1|>=3.0.0"
+juice-shop,P3*,dependencia,npm,lodash,4,3,0,4.17.12|4.17.21|4.18.0
+juice-shop,P3*,dependencia,npm,lodash.set,1,1,1,
+juice-shop,P3*,dependencia,npm,minimatch,26,1,0,"10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3"
+juice-shop,P3*,dependencia,npm,moment,4,2,0,2.19.3|2.29.2
+juice-shop,P3*,dependencia,npm,multer,16,8,0,"2.0.0|2.1.0|2.1.1|2.2.0, 3.0.0-alpha.2|2.3.0"
+juice-shop,P3*,dependencia,npm,proxy-addr,2,1,0,2.0.8
+juice-shop,P3*,dependencia,npm,qs,6,3,0,6.14.1|6.14.2|6.16.0
+juice-shop,P3*,dependencia,npm,sanitize-html,2,1,0,2.7.1
+juice-shop,P3*,dependencia,npm,sequelize,1,1,0,6.37.8
+juice-shop,P3*,dependencia,npm,socket.io,2,1,0,"2.5.1, 4.6.2"
+juice-shop,P3*,dependencia,npm,socket.io-parser,6,3,0,"3.3.5, 3.4.4, 4.2.6|4.2.3, 3.4.3, 3.3.4|4.2.7, 3.4.5, 3.3.6"
+juice-shop,P3*,dependencia,npm,tar,36,6,0,7.5.18|7.5.19|7.5.21|7.5.7|7.5.8
+juice-shop,P3*,dependencia,npm,tar-fs,2,1,0,"3.1.1, 2.1.4, 1.16.6"
+juice-shop,P3*,dependencia,npm,uuid,2,1,0,"11.1.1, 12.0.1, 13.0.1"
+juice-shop,P3*,dependencia,npm,validator,2,1,0,13.15.22
+juice-shop,P3*,dependencia,npm,vm2,74,43,1,3.10.0|3.10.2|3.10.5|3.11.0|3.11.1|3.11.2|3.11.3|3.11.4|3.11.6|3.11.7|3.11.8|3.12.1|3.12.2|3.9.18
+juice-shop,P3*,dependencia,npm,ws,6,2,0,"5.2.5, 6.2.4, 7.5.11, 8.21.0|8.20.1"
+juice-shop,P3*,pacote_so,debian 12.11,gcc-12,8,2,1,
+juice-shop,P3*,pacote_so,debian 12.11,glibc,11,9,1,2.36-9+deb12u11|2.36-9+deb12u14
+juice-shop,P3*,pacote_so,debian 12.11,openssl,32,16,0,3.0.18-1~deb12u2|3.0.19-1~deb12u2|3.0.20-1~deb12u2|3.0.22-1~deb12u1|3.0.22-1~deb12u2
+juice-shop,P3*,semgrep,code-string-concat,routes/userProfile.ts,1,0,0,
+juice-shop,P3*,semgrep,detected-google-oauth-url,frontend/src/app/login/login.component.ts,1,0,0,
+juice-shop,P3*,semgrep,express-sequelize-injection,routes/login.ts,1,0,0,
+juice-shop,P3*,semgrep,express-sequelize-injection,routes/search.ts,1,0,0,
+juice-shop,P3*,semgrep,insecure-document-method,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,P3*,semgrep,insecure-innerhtml,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,P3*,unidade,OWASP ZAP (ativo),juice-shop-0083,1,0,0,
+juice-shop,A2,dependencia,npm,body-parser,2,1,0,"2.4.0, 1.20.9"
+juice-shop,A2,dependencia,npm,brace-expansion,120,5,0,"1.1.18, 2.1.4, 3.0.6, 5.0.9|5.0.10, 3.0.7, 2.1.5, 1.1.19|5.0.5, 3.0.2, 2.0.3, 1.1.13|5.0.7, 1.1.16, 2.1.2|5.0.8, 3.0.3, 2.1.3, 1.1.17"
+juice-shop,A2,dependencia,npm,braces,2,1,0,3.0.3
+juice-shop,A2,dependencia,npm,compression,2,1,0,1.8.2
+juice-shop,A2,dependencia,npm,crypto-js,4,2,0,4.0.0|4.2.0
+juice-shop,A2,dependencia,npm,decode-uri-component,4,2,0,0.5.0|0.5.1
+juice-shop,A2,dependencia,npm,decompress,3,3,1,
+juice-shop,A2,dependencia,npm,diff,2,1,0,"8.0.3, 5.2.2, 4.0.4, 3.5.1"
+juice-shop,A2,dependencia,npm,dottie,2,1,0,2.0.7
+juice-shop,A2,dependencia,npm,engine.io,2,1,0,6.6.7
+juice-shop,A2,dependencia,npm,express-jwt,2,1,0,6.0.0
+juice-shop,A2,dependencia,npm,glob,2,1,0,"11.1.0, 10.5.0"
+juice-shop,A2,dependencia,npm,handlebars,10,7,0,4.7.10|4.7.9
+juice-shop,A2,dependencia,npm,http-cache-semantics,2,1,0,4.1.1
+juice-shop,A2,dependencia,npm,ip,1,1,1,
+juice-shop,A2,dependencia,npm,ip-address,2,1,0,10.3.1
+juice-shop,A2,dependencia,npm,js-yaml,6,3,0,"3.15.0, 4.3.0|4.3.1, 3.15.1|4.3.2, 3.15.2"
+juice-shop,A2,dependencia,npm,jsonwebtoken,12,3,0,4.2.2|9.0.0
+juice-shop,A2,dependencia,npm,jws,4,2,0,"3.2.3, 4.0.1|>=3.0.0"
+juice-shop,A2,dependencia,npm,lodash,5,3,0,4.17.12|4.17.21|4.18.0
+juice-shop,A2,dependencia,npm,lodash.set,1,1,1,
+juice-shop,A2,dependencia,npm,minimatch,26,1,0,"10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3"
+juice-shop,A2,dependencia,npm,moment,4,2,0,2.19.3|2.29.2
+juice-shop,A2,dependencia,npm,multer,16,8,0,"2.0.0|2.1.0|2.1.1|2.2.0, 3.0.0-alpha.2|2.3.0"
+juice-shop,A2,dependencia,npm,proxy-addr,2,1,0,2.0.8
+juice-shop,A2,dependencia,npm,qs,6,3,0,6.14.1|6.14.2|6.16.0
+juice-shop,A2,dependencia,npm,sanitize-html,2,1,0,2.7.1
+juice-shop,A2,dependencia,npm,sequelize,1,1,0,6.37.8
+juice-shop,A2,dependencia,npm,socket.io,2,1,0,"2.5.1, 4.6.2"
+juice-shop,A2,dependencia,npm,socket.io-parser,6,3,0,"3.3.5, 3.4.4, 4.2.6|4.2.3, 3.4.3, 3.3.4|4.2.7, 3.4.5, 3.3.6"
+juice-shop,A2,dependencia,npm,tar,36,6,0,7.5.18|7.5.19|7.5.21|7.5.7|7.5.8
+juice-shop,A2,dependencia,npm,tar-fs,2,1,0,"3.1.1, 2.1.4, 1.16.6"
+juice-shop,A2,dependencia,npm,uuid,2,1,0,"11.1.1, 12.0.1, 13.0.1"
+juice-shop,A2,dependencia,npm,validator,2,1,0,13.15.22
+juice-shop,A2,dependencia,npm,vm2,82,43,1,3.10.0|3.10.2|3.10.5|3.11.0|3.11.1|3.11.2|3.11.3|3.11.4|3.11.6|3.11.7|3.11.8|3.12.1|3.12.2|3.9.18
+juice-shop,A2,dependencia,npm,ws,6,2,0,"5.2.5, 6.2.4, 7.5.11, 8.21.0|8.20.1"
+juice-shop,A2,pacote_so,debian 12.11,gcc-12,8,2,1,
+juice-shop,A2,pacote_so,debian 12.11,glibc,11,9,1,2.36-9+deb12u11|2.36-9+deb12u14
+juice-shop,A2,pacote_so,debian 12.11,openssl,32,16,0,3.0.18-1~deb12u2|3.0.19-1~deb12u2|3.0.20-1~deb12u2|3.0.22-1~deb12u1|3.0.22-1~deb12u2
+juice-shop,A2,semgrep,code-string-concat,routes/userProfile.ts,1,0,0,
+juice-shop,A2,semgrep,detected-google-oauth-url,frontend/src/app/login/login.component.ts,1,0,0,
+juice-shop,A2,semgrep,express-sequelize-injection,routes/login.ts,1,0,0,
+juice-shop,A2,semgrep,express-sequelize-injection,routes/search.ts,1,0,0,
+juice-shop,A2,semgrep,insecure-document-method,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,A2,semgrep,insecure-innerhtml,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,A2,unidade,OWASP ZAP (ativo),juice-shop-0083,1,0,0,
+juice-shop,ESCOPO,confirmacao,P3*,js-exposed-metrics,1,0,0,
+juice-shop,ESCOPO,dependencia,npm,body-parser,1,1,0,"2.4.0, 1.20.9"
+juice-shop,ESCOPO,dependencia,npm,brace-expansion,60,5,0,"1.1.18, 2.1.4, 3.0.6, 5.0.9|5.0.10, 3.0.7, 2.1.5, 1.1.19|5.0.5, 3.0.2, 2.0.3, 1.1.13|5.0.7, 1.1.16, 2.1.2|5.0.8, 3.0.3, 2.1.3, 1.1.17"
+juice-shop,ESCOPO,dependencia,npm,braces,1,1,0,3.0.3
+juice-shop,ESCOPO,dependencia,npm,compression,1,1,0,1.8.2
+juice-shop,ESCOPO,dependencia,npm,crypto-js,2,2,0,4.0.0|4.2.0
+juice-shop,ESCOPO,dependencia,npm,decode-uri-component,2,2,0,0.5.0|0.5.1
+juice-shop,ESCOPO,dependencia,npm,decompress,3,3,1,
+juice-shop,ESCOPO,dependencia,npm,diff,1,1,0,"8.0.3, 5.2.2, 4.0.4, 3.5.1"
+juice-shop,ESCOPO,dependencia,npm,dottie,1,1,0,2.0.7
+juice-shop,ESCOPO,dependencia,npm,engine.io,1,1,0,6.6.7
+juice-shop,ESCOPO,dependencia,npm,express-jwt,1,1,0,6.0.0
+juice-shop,ESCOPO,dependencia,npm,glob,1,1,0,"11.1.0, 10.5.0"
+juice-shop,ESCOPO,dependencia,npm,handlebars,7,7,0,4.7.10|4.7.9
+juice-shop,ESCOPO,dependencia,npm,http-cache-semantics,1,1,0,4.1.1
+juice-shop,ESCOPO,dependencia,npm,ip,1,1,1,
+juice-shop,ESCOPO,dependencia,npm,ip-address,1,1,0,10.3.1
+juice-shop,ESCOPO,dependencia,npm,js-yaml,3,3,0,"3.15.0, 4.3.0|4.3.1, 3.15.1|4.3.2, 3.15.2"
+juice-shop,ESCOPO,dependencia,npm,jsonwebtoken,6,3,0,4.2.2|9.0.0
+juice-shop,ESCOPO,dependencia,npm,jws,2,2,0,"3.2.3, 4.0.1|>=3.0.0"
+juice-shop,ESCOPO,dependencia,npm,lodash,3,3,0,4.17.12|4.17.21|4.18.0
+juice-shop,ESCOPO,dependencia,npm,lodash.set,1,1,1,
+juice-shop,ESCOPO,dependencia,npm,minimatch,13,1,0,"10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3"
+juice-shop,ESCOPO,dependencia,npm,moment,2,2,0,2.19.3|2.29.2
+juice-shop,ESCOPO,dependencia,npm,multer,8,8,0,"2.0.0|2.1.0|2.1.1|2.2.0, 3.0.0-alpha.2|2.3.0"
+juice-shop,ESCOPO,dependencia,npm,proxy-addr,1,1,0,2.0.8
+juice-shop,ESCOPO,dependencia,npm,qs,3,3,0,6.14.1|6.14.2|6.16.0
+juice-shop,ESCOPO,dependencia,npm,sanitize-html,1,1,0,2.7.1
+juice-shop,ESCOPO,dependencia,npm,sequelize,1,1,0,6.37.8
+juice-shop,ESCOPO,dependencia,npm,socket.io,1,1,0,"2.5.1, 4.6.2"
+juice-shop,ESCOPO,dependencia,npm,socket.io-parser,3,3,0,"3.3.5, 3.4.4, 4.2.6|4.2.3, 3.4.3, 3.3.4|4.2.7, 3.4.5, 3.3.6"
+juice-shop,ESCOPO,dependencia,npm,tar,18,6,0,7.5.18|7.5.19|7.5.21|7.5.7|7.5.8
+juice-shop,ESCOPO,dependencia,npm,tar-fs,1,1,0,"3.1.1, 2.1.4, 1.16.6"
+juice-shop,ESCOPO,dependencia,npm,uuid,1,1,0,"11.1.1, 12.0.1, 13.0.1"
+juice-shop,ESCOPO,dependencia,npm,validator,1,1,0,13.15.22
+juice-shop,ESCOPO,dependencia,npm,vm2,43,43,1,3.10.0|3.10.2|3.10.5|3.11.0|3.11.1|3.11.2|3.11.3|3.11.4|3.11.6|3.11.7|3.11.8|3.12.1|3.12.2|3.9.18
+juice-shop,ESCOPO,dependencia,npm,ws,3,2,0,"5.2.5, 6.2.4, 7.5.11, 8.21.0|8.20.1"
+juice-shop,ESCOPO,pacote_so,debian 12.11,gcc-12,8,2,1,
+juice-shop,ESCOPO,pacote_so,debian 12.11,glibc,9,9,1,2.36-9+deb12u11|2.36-9+deb12u14
+juice-shop,ESCOPO,pacote_so,debian 12.11,openssl,16,16,0,3.0.18-1~deb12u2|3.0.19-1~deb12u2|3.0.20-1~deb12u2|3.0.22-1~deb12u1|3.0.22-1~deb12u2
+juice-shop,ESCOPO,semgrep,code-string-concat,routes/userProfile.ts,1,0,0,
+juice-shop,ESCOPO,semgrep,detected-google-oauth-url,frontend/src/app/login/login.component.ts,1,0,0,
+juice-shop,ESCOPO,semgrep,express-sequelize-injection,routes/login.ts,1,0,0,
+juice-shop,ESCOPO,semgrep,express-sequelize-injection,routes/search.ts,1,0,0,
+juice-shop,ESCOPO,semgrep,insecure-document-method,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,ESCOPO,semgrep,insecure-innerhtml,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,ESCOPO,unidade,OWASP ZAP (ativo),juice-shop-0083,1,0,0,
+juice-shop,P4-reg,confirmacao,P3*,js-exposed-metrics,1,0,0,
+juice-shop,P4-reg,dependencia,npm,body-parser,1,1,0,"2.4.0, 1.20.9"
+juice-shop,P4-reg,dependencia,npm,brace-expansion,60,5,0,"1.1.18, 2.1.4, 3.0.6, 5.0.9|5.0.10, 3.0.7, 2.1.5, 1.1.19|5.0.5, 3.0.2, 2.0.3, 1.1.13|5.0.7, 1.1.16, 2.1.2|5.0.8, 3.0.3, 2.1.3, 1.1.17"
+juice-shop,P4-reg,dependencia,npm,braces,1,1,0,3.0.3
+juice-shop,P4-reg,dependencia,npm,compression,1,1,0,1.8.2
+juice-shop,P4-reg,dependencia,npm,crypto-js,2,2,0,4.0.0|4.2.0
+juice-shop,P4-reg,dependencia,npm,decode-uri-component,2,2,0,0.5.0|0.5.1
+juice-shop,P4-reg,dependencia,npm,decompress,3,3,1,
+juice-shop,P4-reg,dependencia,npm,dottie,1,1,0,2.0.7
+juice-shop,P4-reg,dependencia,npm,engine.io,1,1,0,6.6.7
+juice-shop,P4-reg,dependencia,npm,express-jwt,1,1,0,6.0.0
+juice-shop,P4-reg,dependencia,npm,glob,1,1,0,"11.1.0, 10.5.0"
+juice-shop,P4-reg,dependencia,npm,handlebars,7,7,0,4.7.10|4.7.9
+juice-shop,P4-reg,dependencia,npm,http-cache-semantics,1,1,0,4.1.1
+juice-shop,P4-reg,dependencia,npm,ip,1,1,1,
+juice-shop,P4-reg,dependencia,npm,js-yaml,3,3,0,"3.15.0, 4.3.0|4.3.1, 3.15.1|4.3.2, 3.15.2"
+juice-shop,P4-reg,dependencia,npm,jsonwebtoken,6,3,0,4.2.2|9.0.0
+juice-shop,P4-reg,dependencia,npm,jws,2,2,0,"3.2.3, 4.0.1|>=3.0.0"
+juice-shop,P4-reg,dependencia,npm,lodash,3,3,0,4.17.12|4.17.21|4.18.0
+juice-shop,P4-reg,dependencia,npm,minimatch,13,1,0,"10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3"
+juice-shop,P4-reg,dependencia,npm,moment,2,2,0,2.19.3|2.29.2
+juice-shop,P4-reg,dependencia,npm,multer,8,8,0,"2.0.0|2.1.0|2.1.1|2.2.0, 3.0.0-alpha.2|2.3.0"
+juice-shop,P4-reg,dependencia,npm,proxy-addr,1,1,0,2.0.8
+juice-shop,P4-reg,dependencia,npm,qs,3,3,0,6.14.1|6.14.2|6.16.0
+juice-shop,P4-reg,dependencia,npm,sanitize-html,1,1,0,2.7.1
+juice-shop,P4-reg,dependencia,npm,sequelize,1,1,0,6.37.8
+juice-shop,P4-reg,dependencia,npm,socket.io,1,1,0,"2.5.1, 4.6.2"
+juice-shop,P4-reg,dependencia,npm,socket.io-parser,3,3,0,"3.3.5, 3.4.4, 4.2.6|4.2.3, 3.4.3, 3.3.4|4.2.7, 3.4.5, 3.3.6"
+juice-shop,P4-reg,dependencia,npm,uuid,1,1,0,"11.1.1, 12.0.1, 13.0.1"
+juice-shop,P4-reg,dependencia,npm,validator,1,1,0,13.15.22
+juice-shop,P4-reg,dependencia,npm,vm2,43,43,1,3.10.0|3.10.2|3.10.5|3.11.0|3.11.1|3.11.2|3.11.3|3.11.4|3.11.6|3.11.7|3.11.8|3.12.1|3.12.2|3.9.18
+juice-shop,P4-reg,dependencia,npm,ws,3,2,0,"5.2.5, 6.2.4, 7.5.11, 8.21.0|8.20.1"
+juice-shop,P4-reg,pacote_so,debian 12.11,gcc-12,8,2,1,
+juice-shop,P4-reg,pacote_so,debian 12.11,glibc,9,9,1,2.36-9+deb12u11|2.36-9+deb12u14
+juice-shop,P4-reg,semgrep,code-string-concat,routes/userProfile.ts,1,0,0,
+juice-shop,P4-reg,semgrep,detected-google-oauth-url,frontend/src/app/login/login.component.ts,1,0,0,
+juice-shop,P4-reg,semgrep,express-sequelize-injection,routes/login.ts,1,0,0,
+juice-shop,P4-reg,semgrep,express-sequelize-injection,routes/search.ts,1,0,0,
+juice-shop,P4-reg,semgrep,insecure-document-method,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,P4-reg,semgrep,insecure-innerhtml,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,P4-reg,unidade,OWASP ZAP (ativo),juice-shop-0083,1,0,0,
+juice-shop,P4,confirmacao,P3*,js-exposed-metrics,1,0,0,
+juice-shop,P4,dependencia,npm,body-parser,1,1,0,"2.4.0, 1.20.9"
+juice-shop,P4,dependencia,npm,brace-expansion,60,5,0,"1.1.18, 2.1.4, 3.0.6, 5.0.9|5.0.10, 3.0.7, 2.1.5, 1.1.19|5.0.5, 3.0.2, 2.0.3, 1.1.13|5.0.7, 1.1.16, 2.1.2|5.0.8, 3.0.3, 2.1.3, 1.1.17"
+juice-shop,P4,dependencia,npm,braces,1,1,0,3.0.3
+juice-shop,P4,dependencia,npm,compression,1,1,0,1.8.2
+juice-shop,P4,dependencia,npm,crypto-js,2,2,0,4.0.0|4.2.0
+juice-shop,P4,dependencia,npm,decode-uri-component,2,2,0,0.5.0|0.5.1
+juice-shop,P4,dependencia,npm,decompress,3,3,1,
+juice-shop,P4,dependencia,npm,dottie,1,1,0,2.0.7
+juice-shop,P4,dependencia,npm,engine.io,1,1,0,6.6.7
+juice-shop,P4,dependencia,npm,express-jwt,1,1,0,6.0.0
+juice-shop,P4,dependencia,npm,glob,1,1,0,"11.1.0, 10.5.0"
+juice-shop,P4,dependencia,npm,handlebars,7,7,0,4.7.10|4.7.9
+juice-shop,P4,dependencia,npm,http-cache-semantics,1,1,0,4.1.1
+juice-shop,P4,dependencia,npm,ip,1,1,1,
+juice-shop,P4,dependencia,npm,js-yaml,3,3,0,"3.15.0, 4.3.0|4.3.1, 3.15.1|4.3.2, 3.15.2"
+juice-shop,P4,dependencia,npm,jsonwebtoken,6,3,0,4.2.2|9.0.0
+juice-shop,P4,dependencia,npm,jws,2,2,0,"3.2.3, 4.0.1|>=3.0.0"
+juice-shop,P4,dependencia,npm,lodash,3,3,0,4.17.12|4.17.21|4.18.0
+juice-shop,P4,dependencia,npm,minimatch,13,1,0,"10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3"
+juice-shop,P4,dependencia,npm,moment,2,2,0,2.19.3|2.29.2
+juice-shop,P4,dependencia,npm,multer,8,8,0,"2.0.0|2.1.0|2.1.1|2.2.0, 3.0.0-alpha.2|2.3.0"
+juice-shop,P4,dependencia,npm,proxy-addr,1,1,0,2.0.8
+juice-shop,P4,dependencia,npm,qs,3,3,0,6.14.1|6.14.2|6.16.0
+juice-shop,P4,dependencia,npm,sanitize-html,1,1,0,2.7.1
+juice-shop,P4,dependencia,npm,sequelize,1,1,0,6.37.8
+juice-shop,P4,dependencia,npm,socket.io,1,1,0,"2.5.1, 4.6.2"
+juice-shop,P4,dependencia,npm,socket.io-parser,3,3,0,"3.3.5, 3.4.4, 4.2.6|4.2.3, 3.4.3, 3.3.4|4.2.7, 3.4.5, 3.3.6"
+juice-shop,P4,dependencia,npm,uuid,1,1,0,"11.1.1, 12.0.1, 13.0.1"
+juice-shop,P4,dependencia,npm,validator,1,1,0,13.15.22
+juice-shop,P4,dependencia,npm,vm2,43,43,1,3.10.0|3.10.2|3.10.5|3.11.0|3.11.1|3.11.2|3.11.3|3.11.4|3.11.6|3.11.7|3.11.8|3.12.1|3.12.2|3.9.18
+juice-shop,P4,dependencia,npm,ws,3,2,0,"5.2.5, 6.2.4, 7.5.11, 8.21.0|8.20.1"
+juice-shop,P4,pacote_so,debian 12.11,gcc-12,8,2,1,
+juice-shop,P4,pacote_so,debian 12.11,glibc,9,9,1,2.36-9+deb12u11|2.36-9+deb12u14
+juice-shop,P4,semgrep,code-string-concat,routes/userProfile.ts,1,0,0,
+juice-shop,P4,semgrep,detected-google-oauth-url,frontend/src/app/login/login.component.ts,1,0,0,
+juice-shop,P4,semgrep,express-sequelize-injection,routes/login.ts,1,0,0,
+juice-shop,P4,semgrep,express-sequelize-injection,routes/search.ts,1,0,0,
+juice-shop,P4,semgrep,insecure-document-method,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,P4,semgrep,insecure-innerhtml,frontend/src/hacking-instructor/index.ts,1,0,0,
+juice-shop,P4,unidade,OWASP ZAP (ativo),juice-shop-0083,1,0,0,

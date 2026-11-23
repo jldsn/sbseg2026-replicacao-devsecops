@@ -1,0 +1,22 @@
+﻿aplicacao,vulnerability_id,nome,motivo,entra_na_fila_p4,sinais_indiretos,sinais_diretos,rota_dast,status,evidencia,score_confirmacao,adiciona_bloqueio_p4_a,adiciona_bloqueio_p4_b,adiciona_bloqueio_p4_b_alt
+teastore,ts-session-key,Sessão em cookie assinada com chave fixa,nao_detectada,0,0,0,,nao_aplicavel,,,0,0,0
+teastore,ts-db-reset-unauth,Regeneração do banco sem autenticação via GET,apenas_indireta,1,18,0,/dataBaseAction,confirmada,catalogo-teastore.json,9.1,1,1,0
+teastore,ts-csrf,Formulários e ações sem token anti-CSRF,nao_detectada,0,0,0,/loginAction,nao_aplicavel,,,0,0,0
+teastore,ts-cookie-flags,Cookie de sessão sem HttpOnly e Secure,abaixo_do_limiar,0,0,11,/loginAction,nao_aplicavel,,,0,0,0
+teastore,ts-output-encoding,Saída sem escape nas páginas JSP,perda_p2_p3,1,16,171,/profile,nao_executada,,,0,0,0
+teastore,ts-tls-trust-all,Cliente REST aceita qualquer certificado TLS,perda_p2_p3,1,153,2,,nao_executada,,,0,0,0
+teastore,ts-weak-bcrypt-cost,BCrypt com custo 6,nao_detectada,0,0,0,,nao_aplicavel,,,0,0,0
+teastore,ts-db-root-password,Senha root do MySQL fixa no Dockerfile,nao_detectada,0,0,0,,nao_aplicavel,,,0,0,0
+teastore,ts-containers-root,Contêineres executando como root,abaixo_do_limiar,0,0,31,,nao_aplicavel,,,0,0,0
+teastore,ts-no-network-policy,Serviços internos e banco sem NetworkPolicy,abaixo_do_limiar,0,0,7,,nao_aplicavel,,,0,0,0
+juice-shop,js-nosqli-reviews,Injeção NoSQL nas avaliações,nao_detectada,0,0,0,/rest/products/reviews,nao_aplicavel,,,0,0,0
+juice-shop,js-redirect,Redirecionamento aberto por lista permissiva,abaixo_do_limiar,0,0,2,/redirect,nao_aplicavel,,,0,0,0
+juice-shop,js-dom-xss,XSS DOM na busca,apenas_indireta,1,10,0,,nao_executada,,,0,0,0
+juice-shop,js-reflected-xss,XSS refletido no rastreamento de pedido,perda_p2_p3,1,11,1,/rest/track-order,nao_executada,,,0,0,0
+juice-shop,js-directory-listing,Listagem do diretório /ftp,abaixo_do_limiar,0,0,4,/ftp,nao_aplicavel,,,0,0,0
+juice-shop,js-access-log,Logs de acesso expostos,abaixo_do_limiar,0,0,4,/support/logs,nao_aplicavel,,,0,0,0
+juice-shop,js-exposed-metrics,Métricas Prometheus expostas sem autenticação,apenas_indireta,1,5,0,/metrics,confirmada,juice-http.json,5.3,1,0,1
+juice-shop,js-register-admin,Atribuição em massa do papel admin no cadastro,nao_detectada,0,0,0,/api/Users,nao_aplicavel,,,0,0,0
+juice-shop,js-hardcoded-key,Chave privada JWT e chave HMAC no código,abaixo_do_limiar,0,0,3,,nao_aplicavel,,,0,0,0
+juice-shop,js-xxe,XXE no upload de XML,abaixo_do_limiar,0,0,1,/file-upload,nao_aplicavel,,,0,0,0
+juice-shop,js-rce-b2b,Execução de código no pedido B2B,apenas_indireta,1,17,0,/b2b/v2/orders,nao_executada,,,0,0,0

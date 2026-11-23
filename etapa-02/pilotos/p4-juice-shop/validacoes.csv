@@ -1,0 +1,5 @@
+vulnerability_id,status,evidencia,sha256_evidencia,score_confirmacao,configuracao,vetor_cvss_confirmacao,vetor_cvss_alternativo
+js-exposed-metrics,confirmada,juice-http.json,ec2c8ad5e14908c7c10f2c5f35594a90a2f859ce942715fd675be814e12629d7,,"Juice Shop 19.0.0, release oficial node24_darwin (módulos nativos arm64), Node 24.22.1 arm64, loopback 127.0.0.1:18080",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+js-rce-b2b,nao_executada,,,,,,
+js-dom-xss,nao_executada,,,,,,
+js-reflected-xss,nao_executada,,,,,,

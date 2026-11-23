@@ -3,7 +3,15 @@ condicional_p4_a,,0,56,8,13
 condicional_p4_a,dvwa-csrf,1,57,9,13
 condicional_p4_a,dvwa-weak-session-ids,1,57,9,13
 condicional_p4_a,dvwa-open-http-redirect,1,57,9,13
+condicional_p4_a,dvwa-exposed-mysql,1,57,9,13
 condicional_p4_a,dvwa-csrf|dvwa-weak-session-ids,2,58,10,13
 condicional_p4_a,dvwa-csrf|dvwa-open-http-redirect,2,58,10,13
+condicional_p4_a,dvwa-csrf|dvwa-exposed-mysql,2,58,10,13
 condicional_p4_a,dvwa-weak-session-ids|dvwa-open-http-redirect,2,58,10,13
+condicional_p4_a,dvwa-weak-session-ids|dvwa-exposed-mysql,2,58,10,13
+condicional_p4_a,dvwa-open-http-redirect|dvwa-exposed-mysql,2,58,10,13
 condicional_p4_a,dvwa-csrf|dvwa-weak-session-ids|dvwa-open-http-redirect,3,59,11,13
+condicional_p4_a,dvwa-csrf|dvwa-weak-session-ids|dvwa-exposed-mysql,3,59,11,13
+condicional_p4_a,dvwa-csrf|dvwa-open-http-redirect|dvwa-exposed-mysql,3,59,11,13
+condicional_p4_a,dvwa-weak-session-ids|dvwa-open-http-redirect|dvwa-exposed-mysql,3,59,11,13
+condicional_p4_a,dvwa-csrf|dvwa-weak-session-ids|dvwa-open-http-redirect|dvwa-exposed-mysql,4,60,12,13

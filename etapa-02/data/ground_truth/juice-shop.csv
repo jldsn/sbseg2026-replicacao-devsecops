@@ -1,0 +1,15 @@
+﻿vulnerability_id,nome,cwe,camada,arquivos_sast,rota_dast,criterio_infra,checkov_ids,fonte,evidencia_codigo
+js-sqli-login,Injeção SQL no login,CWE-89,APP,routes/login.ts,/rest/user/login,,,desafio_oficial:loginAdminChallenge,https://github.com/juice-shop/juice-shop/blob/v19.0.0/routes/login.ts#L34
+js-sqli-search,Injeção SQL na busca,CWE-89,APP,routes/search.ts,/rest/products/search,,,desafio_oficial:unionSqlInjectionChallenge,https://github.com/juice-shop/juice-shop/blob/v19.0.0/routes/search.ts#L23
+js-nosqli-reviews,Injeção NoSQL nas avaliações,CWE-943,APP,routes/updateProductReviews.ts,/rest/products/reviews,,,desafio_oficial:noSqlReviewsChallenge,https://github.com/juice-shop/juice-shop/blob/v19.0.0/routes/updateProductReviews.ts#L20
+js-redirect,Redirecionamento aberto por lista permissiva,CWE-601,APP,routes/redirect.ts|lib/insecurity.ts,/redirect,,,desafio_oficial:redirectChallenge,https://github.com/juice-shop/juice-shop/blob/v19.0.0/lib/insecurity.ts#L138
+js-dom-xss,XSS DOM na busca,CWE-79,APP,frontend/src/app/search-result/search-result.component.ts,,,,desafio_oficial:localXssChallenge,https://github.com/juice-shop/juice-shop/blob/v19.0.0/frontend/src/app/search-result/search-result.component.ts#L161
+js-reflected-xss,XSS refletido no rastreamento de pedido,CWE-79|CWE-116,APP,routes/trackOrder.ts|frontend/src/app/track-result/track-result.component.ts,/rest/track-order,,,desafio_oficial:reflectedXssChallenge,https://github.com/juice-shop/juice-shop/blob/v19.0.0/frontend/src/app/track-result/track-result.component.ts#L45
+js-directory-listing,Listagem do diretório /ftp,CWE-548,APP,server.ts,/ftp,,,desafio_oficial:directoryListingChallenge,https://github.com/juice-shop/juice-shop/blob/v19.0.0/server.ts#L269
+js-access-log,Logs de acesso expostos,CWE-532|CWE-548,APP,server.ts,/support/logs,,,desafio_oficial:accessLogDisclosureChallenge,https://github.com/juice-shop/juice-shop/blob/v19.0.0/server.ts#L281
+js-exposed-metrics,Métricas Prometheus expostas sem autenticação,CWE-200,APP,server.ts,/metrics,,,desafio_oficial:exposedMetricsChallenge,https://github.com/juice-shop/juice-shop/blob/v19.0.0/server.ts#L713
+js-register-admin,Atribuição em massa do papel admin no cadastro,CWE-915,APP,server.ts,/api/Users,,,desafio_oficial:registerAdminChallenge,https://github.com/juice-shop/juice-shop/blob/v19.0.0/server.ts#L504
+js-hardcoded-key,Chave privada JWT e chave HMAC no código,CWE-798|CWE-321,APP,lib/insecurity.ts,,,,revisao_codigo,https://github.com/juice-shop/juice-shop/blob/v19.0.0/lib/insecurity.ts#L23
+js-xxe,XXE no upload de XML,CWE-611,APP,routes/fileUpload.ts,/file-upload,,,desafio_oficial:xxeFileDisclosureChallenge,https://github.com/juice-shop/juice-shop/blob/v19.0.0/routes/fileUpload.ts#L83
+js-rce-b2b,Execução de código no pedido B2B,CWE-94,APP,routes/b2bOrder.ts,/b2b/v2/orders,,,desafio_oficial:rceChallenge,https://github.com/juice-shop/juice-shop/blob/v19.0.0/routes/b2bOrder.ts#L21
+js-outdated-packages,Pacotes com correção disponível,CWE-1104,INFRA,,,agregado_fixable,,trivy_metadata,Ocorrências com FixedVersion

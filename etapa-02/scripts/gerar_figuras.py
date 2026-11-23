@@ -77,6 +77,53 @@ def grade():
     salvar(fig, "dvwa_grade_perda_cobertura")
 
 
+def tornado():
+    linhas = list(reversed(ler("sensibilidade_tornado")))
+    base = 100 * float(linhas[0]["reducao_p3_vs_p2_base"])
+    fig, ax = plt.subplots(figsize=(7.6, 3.6), layout="constrained")
+    for i, r in enumerate(linhas):
+        for lado, cor in (("baixa", "#1C6475"), ("alta", "#8D4913")):
+            valor = 100 * float(r[f"reducao_{lado}"])
+            ax.barh(i, valor - base, left=base, color=cor, height=.6,
+                    label={"baixa": "Nota base − 2", "alta": "Nota base + 2"}[lado]
+                    if i == 0 else None)
+            if abs(valor - base) > .5:
+                ax.text(valor + (1 if valor > base else -1), i,
+                        f"{r[f'nota_{lado}'].replace('.', ',')} → {valor:.0f}%",
+                        va="center", ha="left" if valor > base else "right", fontsize=8.5)
+    ax.axvline(base, color="#3B4D57", lw=1, linestyle=":")
+    ax.set_yticks(range(len(linhas)), [r["descricao"] for r in linhas], fontsize=8.5)
+    ax.set_xlabel("Redução de bloqueios de P3 em relação a P2 (%)")
+    ax.set_xlim(0, 100)
+    ax.spines[["right", "top"]].set_visible(False)
+    ax.legend(frameon=False, loc="lower right", fontsize=8.5)
+    ax.set_title(f"Quanto cada nota proxy move a redução de {base:.0f}% do artigo",
+                 loc="left", fontweight="bold")
+    salvar(fig, "dvwa_tornado_proxies")
+
+
+def distribuicao_monte_carlo():
+    linhas = ler("sensibilidade_monte_carlo_distribuicao")
+    rotulos = {"base_mais_menos_2": "Todas as notas em base ± 2",
+               "amplo_1_a_10": "Todas as notas entre 1 e 10"}
+    fig, axs = plt.subplots(1, 2, figsize=(9.1, 3.3), layout="constrained", sharey=True)
+    for ax, (cenario, rotulo) in zip(axs, rotulos.items()):
+        sel = [r for r in linhas if r["cenario"] == cenario]
+        total = sum(int(r["amostras"]) for r in sel)
+        ax.bar([int(r["reducao_pct"]) for r in sel],
+               [100 * int(r["amostras"]) / total for r in sel], width=1, color="#673D82")
+        ax.axvspan(25, 35, color="#90A0AA", alpha=.25, lw=0)
+        ax.axvline(30, color="#3B4D57", lw=1, linestyle=":")
+        ax.set_title(rotulo, loc="left", fontsize=10)
+        ax.set_xlabel("Redução P3 vs P2 (%)")
+        ax.set_xlim(0, 100)
+        ax.spines[["right", "top"]].set_visible(False)
+    axs[0].set_ylabel("Amostras (%)")
+    fig.suptitle("Variação conjunta das notas proxy (10.000 sorteios por cenário)",
+                 x=.03, ha="left", fontweight="bold")
+    salvar(fig, "dvwa_monte_carlo_reducao")
+
+
 def main():
     FIGURAS.mkdir(exist_ok=True)
     plt.rcParams.update({
@@ -91,6 +138,8 @@ def main():
            ["uniforme", "progressiva"], "Limiar aplicado às duas regras",
            "Sensibilidade ao limiar na DVWA")
     grade()
+    tornado()
+    distribuicao_monte_carlo()
 
 
 if __name__ == "__main__":

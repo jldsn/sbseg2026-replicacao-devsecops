@@ -109,7 +109,7 @@ A avaliação usou o digest histórico da imagem DVWA, com seus arquivos PHP e M
 | Weak Session IDs | Doze respostas HTTP 200 produziram o cookie de treinamento `dvwaSession` com os valores consecutivos 1 a 12. A evidência delimita-se a esse cookie. | Confirmada |
 | Open HTTP Redirect | Duas rotas candidatas retornaram 404 no digest ensaiado. Consultamos a árvore da imagem e não localizamos o módulo nessas rotas. | Inconclusiva |
 
-A P4-A, aplicada aos laudos, simulou 2 decisões novas de Deploy, totalizando 58 decisões e cobertura de 10/13. A P4-B, com a exigência de score independente, ficou em 56 e 8/13. Os dois laudos positivos registram evidência comportamental e a pontuação de confirmação permanece pendente. O resultado de P4-A é uma simulação de portão com entradas obtidas em teste real. Um teste com navegador real pode refinar a verificação de envio de cookies no CSRF. O máximo condicional de 11/13 considera a terceira lacuna confirmada e tem registro próprio.
+A P3\* (antes chamada P4-A; hoje lida como o Deploy Gate do artigo executado), aplicada aos laudos, simulou 2 decisões novas de Deploy, totalizando 58 decisões e cobertura de 10/13. A P4-B usa a nota CVSS v3.1 calculada do vetor registrado em `validacoes.csv` para cada caso confirmado. Com os vetores principais (CSRF 8,1 e Weak Session IDs 5,3) ficou em 57 e 9/13. Com os alternativos (6,5 e 9,1) também ficou em 57 e 9/13, mas fechando o outro caso. O resultado de P4-A é uma simulação de portão com entradas obtidas em teste real. Um teste com navegador real pode refinar a verificação de envio de cookies no CSRF. A fila agora inclui Exposed MySQL (`nao_executada`, ver `protocolo.md`), e o máximo condicional com as quatro lacunas confirmadas é 60 bloqueios e 12/13.
 
 A versão empacotada contém laudo HTTP com status, indicadores e hash. Para repetir a decisão a partir dessa evidência na raiz que contém `etapa-02/`.
 
@@ -133,3 +133,105 @@ python3 etapa-02/scripts/validar_dvwa_http.py --base http://127.0.0.1:18080 \
   --out nova-coleta/dvwa-http.json
 docker stop dvwa-etapa02-lab
 ~~~
+
+## TeaStore e Juice Shop P4 · evidência dirigida
+
+O TeaStore 1.4.2 e o Juice Shop 19.0.0 passaram pela análise completa de P1–P3, sensibilidade e fila da P4 (`scripts/analise_alvos.py`, ver `docs/protocolo.md`). A confirmação dirigida (etapa equivalente ao `validar_dvwa_http.py`) só foi executada no Juice Shop nesta máquina, porque o TeaStore exige subir 7 microsserviços via Docker/Kubernetes.
+
+**Juice Shop, instância local descartável.** Baixado o release oficial `juice-shop-19.0.0_node24_darwin_x64.zip` (hash conferido contra o `.md5` publicado no GitHub), executado com Node.js 24.22.1 **arm64** — os módulos nativos do pacote (`sqlite3`, `libxmljs2`, `iltorb`) são compilados para arm64 apesar do nome `_x64` do arquivo, então o Node x64 sob Rosetta falha ao carregá-los. O servidor foi restrito a `127.0.0.1:18080` por um módulo de pré-carregamento (`NODE_OPTIONS=--require loopback.js`) que força todo `net.Server.listen` a vincular em loopback, confirmado com `lsof`.
+
+`scripts/validar_juice_shop.py` testa só o caso `js-exposed-metrics`: uma requisição GET em `/metrics`, sem autenticação, cujo sucesso é conferido tanto pela resposta (formato Prometheus, HTTP 200) quanto por um oráculo independente — o placar oficial de desafios da própria aplicação (`/api/Challenges?key=exposedMetricsChallenge`), que muda de não resolvido para resolvido só quando a rota é de fato exercitada. O laudo fica em `pilotos/p4-juice-shop/juice-http.json`, com hash conferido em `pilotos/p4-juice-shop/validacoes.csv`.
+
+**Por que `js-rce-b2b` não foi testado.** A fila da P4 também inclui a execução de código no endpoint `/b2b/v2/orders` (desafio oficial `rceChallenge`). O teste que os próprios mantenedores do Juice Shop usam para esse desafio é enviar um payload que produz um laço não controlado dentro do avaliador da rota, de propósito, até estourar o tempo limite — ou seja, confirmar esse caso significa reproduzir um ataque de negação de serviço contra o processo-alvo, mesmo numa instância local descartável. O grupo decidiu não automatizar esse teste; o caso fica como `nao_executada` em `validacoes.csv`, apoiado só na evidência estática (Semgrep sinalizando `routes/b2bOrder.ts` com `unsafe-dynamic-method`) e na evidência indireta do Trivy. Os dois casos de XSS (`js-dom-xss`, `js-reflected-xss`) exigem um navegador real e ficam como verificação manual pendente.
+
+~~~bash
+# Instância local (Node arm64 — ver nota acima sobre a arquitetura dos módulos nativos)
+unzip juice-shop-19.0.0_node24_darwin_x64.zip -d app
+PORT=18080 NODE_OPTIONS="--require loopback.js" node app/juice-shop_19.0.0/build/app.js &
+
+python3 etapa-02/scripts/validar_juice_shop.py --base http://127.0.0.1:18080 \
+  --configuracao 'Juice Shop 19.0.0, release oficial, Node 24.22.1 arm64, loopback' \
+  --out etapa-02/pilotos/p4-juice-shop/juice-http.json
+~~~
+
+**TeaStore 1.4.2, Deploy Gate local (2026-11-22).** Os 7 serviços e o ZAP 2.17.0 rodam em Docker (colima, aarch64) pelo `ambientes/teastore/docker-compose.yaml`: o compose de referência do projeto com as imagens fixadas por digest, o webui publicado só em `127.0.0.1:18081`, o banco sem porta publicada e o ZAP em modo daemon na mesma rede (`127.0.0.1:18090`). `scripts/zap_passivo_docker.py` repete a parte passiva do piloto do Juice Shop (spider + fila passiva, sem escaneamento ativo) e grava `pilotos/zap/teastore-passivo.json` (29 URLs, 532 alertas) e `teastore-resumo.json` (com SHA-256).
+
+**`ts-db-reset-unauth` confirmado pelo spider.** O spider, sem cabeçalho `Cookie`, submeteu o formulário público de `/database` (`categories=5&products=100&users=100&orders=5&confirm=Confirm`, valores padrão) para `/dataBaseAction`. A resposta foi `302 Location: /status`, que só ocorre no ramo que chama `persistence/generatedb`, e o log do webui registrou `DB is re-generating` (`pilotos/p4-teastore/webui-log-dataBaseAction.txt`). Laudo em `pilotos/p4-teastore/teastore-http.json`, hash em `validacoes.csv`. O ZAP não emitiu alerta para esse caso: a confirmação vem do efeito observado, não de uma regra do scanner. O pedido foi POST; `AbstractUIServlet.handlePOSTRequest` (linhas 271–273) delega para `handleGETRequest`, e o `DataBaseActionServlet` não a sobrescreve, então GET e POST seguem o mesmo ramo. Os campos HTTP do laudo foram transcritos da mensagem 172 pela API do ZAP antes de derrubar os contêineres; a mensagem bruta não foi salva. Como o spider regenerou o banco no meio da varredura, os totais de URLs e alertas (29 e 532) podem variar entre execuções.
+
+~~~bash
+docker compose -f etapa-02/ambientes/teastore/docker-compose.yaml -p teastore up -d
+# aguarde /tools.descartes.teastore.webui/status mostrar todos os serviços
+python3 etapa-02/scripts/zap_passivo_docker.py teastore \
+  --alvo http://webui:8080/tools.descartes.teastore.webui/ --base http://webui:8080 \
+  --out etapa-02/pilotos/zap --spider-min 2
+python3 etapa-02/scripts/analise_alvos.py
+docker compose -p teastore down
+~~~
+
+**Pendências do TeaStore.** `ts-output-encoding` (XSS armazenado) exige enviar um payload de script pelo checkout e abrir `/profile` no navegador: fica para verificação manual. `ts-tls-trust-all` só roda com `USE_HTTPS=true`, ausente da implantação de referência, e fica `nao_executada`.
+
+## P4 orientada a ações · como reproduzir
+
+Protocolo e resultados em `docs/p4-acoes.md`. Mesmos contêineres da seção seguinte (DVWA, Juice
+Shop com o hook de módulos e TeaStore com ZAP). O artefato dos autores fornece os relatórios
+Trivy e Semgrep da DVWA.
+
+~~~bash
+cd etapa-02
+AUTORES=../../sbseg2026-deteccao-direta-indireta   # clone do artefato, commit 5b18244
+python3 scripts/contexto_execucao.py --imagem --autores "$AUTORES" \
+  --spider-dvwa "http://$DV/" \
+  --spider-teastore "http://webui:8080/tools.descartes.teastore.webui/" \
+  --spider-juice-shop "http://$JS:3000/"
+python3 scripts/politica_acoes.py --autores "$AUTORES"
+bash scripts/trivy_vex.sh            # Trivy 0.69.3 com e sem VEX (saída em ~/.cache/trivy-p4)
+python3 scripts/validar_vex_trivy.py
+python3 scripts/verificar_s5.py
+# reprodutibilidade: repita a coleta com contêineres novos, copie o CSV para
+# results/contexto_imagem_coleta2.csv e compare
+python3 scripts/comparar_coletas.py
+SBSEG_AUTORES="$AUTORES" python3 -m unittest discover -s tests
+~~~
+
+Com Python 3.10 ou superior. Sem `SBSEG_AUTORES`, os testes da DVWA em `test_acoes.py` são pulados.
+
+## P4 com contexto de execução (versão anterior) · como reproduzir a coleta
+
+Protocolo e resultados em `docs/p4-contexto.md`. Requer Docker; as imagens amd64 rodam
+emuladas em Mac com Apple Silicon (colima com Rosetta). Tudo fica em `127.0.0.1`.
+
+~~~bash
+cd etapa-02
+# DVWA (mesmo digest do artefato dos autores) e Juice Shop com o hook de módulos Node
+docker run -d --name dvwa-r --platform linux/amd64 -p 127.0.0.1:18083:80 \
+  vulnerables/web-dvwa@sha256:dae203fe11646a86937bf04db0079adef295f426da68a92b40e3b181f337daa7
+docker run -d --name juice-r --platform linux/amd64 -p 127.0.0.1:18082:3000 \
+  -e NODE_OPTIONS=--require=/hook/hook-modulos.js -v "$PWD/ambientes/contexto:/hook:ro" \
+  bkimminich/juice-shop@sha256:547bd3fef4a6d7e25e131da68f454e6dc4a59d281f8793df6853e6796c9bbf58
+# TeaStore (7 serviços) + ZAP; espere /status sem serviços Offline
+docker compose -f ambientes/teastore/docker-compose.yaml -p teastore up -d
+# o ZAP precisa alcançar a DVWA e o Juice Shop na rede padrão para o spider (S3)
+docker network connect bridge teastore-zap-1
+DV=$(docker inspect -f '{{.NetworkSettings.Networks.bridge.IPAddress}}' dvwa-r)
+JS=$(docker inspect -f '{{.NetworkSettings.Networks.bridge.IPAddress}}' juice-r)
+# o artefato dos autores fornece o relatório Trivy da DVWA
+python3 scripts/contexto_execucao.py --autores ../../sbseg2026-deteccao-direta-indireta \
+  --spider-dvwa "http://$DV/" \
+  --spider-teastore "http://webui:8080/tools.descartes.teastore.webui/" \
+  --spider-juice-shop "http://$JS:3000/"
+python3 scripts/politica_contexto.py
+~~~
+
+**Observação S4 (fluxo autenticado no Juice Shop), manual.** Com o Juice Shop ainda em
+execução: criar uma conta de teste local por `POST /api/Users/`, registrar uma resposta de
+segurança por `POST /api/SecurityAnswers/`, entrar por `POST /rest/user/login` e fazer
+`GET /dataerasure/` com o cookie `token`. Depois, copiar a lista de módulos carregados
+(`docker cp juice-r:/tmp/p4-modulos.txt -`) para
+`pilotos/contexto/juice-shop--juice-r--s4-autenticado.txt`. `politica_contexto.py` lê esse
+arquivo. Não use credenciais reais.
+
+Ao terminar: `docker rm -f dvwa-r juice-r` e `docker compose -p teastore down`.
+
+**Auditoria manual.** `scripts/amostra_auditoria.py` sorteia os 20 pares (semente fixa) e
+preserva os julgamentos já registrados em `results/auditoria_amostra.csv`.
+

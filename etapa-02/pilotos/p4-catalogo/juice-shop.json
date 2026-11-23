@@ -1,0 +1,37 @@
+{
+ "aplicacao": "juice-shop",
+ "executado_em": "2026-11-22T20:13:02.984799+00:00",
+ "casos": {
+  "js-exposed-metrics": {
+   "modelo": "acesso_sem_autenticacao",
+   "criterio": "HTTP 200 e conteúdo /^# HELP / sem sessão",
+   "requisicao": {
+    "metodo": "GET",
+    "url": "http://127.0.0.1:18082/metrics",
+    "corpo_enviado": null,
+    "cookies_enviados": null,
+    "http": 200,
+    "location": null,
+    "content_type": "text/plain; version=0.0.4; charset=utf-8",
+    "sha256_corpo": "dc4160ac58ec1f924a39e44d2fc4602483999dc06b28f66f692350aac563211b",
+    "inicio_do_corpo": "# HELP file_uploads_count Total number of successful file uploads grouped by file type.\n# TYPE file_uploads_count counter\n\n# HELP file_upload_errors Total number of failed file uploads grouped by file type.\n# TYPE file_upload_errors counter\n\n# HELP juiceshop_startup_duration_seconds Duration juicesh"
+   },
+   "criterio_atendido": true,
+   "controle_negativo": {
+    "requisicao": {
+     "metodo": "GET",
+     "url": "http://127.0.0.1:18082/api/Users",
+     "corpo_enviado": null,
+     "cookies_enviados": null,
+     "http": 401,
+     "location": null,
+     "content_type": "text/html; charset=utf-8",
+     "sha256_corpo": "7dff132be47ccc566e907e3250c6dfb47f7a8d799154ea6fa6d82611b2b847b1",
+     "inicio_do_corpo": "<html>\n  <head>\n    <meta charset='utf-8'> \n    <title>UnauthorizedError: No Authorization header was found</title>\n    <style>* {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n}\n\nbody {\n  padding: 80px 100px;\n  font: 13px \"Helvetica Neue\", \"Lucida Grande\", \"Arial\";\n  background: #ECE9E9 -webkit-gradient"
+    },
+    "reprovou": true
+   },
+   "status": "confirmada"
+  }
+ }
+}

@@ -7,6 +7,8 @@
     "cobertura_bloqueante": 8,
     "vulnerabilidades_matriz": 13,
     "novos_ids_bloqueados": "",
+    "referencia_p2_bloqueios": 80,
+    "referencia_p2_cobertura": 11,
     "fonte_validacoes": "nao_aplicavel"
   },
   {
@@ -17,16 +19,32 @@
     "cobertura_bloqueante": 10,
     "vulnerabilidades_matriz": 13,
     "novos_ids_bloqueados": "dvwa-csrf|dvwa-weak-session-ids",
+    "referencia_p2_bloqueios": 80,
+    "referencia_p2_cobertura": 11,
     "fonte_validacoes": "evidencias_informadas"
   },
   {
     "politica": "P4-B",
     "base_bloqueios": 56,
-    "bloqueios_adicionais_no_deploy": 0,
-    "decisoes_simuladas": 56,
-    "cobertura_bloqueante": 8,
+    "bloqueios_adicionais_no_deploy": 1,
+    "decisoes_simuladas": 57,
+    "cobertura_bloqueante": 9,
     "vulnerabilidades_matriz": 13,
-    "novos_ids_bloqueados": "",
+    "novos_ids_bloqueados": "dvwa-csrf",
+    "referencia_p2_bloqueios": 80,
+    "referencia_p2_cobertura": 11,
+    "fonte_validacoes": "evidencias_informadas"
+  },
+  {
+    "politica": "P4-B-alt",
+    "base_bloqueios": 56,
+    "bloqueios_adicionais_no_deploy": 1,
+    "decisoes_simuladas": 57,
+    "cobertura_bloqueante": 9,
+    "vulnerabilidades_matriz": 13,
+    "novos_ids_bloqueados": "dvwa-weak-session-ids",
+    "referencia_p2_bloqueios": 80,
+    "referencia_p2_cobertura": 11,
     "fonte_validacoes": "evidencias_informadas"
   }
 ]

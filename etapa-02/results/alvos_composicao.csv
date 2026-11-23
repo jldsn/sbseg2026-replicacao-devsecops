@@ -1,0 +1,3 @@
+﻿aplicacao,versao,ocorrencias_brutas,bruto_Semgrep,bruto_Trivy FS (SCA),bruto_Checkov,bruto_Trivy Image,bruto_ZAP passivo,bruto_ZAP ativo,bruto_fora_do_escopo,unidades,diretas,indiretas,sem_matriz,casos_matriz,casos_detectados,casos_com_direta
+teastore,1.4.2,4950,304,23,184,3858,532,0,49,729,337,187,205,14,10,9
+juice-shop,19.0.0,944,39,0,2,448,432,1,22,83,17,33,33,14,12,9

@@ -1,0 +1,713 @@
+{
+ "@context": "https://openvex.dev/ns/v0.2.0",
+ "@id": "https://github.com/jldsn/sbseg2026-replicacao-devsecops/vex/dvwa/reports-0a8e877_trivy-report",
+ "author": "Etapa 02 (replicação SBSeg 2026), coletor de contexto de execução",
+ "timestamp": "2026-11-22T00:00:00Z",
+ "version": 1,
+ "statements": [
+  {
+   "vulnerability": {
+    "name": "CVE-2016-9840"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/rsync@3.1.2-1%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2016-9841"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/rsync@3.1.2-1%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2016-9842"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/rsync@3.1.2-1%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2016-9843"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/rsync@3.1.2-1%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2017-10788"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libdbd-mysql-perl@4.041-2?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2017-12424"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/login@4.4-4.1?arch=amd64&distro=debian-9.5&epoch=1"
+    },
+    {
+     "@id": "pkg:deb/debian/passwd@4.4-4.1?arch=amd64&distro=debian-9.5&epoch=1"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2017-20002"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/login@4.4-4.1?arch=amd64&distro=debian-9.5&epoch=1"
+    },
+    {
+     "@id": "pkg:deb/debian/passwd@4.4-4.1?arch=amd64&distro=debian-9.5&epoch=1"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-1000168"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libnghttp2-14@1.18.1-1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-1000858"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/gpgv@2.1.18-8~deb9u2?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-1000888"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/php-pear@1.10.1%2Bsubmodules%2Bnotgz-9?arch=all&distro=debian-9.5&epoch=1"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-16402"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libelf1@0.168-1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-18311"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libperl5.24@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-base@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-modules-5.24@5.24.1-3%2Bdeb9u4?arch=all&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-18312"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libperl5.24@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-base@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-modules-5.24@5.24.1-3%2Bdeb9u4?arch=all&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-18313"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libperl5.24@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-base@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-modules-5.24@5.24.1-3%2Bdeb9u4?arch=all&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-18314"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libperl5.24@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-base@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-modules-5.24@5.24.1-3%2Bdeb9u4?arch=all&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-20346"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libsqlite3-0@3.16.2-5%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-20506"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libsqlite3-0@3.16.2-5%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-5764"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/rsync@3.1.2-1%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-8740"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libsqlite3-0@3.16.2-5%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2018-9234"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/gpgv@2.1.18-8~deb9u2?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-0053"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/inetutils-ping@1.9.4-2%2Bb1?arch=amd64&distro=debian-9.5&epoch=2"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-12900"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/bzip2@1.0.6-8.1?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/libbz2-1.0@1.0.6-8.1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-14855"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/gpgv@2.1.18-8~deb9u2?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-20218"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libsqlite3-0@3.16.2-5%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-3462"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/apt@1.4.8?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/libapt-pkg5.0@1.4.8?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-5827"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libsqlite3-0@3.16.2-5%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-8457"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libdb5.3@5.3.28-12%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/libsqlite3-0@3.16.2-5%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-8907"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/file@5.30-1%2Bdeb9u2?arch=amd64&distro=debian-9.5&epoch=1"
+    },
+    {
+     "@id": "pkg:deb/debian/libmagic-mgc@5.30-1%2Bdeb9u2?arch=amd64&distro=debian-9.5&epoch=1"
+    },
+    {
+     "@id": "pkg:deb/debian/libmagic1@5.30-1%2Bdeb9u2?arch=amd64&distro=debian-9.5&epoch=1"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-9511"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libnghttp2-14@1.18.1-1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-9513"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libnghttp2-14@1.18.1-1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-9936"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libsqlite3-0@3.16.2-5%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2019-9937"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libsqlite3-0@3.16.2-5%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-10188"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/inetutils-ping@1.9.4-2%2Bb1?arch=amd64&distro=debian-9.5&epoch=2"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-10543"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libperl5.24@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-base@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-modules-5.24@5.24.1-3%2Bdeb9u4?arch=all&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-10878"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libperl5.24@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-base@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-modules-5.24@5.24.1-3%2Bdeb9u4?arch=all&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-11080"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libnghttp2-14@1.18.1-1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-11655"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libsqlite3-0@3.16.2-5%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-12723"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libperl5.24@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-base@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-modules-5.24@5.24.1-3%2Bdeb9u4?arch=all&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-13630"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libsqlite3-0@3.16.2-5%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-13871"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libsqlite3-0@3.16.2-5%2Bdeb9u1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-14393"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libdbi-perl@1.636-1%2Bb1?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-16156"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/libperl5.24@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-base@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl-modules-5.24@5.24.1-3%2Bdeb9u4?arch=all&distro=debian-9.5"
+    },
+    {
+     "@id": "pkg:deb/debian/perl@5.24.1-3%2Bdeb9u4?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-28948"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/php-pear@1.10.1%2Bsubmodules%2Bnotgz-9?arch=all&distro=debian-9.5&epoch=1"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-28949"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/php-pear@1.10.1%2Bsubmodules%2Bnotgz-9?arch=all&distro=debian-9.5&epoch=1"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2020-36193"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/php-pear@1.10.1%2Bsubmodules%2Bnotgz-9?arch=all&distro=debian-9.5&epoch=1"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2021-32610"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/php-pear@1.10.1%2Bsubmodules%2Bnotgz-9?arch=all&distro=debian-9.5&epoch=1"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  },
+  {
+   "vulnerability": {
+    "name": "CVE-2022-1664"
+   },
+   "products": [
+    {
+     "@id": "pkg:deb/debian/dpkg@1.18.25?arch=amd64&distro=debian-9.5"
+    }
+   ],
+   "status": "not_affected",
+   "justification": "vulnerable_code_not_in_execute_path",
+   "impact_statement": "Nenhum processo da implantação de referência carregou o pacote (S1-S3, inicialização; ver docs/p4-acoes.md). Reavaliar pelo Runtime Watch."
+  }
+ ]
+}

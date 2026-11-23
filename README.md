@@ -89,14 +89,16 @@ Os arquivos estão em `etapa-01/evidencias/`:
 
 ## Etapa 02 — Extensão do estudo
 
-A etapa inclui a reprodução dos portões originais, a variação do proxy Semgrep e dos limiares, a comparação de agregações Trivy, a política P4 candidata com validações locais e dois pilotos com Juice Shop e WebGoat. Veja a [documentação da Etapa 02](etapa-02/README.md) para resultados, protocolo, scripts e evidências.
+A etapa inclui a reprodução dos portões originais, a variação do proxy Semgrep e dos limiares, a comparação de agregações Trivy, a política P4 candidata e a extensão da análise completa (P1–P3, sensibilidade e P4) para TeaStore 1.4.2 e Juice Shop 19.0.0, com matriz de 14 casos por alvo — os dois alvos indicados pelo professor para a disciplina. WebGoat 2025.3 segue como piloto reduzido (3 casos), de uma rodada anterior. Veja a [documentação da Etapa 02](etapa-02/README.md) para resultados, protocolo, scripts e evidências.
 
 | Resultado | Onde conferir |
 |---|---|
 | Referência na DVWA · 5, 80 e 56 bloqueios em P1, P2 e P3 | [Baseline](etapa-02/results/baseline.csv) |
 | Variação de nota, limiar e agregação | [CSVs](etapa-02/results/) e [gráficos](etapa-02/figures/) |
-| P4-A com laudos locais · 58 decisões simuladas e 10/13 casos cobertos | [Simulação P4](etapa-02/results/p4_resultados.csv) e [laudo HTTP](etapa-02/pilotos/p4-dvwa/dvwa-http.json) |
-| Juice Shop e WebGoat · três casos de referência por aplicação | [Simulação piloto](etapa-02/results/pilotos_politicas.csv) |
+| Todas as notas proxy, isoladas e em conjunto · redução P3 vs P2 de 13% a 89% | [Tornado](etapa-02/results/sensibilidade_tornado.csv) e [Monte Carlo](etapa-02/results/sensibilidade_monte_carlo_resumo.csv) |
+| P4 orientada a ações · 18–44% dos CVEs de imagem graves saem do bloqueio com VEX validado no Trivy; redução de trabalho não absorvida pela migração de SO só no Juice Shop (47 → 41 ações); S1 e S5 falharam como registrado ([protocolo e resultados](etapa-02/docs/p4-acoes.md)) | [Ações](etapa-02/results/p4_acoes_resumo.csv), [contexto](etapa-02/results/contexto_imagem.csv) e [VEX no Trivy](etapa-02/results/p4_vex_trivy.csv) |
+| TeaStore 1.4.2 e Juice Shop 19.0.0 · matriz de 14 casos, P1–P3, sensibilidade e P4 | [Políticas](etapa-02/results/alvos_politicas.csv), [cobertura](etapa-02/results/alvos_cobertura.csv) e [fila P4](etapa-02/results/alvos_p4_resultados.csv) |
+| WebGoat (piloto, 3 casos de referência) | [Simulação piloto](etapa-02/results/pilotos_politicas.csv) |
 
 ## Créditos
 

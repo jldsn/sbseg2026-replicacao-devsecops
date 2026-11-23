@@ -1,4 +1,5 @@
-vulnerability_id,status,evidencia,sha256_evidencia,score_confirmacao,configuracao
-dvwa-csrf,nao_executada,,,,
-dvwa-weak-session-ids,nao_executada,,,,
-dvwa-open-http-redirect,nao_executada,,,,
+﻿vulnerability_id,status,evidencia,sha256_evidencia,score_confirmacao,configuracao,vetor_cvss_confirmacao,vetor_cvss_alternativo
+dvwa-csrf,nao_executada,,,,,,
+dvwa-weak-session-ids,nao_executada,,,,,,
+dvwa-open-http-redirect,nao_executada,,,,,,
+dvwa-exposed-mysql,nao_executada,,,,,,

@@ -1,0 +1,7 @@
+﻿aplicacao,variante,politica,limiar,unidades,bloqueios,diretos,indiretos,sem_matriz,commit,build,deploy,vulnerabilidades_matriz,detectadas,detectadas_diretas,cobertura_bloqueante,cobertura_bloqueante_pct,ids_bloqueados
+teastore,somente_cwe_primario,P1,9,720,32,14,7,11,4,28,0,14,10,9,4,28.57,ts-outdated-os|ts-outdated-packages|ts-output-encoding|ts-tls-trust-all
+teastore,somente_cwe_primario,P2,7,720,261,115,122,24,118,143,0,14,10,9,7,50.0,ts-db-reset-unauth|ts-default-credentials|ts-outdated-os|ts-outdated-packages|ts-output-encoding|ts-private-key|ts-tls-trust-all
+teastore,somente_cwe_primario,P3,7,720,139,115,0,24,118,21,0,14,10,9,4,28.57,ts-default-credentials|ts-outdated-os|ts-outdated-packages|ts-private-key
+juice-shop,somente_cwe_primario,P1,9,82,12,1,10,1,0,12,0,14,11,7,2,14.29,js-outdated-packages|js-rce-b2b
+juice-shop,somente_cwe_primario,P2,7,82,28,4,19,5,6,21,1,14,11,7,7,50.0,js-dom-xss|js-exposed-metrics|js-outdated-packages|js-rce-b2b|js-reflected-xss|js-sqli-login|js-sqli-search
+juice-shop,somente_cwe_primario,P3,7,82,9,4,0,5,6,2,1,14,11,7,3,21.43,js-outdated-packages|js-sqli-login|js-sqli-search

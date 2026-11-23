@@ -1,0 +1,12 @@
+aplicacao,vulnerability_id,categoria,modelo,modelo_dinamico_benigno,executado_na_config_local,status,confirmado,observacao
+dvwa,dvwa-csrf,dinamico,csrf,1,1,confirmada,1,laudo de validar_dvwa_http.py
+dvwa,dvwa-weak-session-ids,dinamico,ids_previsiveis,1,1,confirmada,1,laudo de validar_dvwa_http.py
+dvwa,dvwa-open-http-redirect,dinamico,redirecionamento,1,1,inconclusiva,0,laudo de validar_dvwa_http.py
+dvwa,dvwa-exposed-mysql,dinamico,porta_do_banco,1,0,nao_executada,0,exige o manifesto Kubernetes dos autores; não reproduzível localmente
+teastore,ts-db-reset-unauth,dinamico,funcao_critica_sem_autenticacao,1,1,confirmada,1,
+teastore,ts-output-encoding,sem_modelo,xss,0,0,nao_executada,0,confirmar exige enviar marcação: manual
+teastore,ts-tls-trust-all,configuracao,use_https,0,0,nao_executada,0,USE_HTTPS ausente da implantação de referência
+juice-shop,js-exposed-metrics,dinamico,acesso_sem_autenticacao,1,1,confirmada,1,
+juice-shop,js-dom-xss,sem_modelo,xss,0,0,nao_executada,0,confirmar exige payload no navegador: manual
+juice-shop,js-reflected-xss,sem_modelo,xss,0,0,nao_executada,0,confirmar exige payload no navegador: manual
+juice-shop,js-rce-b2b,excluido,rce,0,0,nao_executada,0,o teste oficial tem efeito de negação de serviço

@@ -1,0 +1,55 @@
+{
+ "aplicacao": "teastore",
+ "executado_em": "2026-11-22T20:13:02.984476+00:00",
+ "casos": {
+  "ts-db-reset-unauth": {
+   "modelo": "funcao_critica_sem_autenticacao",
+   "criterio": "redireciona para /status e o serviço registra 'DB is re-generating', sem sessão",
+   "requisicao": {
+    "metodo": "POST",
+    "url": "http://127.0.0.1:18081/tools.descartes.teastore.webui/dataBaseAction",
+    "corpo_enviado": "categories=5&products=100&users=100&orders=5&confirm=Confirm",
+    "cookies_enviados": null,
+    "http": 302,
+    "location": "/tools.descartes.teastore.webui/status",
+    "content_type": null,
+    "sha256_corpo": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "inicio_do_corpo": ""
+   },
+   "log_do_servico": [
+    "[http-nio-8080-exec-4] INFO tools.descartes.teastore.webui.servlet.DataBaseActionServlet - DB is re-generating."
+   ],
+   "criterio_atendido": true,
+   "controle_negativo": {
+    "requisicao": {
+     "metodo": "GET",
+     "url": "http://127.0.0.1:18081/tools.descartes.teastore.webui/dataBaseAction",
+     "corpo_enviado": null,
+     "cookies_enviados": null,
+     "http": 302,
+     "location": "/tools.descartes.teastore.webui/",
+     "content_type": null,
+     "sha256_corpo": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "inicio_do_corpo": ""
+    },
+    "log_do_servico": [],
+    "reprovou": true
+   },
+   "status": "confirmada",
+   "controle_rota_protegida": {
+    "requisicao": {
+     "metodo": "GET",
+     "url": "http://127.0.0.1:18081/tools.descartes.teastore.webui/profile",
+     "corpo_enviado": null,
+     "cookies_enviados": null,
+     "http": 302,
+     "location": "/tools.descartes.teastore.webui/",
+     "content_type": null,
+     "sha256_corpo": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "inicio_do_corpo": ""
+    },
+    "reprovou": true
+   }
+  }
+ }
+}

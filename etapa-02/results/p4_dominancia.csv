@@ -1,0 +1,13 @@
+﻿aplicacao,alternativa,alternativa_domina_p4_bruta,alternativa_domina_p4_sustentada,p4_domina_alternativa_bruta,p4_domina_alternativa_sustentada
+dvwa,A1,0,0,0,0
+dvwa,A2,0,0,1,1
+dvwa,A3,0,0,0,0
+dvwa,A4,0,0,0,1
+teastore,A1,0,0,1,1
+teastore,A2,0,0,0,1
+teastore,A3,1,0,0,0
+teastore,A4,0,0,0,1
+juice-shop,A1,0,0,0,0
+juice-shop,A2,0,0,1,1
+juice-shop,A3,0,0,0,1
+juice-shop,A4,0,0,0,1
